@@ -1,0 +1,1920 @@
+{
+    "talks": [
+        {
+            "id": 237,
+            "date": "2018-02-12T13:32:59",
+            "date_gmt": "2018-02-12T12:32:59",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=237"
+            },
+            "modified": "2018-02-12T13:34:29",
+            "modified_gmt": "2018-02-12T12:34:29",
+            "slug": "contributorday-viavia",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/contributorday-viavia/",
+            "title": {
+                "rendered": "Contributorday @ ViaVia"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1519995600",
+                "end_datetime": "1520013600",
+                "description": "<h3>Wat is een contributor day?</h3>\n<p>Een Contributor Day is een (halve) dag waarop de community elkaar leert om bij te dragen aan WordPress. Zoals je weet is WordPress Open Source software, en dat wordt volledig ondersteund door vrijwilligers over de ganse de wereld.<br />\nVia een Contributor Day krijg je een introductie over hoe jij kan bijdragen aan The WordPress Project.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"WNZmmVsAk8\"><p><a href=\"https://2018.antwerp.wordcamp.org/contributor-day/\">Contributor Day</a></p></blockquote>\n<p><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://2018.antwerp.wordcamp.org/contributor-day/embed/#?secret=WNZmmVsAk8\" data-secret=\"WNZmmVsAk8\" width=\"525\" height=\"296\" title=\"&#8220;Contributor Day&#8221; &#8212; WordCamp Antwerp\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n",
+                "language": "",
+                "speaker": "",
+                "location": "ViaVia"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/237"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=237"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 236,
+            "date": "2018-02-12T13:31:57",
+            "date_gmt": "2018-02-12T12:31:57",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=236"
+            },
+            "modified": "2018-02-12T13:31:57",
+            "modified_gmt": "2018-02-12T12:31:57",
+            "slug": "social-evening-in-the-centre",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/social-evening-in-the-centre/",
+            "title": {
+                "rendered": "Social Evening in the centre"
+            },
+            "template": "",
+            "acf": {
+                "type": "Break",
+                "start_datetime": "1520110800",
+                "end_datetime": "1520125200",
+                "description": ""
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/236"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=236"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 235,
+            "date": "2018-02-12T13:31:19",
+            "date_gmt": "2018-02-12T12:31:19",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=235"
+            },
+            "modified": "2018-02-12T13:31:20",
+            "modified_gmt": "2018-02-12T12:31:20",
+            "slug": "after-chat",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/after-chat/",
+            "title": {
+                "rendered": "After Chat"
+            },
+            "template": "",
+            "acf": {
+                "type": "Break",
+                "start_datetime": "1520098200",
+                "end_datetime": "1520105400",
+                "description": ""
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/235"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=235"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 234,
+            "date": "2018-02-12T13:30:51",
+            "date_gmt": "2018-02-12T12:30:51",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=234"
+            },
+            "modified": "2018-02-12T13:30:51",
+            "modified_gmt": "2018-02-12T12:30:51",
+            "slug": "closing-remarks",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/closing-remarks/",
+            "title": {
+                "rendered": "Closing Remarks"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520096400",
+                "end_datetime": "1520098200",
+                "description": "",
+                "language": "English",
+                "speaker": "",
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/234"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=234"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 233,
+            "date": "2018-02-12T13:30:13",
+            "date_gmt": "2018-02-12T12:30:13",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=233"
+            },
+            "modified": "2018-02-12T13:30:13",
+            "modified_gmt": "2018-02-12T12:30:13",
+            "slug": "docker-for-wordpress-developers",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/docker-for-wordpress-developers/",
+            "title": {
+                "rendered": "Docker for WordPress developers"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520093400",
+                "end_datetime": "",
+                "description": "<p>If you’re in IT, you’ve probably heard about Docker. But what is the hype all about? In this session, I’ll explain the Docker ecosystem and how you can leverage Docker to host your WordPress application in a containerized environment.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 185,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:44:13",
+                        "post_date_gmt": "2018-02-12 10:44:13",
+                        "post_content": "",
+                        "post_title": "Thijs Feryn",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "thijs-feryn",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:44:13",
+                        "post_modified_gmt": "2018-02-12 10:44:13",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=185",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/233"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=233"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 232,
+            "date": "2018-02-12T13:29:36",
+            "date_gmt": "2018-02-12T12:29:36",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=232"
+            },
+            "modified": "2018-02-12T13:29:36",
+            "modified_gmt": "2018-02-12T12:29:36",
+            "slug": "how-to-handle-the-seo-of-a-multilingual-wordpress-website",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/how-to-handle-the-seo-of-a-multilingual-wordpress-website/",
+            "title": {
+                "rendered": "How to handle the SEO of a multilingual WordPress website"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520093400",
+                "end_datetime": "",
+                "description": "<p>We&#8217;re here in Antwerp, Belgium and Belgium is a multilingual country where they speak two languages, Flemish-Dutch and French. And if you have a website where you want to address whole of Belgium, how can optimize your SEO so that you’ll rank for both Flanders and Wallonia? In this talk I’m going to walk you through the most important steps of how to prepare your website for multilingual SEO.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 193,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:49:11",
+                        "post_date_gmt": "2018-02-12 10:49:11",
+                        "post_content": "",
+                        "post_title": "Annelieke",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "annelieke",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:49:11",
+                        "post_modified_gmt": "2018-02-12 10:49:11",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=193",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/232"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=232"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 231,
+            "date": "2018-02-12T13:28:43",
+            "date_gmt": "2018-02-12T12:28:43",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=231"
+            },
+            "modified": "2018-02-12T13:28:43",
+            "modified_gmt": "2018-02-12T12:28:43",
+            "slug": "coffee-refill-break-2",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/coffee-refill-break-2/",
+            "title": {
+                "rendered": "Coffee Refill Break"
+            },
+            "template": "",
+            "acf": {
+                "type": "Break",
+                "start_datetime": "1520092200",
+                "end_datetime": "1520093400",
+                "description": ""
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/231"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=231"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 230,
+            "date": "2018-02-12T13:28:10",
+            "date_gmt": "2018-02-12T12:28:10",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=230"
+            },
+            "modified": "2018-02-12T13:28:10",
+            "modified_gmt": "2018-02-12T12:28:10",
+            "slug": "the-hitchhikers-guide-to-the-wordpress-coding-standards",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/the-hitchhikers-guide-to-the-wordpress-coding-standards/",
+            "title": {
+                "rendered": "The Hitchhiker’s Guide to the WordPress Coding Standards"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520089200",
+                "end_datetime": "",
+                "description": "<p>Rules are meant to be broken. Nevertheless, rules are there for good reasons, and even more when you have a say in them.</p>\n<p>In this talk, Thorsten will start by providing an overview of the rules and best practices for coding in the WordPress universe. If you want to know about code style, coding standards, code conventions, code quality—and why it all matters!—this talk is for you.</p>\n<p>The second half of the talk will cover applying these rules via a WordPress-specific Composer package based on the well-known PHP_CodeSniffer tool. Both projects changed a lot recently, so you might learn something new. And now with Tide, this is getting more and more important for plugin and theme authors.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 201,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 12:01:50",
+                        "post_date_gmt": "2018-02-12 11:01:50",
+                        "post_content": "",
+                        "post_title": "Thorsten Frommen",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "thorsten-frommen",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 12:01:50",
+                        "post_modified_gmt": "2018-02-12 11:01:50",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=201",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/230"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=230"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 229,
+            "date": "2018-02-12T13:27:36",
+            "date_gmt": "2018-02-12T12:27:36",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=229"
+            },
+            "modified": "2018-02-12T13:27:36",
+            "modified_gmt": "2018-02-12T12:27:36",
+            "slug": "get-to-know-your-data-better-with-sqlite-and-sequel-pro",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/get-to-know-your-data-better-with-sqlite-and-sequel-pro/",
+            "title": {
+                "rendered": "Get to know your data better with SQLite and Sequel Pro"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520087400",
+                "end_datetime": "1520088000",
+                "description": "<p>There are lots of tools out there to manage your site’s data from within wp-admin. Maybe you spend a lot of time in Excel or with csv’s to prepare data for import, or you write complicated php code to do one-off data manipulation tasks. Sequel Pro and SQLite make a lot of this work easier and simpler, and leverage the power of SQL.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 195,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:50:27",
+                        "post_date_gmt": "2018-02-12 10:50:27",
+                        "post_content": "",
+                        "post_title": "Toon Van De Putte",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "toon-van-de-putte",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:50:27",
+                        "post_modified_gmt": "2018-02-12 10:50:27",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=195",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/229"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=229"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 228,
+            "date": "2018-02-12T13:26:58",
+            "date_gmt": "2018-02-12T12:26:58",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=228"
+            },
+            "modified": "2018-02-12T13:26:58",
+            "modified_gmt": "2018-02-12T12:26:58",
+            "slug": "how-to-use-cron-for-wordpress",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/how-to-use-cron-for-wordpress/",
+            "title": {
+                "rendered": "How to use cron for WordPress"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520086800",
+                "end_datetime": "1520087400",
+                "description": "<p>The goal is to enlighten the viewers about the workcycle of a cronjob and the different options in WordPress.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 181,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:41:37",
+                        "post_date_gmt": "2018-02-12 10:41:37",
+                        "post_content": "",
+                        "post_title": "Aytac Kokus",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "aytac-kokus",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:41:37",
+                        "post_modified_gmt": "2018-02-12 10:41:37",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=181",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/228"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=228"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 227,
+            "date": "2018-02-12T13:26:13",
+            "date_gmt": "2018-02-12T12:26:13",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=227"
+            },
+            "modified": "2018-02-12T13:26:13",
+            "modified_gmt": "2018-02-12T12:26:13",
+            "slug": "seven-secret-tips-in-working-with-browser-dev-tools",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/seven-secret-tips-in-working-with-browser-dev-tools/",
+            "title": {
+                "rendered": "Seven secret tips in working with browser dev-tools"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520086200",
+                "end_datetime": "1520086800",
+                "description": "<p>How to make your life easier working with WordPress? Learn to use browser dev-tools to get insights you didn’t even know existed and create better websites in less time while you’re at it.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 203,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 12:19:20",
+                        "post_date_gmt": "2018-02-12 11:19:20",
+                        "post_content": "",
+                        "post_title": "Maik Gruppen",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "maik-gruppen",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 12:19:20",
+                        "post_modified_gmt": "2018-02-12 11:19:20",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=203",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/227"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=227"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 226,
+            "date": "2018-02-12T13:25:03",
+            "date_gmt": "2018-02-12T12:25:03",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=226"
+            },
+            "modified": "2018-02-12T13:25:03",
+            "modified_gmt": "2018-02-12T12:25:03",
+            "slug": "wordpress-website-onderhoud-met-wp-cli",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/wordpress-website-onderhoud-met-wp-cli/",
+            "title": {
+                "rendered": "WordPress website onderhoud met wp-cli"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520085600",
+                "end_datetime": "1520086200",
+                "description": "<p>Introductie voor beginners met enkele concrete praktijkvoorbeelden die verduidelijken hoe het gebruik van de commandolijn het dagelijks leven van iedere WordPress gebruiker makkelijker kan maken zodat er meer tijd overblijft voor de leuke dingen. Het leven is nu eenmaal meer dan website onderhoud alleen. Als beginnende WordPress gebruikers na de voordracht al niet onmiddellijk naar huis snellen om wp-cli uit te proberen dan hoop ik tenminste dat ik hun mogelijke angst voor de commandolijn een beetje kleiner heb kunnen maken 😉</p>\n",
+                "language": "Dutch",
+                "speaker": [
+                    {
+                        "ID": 187,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:46:14",
+                        "post_date_gmt": "2018-02-12 10:46:14",
+                        "post_content": "",
+                        "post_title": "Aart Geys",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "aart-geys",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:46:14",
+                        "post_modified_gmt": "2018-02-12 10:46:14",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=187",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/226"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=226"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 225,
+            "date": "2018-02-12T13:24:14",
+            "date_gmt": "2018-02-12T12:24:14",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=225"
+            },
+            "modified": "2018-02-12T13:24:14",
+            "modified_gmt": "2018-02-12T12:24:14",
+            "slug": "trends-in-online-betalingen-van-donaties-tot-abonnementen",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/trends-in-online-betalingen-van-donaties-tot-abonnementen/",
+            "title": {
+                "rendered": "Trends in online betalingen: van donaties tot abonnementen"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520089200",
+                "end_datetime": "",
+                "description": "<p>Klik, een product in je winkelwagen, afrekenen en dan afwachten. Dat is zo enorm saai!</p>\n<p>Als je tegenwoordig een webwinkel wilt bouwen of runnen en ook nog de concurrentie voor wilt blijven, moet je je onderscheiden op creatievere manieren dan met een standaard winkeltje en een kortingscode op je FaceBook page.</p>\n<p>Tijdens deze presentatie kijken we naar ontwikkelingen die webwinkels een edge geven ten opzichte van hun concurrenten, en we focusen ons op hoe innovaties in online betalingen nieuwe vormen van online shoppen mogelijk maken.</p>\n<p>Abonnementen, in het Engels: recurring payments, zijn helemaal hot en ingeburgerd in Amerika, maar lijken in Nederland nog in de kinderschoenen te staan. Hoe implementeer je die in jou webwinkel? Welke plugins heb je nodig? Met welke betaal partner kun je in zee?</p>\n",
+                "language": "Dutch",
+                "speaker": [
+                    {
+                        "ID": 191,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:48:15",
+                        "post_date_gmt": "2018-02-12 10:48:15",
+                        "post_content": "",
+                        "post_title": "David De Boer",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "david-de-boer",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:48:15",
+                        "post_modified_gmt": "2018-02-12 10:48:15",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=191",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/225"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=225"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 224,
+            "date": "2018-02-12T13:23:09",
+            "date_gmt": "2018-02-12T12:23:09",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=224"
+            },
+            "modified": "2018-02-12T13:23:09",
+            "modified_gmt": "2018-02-12T12:23:09",
+            "slug": "start-to-webshop",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/start-to-webshop/",
+            "title": {
+                "rendered": "Start to webshop"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520087400",
+                "end_datetime": "1520088000",
+                "description": "<p>Pitfalls of starting a webshop in terms or organization, not tech focussed.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 177,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:38:25",
+                        "post_date_gmt": "2018-02-12 10:38:25",
+                        "post_content": "",
+                        "post_title": "Tom Hermans",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "tom-hermans",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:38:25",
+                        "post_modified_gmt": "2018-02-12 10:38:25",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=177",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/224"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=224"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 223,
+            "date": "2018-02-12T13:22:31",
+            "date_gmt": "2018-02-12T12:22:31",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=223"
+            },
+            "modified": "2018-02-12T13:22:31",
+            "modified_gmt": "2018-02-12T12:22:31",
+            "slug": "oh-no-i-got-hacked",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/oh-no-i-got-hacked/",
+            "title": {
+                "rendered": "Oh, no! I got hacked?!"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520086800",
+                "end_datetime": "1520087400",
+                "description": "<p>So you have a cute website on which you have worked a couple of years on and at one point – your site gets hacked! What do you do? No worries I have you covered! I am here to answer your questions why would someone hack your website? What to do if you are indeed hacked? And of course – the spring clean !</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 183,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:42:18",
+                        "post_date_gmt": "2018-02-12 10:42:18",
+                        "post_content": "",
+                        "post_title": "Diana Edreva",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "diana-edreva",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:42:18",
+                        "post_modified_gmt": "2018-02-12 10:42:18",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=183",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/223"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=223"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 222,
+            "date": "2018-02-12T13:21:37",
+            "date_gmt": "2018-02-12T12:21:37",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=222"
+            },
+            "modified": "2018-02-12T13:21:37",
+            "modified_gmt": "2018-02-12T12:21:37",
+            "slug": "benefit-from-the-wordpress-customizer",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/benefit-from-the-wordpress-customizer/",
+            "title": {
+                "rendered": "Benefit from the WordPress Customizer"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520086200",
+                "end_datetime": "1520086800",
+                "description": "<p>The Customizer is a great tool to live preview changes to a WordPress site. And it is becoming even more: what about a staging environment or a real WYSIWYG experience for editing content?<br />\nIt is time to benefit from what the Customizer has to offer. In this presentation I will try to give some examples of how you as a web developer as well as your client or user can take advantage from well-known and less well-known features of the Customizer. You can offer your users/clients controlled flexibility and ease of use when customizing their site and at the same time benefit from the available features with regard to long-term support and client satisfaction.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 179,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:40:33",
+                        "post_date_gmt": "2018-02-12 10:40:33",
+                        "post_content": "",
+                        "post_title": "Csaba Varszegi",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "csaba-varszegi",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:40:33",
+                        "post_modified_gmt": "2018-02-12 10:40:33",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=179",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/222"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=222"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 220,
+            "date": "2018-02-12T12:35:37",
+            "date_gmt": "2018-02-12T11:35:37",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=220"
+            },
+            "modified": "2018-02-12T12:35:51",
+            "modified_gmt": "2018-02-12T11:35:51",
+            "slug": "wordpress-4-education",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/wordpress-4-education/",
+            "title": {
+                "rendered": "WordPress 4 Education"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520085600",
+                "end_datetime": "1520086200",
+                "description": "<p>De bedoeling van mijn talk is onder de toeschouwers brengen dat WordPress verder gaat dan alleen vrije tijd en professionele websites. In vele scholen wordt het platform ook gebruikt voor eindwerken, projecten etc. op scholen.</p>\n",
+                "language": "",
+                "speaker": [
+                    {
+                        "ID": 197,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:51:21",
+                        "post_date_gmt": "2018-02-12 10:51:21",
+                        "post_content": "",
+                        "post_title": "Jens De Beule",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "jens-de-beule",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:51:21",
+                        "post_modified_gmt": "2018-02-12 10:51:21",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=197",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/220"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=220"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 219,
+            "date": "2018-02-12T12:34:49",
+            "date_gmt": "2018-02-12T11:34:49",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=219"
+            },
+            "modified": "2018-02-12T12:34:49",
+            "modified_gmt": "2018-02-12T11:34:49",
+            "slug": "lunch-break",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/lunch-break/",
+            "title": {
+                "rendered": "Lunch Break"
+            },
+            "template": "",
+            "acf": {
+                "type": "Break",
+                "start_datetime": "1520081400",
+                "end_datetime": "1520085600",
+                "description": ""
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/219"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=219"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 218,
+            "date": "2018-02-12T12:34:13",
+            "date_gmt": "2018-02-12T11:34:13",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=218"
+            },
+            "modified": "2018-02-12T12:34:13",
+            "modified_gmt": "2018-02-12T11:34:13",
+            "slug": "debugging-wordpress",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/debugging-wordpress/",
+            "title": {
+                "rendered": "Debugging WordPress"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520078400",
+                "end_datetime": "",
+                "description": "<p>We’ve all encountered the issue: a blank screen or worse, a 500 error on the server. How do you cope with this kind of issue, what do you do to find the culprit and resolve the error.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 205,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 12:19:55",
+                        "post_date_gmt": "2018-02-12 11:19:55",
+                        "post_content": "",
+                        "post_title": "Brecht Ryckaert",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "brecht-ryckaert",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 12:19:55",
+                        "post_modified_gmt": "2018-02-12 11:19:55",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=205",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/218"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=218"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 217,
+            "date": "2018-02-12T12:32:47",
+            "date_gmt": "2018-02-12T11:32:47",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=217"
+            },
+            "modified": "2018-02-12T12:33:13",
+            "modified_gmt": "2018-02-12T11:33:13",
+            "slug": "a-modular-approach-to-wordpress-theme-development",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/a-modular-approach-to-wordpress-theme-development/",
+            "title": {
+                "rendered": "A modular approach to WordPress theme development"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520074800",
+                "end_datetime": "",
+                "description": "<p>Bij Level Level hebben we te maken met websites die schaalbaar en flexibel moeten zijn. Tijdens het ontwikkelen van een maatwerkproject willen we een goede basis neerzetten, zodat wijzigingen eenvoudig doorgevoerd kunnen worden en uitbreidingen gebruik kunnen maken van de bestaande onderdelen. Door enkele richtlijnen aan te houden zorgen we ervoor dat we het technisch gezien bij omvangrijke projecten allemaal op een rijtje houden. Denk hierbij aan methodes zoals Object Georiënteerd Programmeren, BEM (CSS) en technieken zoals Twig templating (Clarkson), Gulp of Webpack. Dit allemaal zonder het contact met WordPress te verliezen.</p>\n<p>Ons doel is om websites op te leveren van hoge kwaliteit welke schaalbaar, stabiel en eenvoudig te onderhouden zijn. Dit resulteert in diverse projecten zoals Autotaalglas, Business Insider Nederland, ABN AMRO Financial Focus, Kansfonds of SOMO.</p>\n<p>De klant blij, wij blij.</p>\n",
+                "language": "",
+                "speaker": [
+                    {
+                        "ID": 207,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 12:21:10",
+                        "post_date_gmt": "2018-02-12 11:21:10",
+                        "post_content": "",
+                        "post_title": "Jaime Martínez",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "jaime-martinez",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 12:21:10",
+                        "post_modified_gmt": "2018-02-12 11:21:10",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=207",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Trappenaula"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/217"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=217"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 216,
+            "date": "2018-02-12T12:31:32",
+            "date_gmt": "2018-02-12T11:31:32",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=216"
+            },
+            "modified": "2018-02-12T13:20:27",
+            "modified_gmt": "2018-02-12T12:20:27",
+            "slug": "digitale-slagkracht-met-wordpress-van-visitekaartje-naar-verkoopmachine",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/digitale-slagkracht-met-wordpress-van-visitekaartje-naar-verkoopmachine/",
+            "title": {
+                "rendered": "Digitale Slagkracht met WordPress: Van Visitekaartje naar Verkoopmachine"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520078400",
+                "end_datetime": "",
+                "description": "<p>Of je nu aannemer of uitvaartondernemer bent, en of je nu mayonaise, rollators of kinderwagens produceert of auto’s, taarten, bh’s of EHBO-cursussen verkoopt; als je je website inzet als visitekaartje dan mis je de kansen van nu.</p>\n<p>Oriëntatie voor bijna iedere aankoop – B2B én B2C – start digitaal. Ben je daar niet waardevol? Dan is de kans groot dat deze potentiële klant niet voor jou kiest.<br />\nAan de hand van aansprekende voorbeelden neemt Bas je mee. Tijdens de workshop breng je je marketing en salesfunnel in kaart en je maakt een actieplan om van jouw site in 2018 een verkoopmachine te maken die serieus gaat bijdragen aan je leads en omzet.</p>\n<p>De Digitale Slagkracht Methode is de blauwprint voor meer omzet in het digitale tijdperk met WordPress, inclusief de tools en WP Plugins die je kan gebruiken om morgen aan de slag te gaan.</p>\n<p>De workshop is erop gericht om met WordPress jouw bedrijf te doen groeien.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 199,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:52:25",
+                        "post_date_gmt": "2018-02-12 10:52:25",
+                        "post_content": "",
+                        "post_title": "Bas van der Lans",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "bas-van-der-lans",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:52:25",
+                        "post_modified_gmt": "2018-02-12 10:52:25",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=199",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/216"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=216"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 215,
+            "date": "2018-02-12T12:30:50",
+            "date_gmt": "2018-02-12T11:30:50",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=215"
+            },
+            "modified": "2018-02-12T12:33:31",
+            "modified_gmt": "2018-02-12T11:33:31",
+            "slug": "meet-gutenberg-the-future-of-wordpress-publishing",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/meet-gutenberg-the-future-of-wordpress-publishing/",
+            "title": {
+                "rendered": "Meet Gutenberg, the future of WordPress publishing."
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520074800",
+                "end_datetime": "",
+                "description": "<p>There’s something new on the way for WordPress. The editor as we know it is about to be replaced by a thing called Gutenberg. After this talk you will be inspired to try/test Gutenberg a day possibly contribute in giving feedback, asking questions or even add some pull requests.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 189,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 11:47:04",
+                        "post_date_gmt": "2018-02-12 10:47:04",
+                        "post_content": "",
+                        "post_title": "Marcel Bootsman",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "marcel-bootsman",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 11:47:04",
+                        "post_modified_gmt": "2018-02-12 10:47:04",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=189",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/215"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=215"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 214,
+            "date": "2018-02-12T12:28:56",
+            "date_gmt": "2018-02-12T11:28:56",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=214"
+            },
+            "modified": "2018-02-12T12:28:56",
+            "modified_gmt": "2018-02-12T11:28:56",
+            "slug": "coffee-refill-break",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/coffee-refill-break/",
+            "title": {
+                "rendered": "Coffee Refill Break"
+            },
+            "template": "",
+            "acf": {
+                "type": "Break",
+                "start_datetime": "1520073600",
+                "end_datetime": "1520074800",
+                "description": ""
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/214"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=214"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 213,
+            "date": "2018-02-12T12:27:41",
+            "date_gmt": "2018-02-12T11:27:41",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=213"
+            },
+            "modified": "2018-02-12T13:20:34",
+            "modified_gmt": "2018-02-12T12:20:34",
+            "slug": "opening-remarks",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/opening-remarks/",
+            "title": {
+                "rendered": "Opening Remarks"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520069400",
+                "end_datetime": "",
+                "description": "",
+                "language": "English",
+                "speaker": "",
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/213"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=213"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 212,
+            "date": "2018-02-12T12:26:33",
+            "date_gmt": "2018-02-12T11:26:33",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=212"
+            },
+            "modified": "2018-02-12T12:26:33",
+            "modified_gmt": "2018-02-12T11:26:33",
+            "slug": "doors-open-registration",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/doors-open-registration/",
+            "title": {
+                "rendered": "Doors Open &#038; Registration"
+            },
+            "template": "",
+            "acf": {
+                "type": "Break",
+                "start_datetime": "1520067600",
+                "end_datetime": "",
+                "description": ""
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/212"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=212"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 211,
+            "date": "2018-02-12T12:24:30",
+            "date_gmt": "2018-02-12T11:24:30",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=talk&#038;p=211"
+            },
+            "modified": "2018-02-12T13:20:41",
+            "modified_gmt": "2018-02-12T12:20:41",
+            "slug": "10-wordpress-gdpr-fails",
+            "status": "publish",
+            "type": "talk",
+            "link": "https://fluxit.be/react/wordcamp18/talk/10-wordpress-gdpr-fails/",
+            "title": {
+                "rendered": "10 WordPress GDPR fails"
+            },
+            "template": "",
+            "acf": {
+                "type": "Talk",
+                "start_datetime": "1520070600",
+                "end_datetime": "",
+                "description": "<p>Doing GDPR audits I found some nice fails with WordPress fails. During this talk I’ll showcase some GDPR fails and quickwins in order to comply to the new privacylaws.</p>\n",
+                "language": "English",
+                "speaker": [
+                    {
+                        "ID": 209,
+                        "post_author": "1",
+                        "post_date": "2018-02-12 12:22:02",
+                        "post_date_gmt": "2018-02-12 11:22:02",
+                        "post_content": "",
+                        "post_title": "Herman Maes",
+                        "post_excerpt": "",
+                        "post_status": "publish",
+                        "comment_status": "closed",
+                        "ping_status": "closed",
+                        "post_password": "",
+                        "post_name": "herman-maes",
+                        "to_ping": "",
+                        "pinged": "",
+                        "post_modified": "2018-02-12 12:22:02",
+                        "post_modified_gmt": "2018-02-12 11:22:02",
+                        "post_content_filtered": "",
+                        "post_parent": 0,
+                        "guid": "https://fluxit.be/react/wordcamp18/?post_type=speaker&#038;p=209",
+                        "menu_order": 0,
+                        "post_type": "speaker",
+                        "post_mime_type": "",
+                        "comment_count": "0",
+                        "filter": "raw"
+                    }
+                ],
+                "location": "KdG",
+                "room": "Auditorium"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks/211"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/talks"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/talk"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=211"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -17,15 +17,15 @@ const ScheduleStack = StackNavigator({
 })
 
 const TabNav = TabNavigator({
-  Schedule: { screen: ScheduleStack },
-  Location: { screen: LocationScreen },
+  Schedule: { screen: ScheduleStack },/* 
+  Location: { screen: LocationScreen }, */
   About: { screen: AboutScreen }
 }, {
   key: 'Schedule',
   tabBarComponent: TabBarBottom,
   tabBarPosition: 'bottom',
   animationEnabled: true,
-  swipeEnabled: true,
+  swipeEnabled: false,
   headerMode: 'none',
   initialRouteName: 'Schedule',
   tabBarOptions: {

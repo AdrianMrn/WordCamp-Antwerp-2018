@@ -103,9 +103,9 @@ class ScheduleScreen extends Component {
 
   _handleAppStateChange = (nextAppState) => {
     const { appState } = this.state
-    if (appState.match(/inactive|background/) && nextAppState === 'active') {
+    /* if (appState.match(/inactive|background/) && nextAppState === 'active') {
       this.props.getScheduleUpdates()
-    }
+    } */
     this.setState({appState: nextAppState})
   }
 
@@ -192,8 +192,6 @@ class ScheduleScreen extends Component {
           start={eventStart}
           duration={eventDuration}
           onPress={() => this.onEventPress(item)}
-          onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.speakerInfo[0].twitter)}
-          onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.speakerInfo[0].github)}
           setReminder={() => setReminder(item.title)}
           removeReminder={() => removeReminder(item.title)}
           currentTime={currentTime}
@@ -257,8 +255,6 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getScheduleUpdates: () => dispatch(ScheduleActions.getScheduleUpdates()),
     setSelectedEvent: data => dispatch(ScheduleActions.setSelectedEvent(data)),
-    onPressGithub: url => dispatch(ScheduleActions.visitGithub(url)),
-    onPressTwitter: url => dispatch(ScheduleActions.visitTwitter(url)),
     setReminder: title => dispatch(NotificationActions.addTalk(title)),
     removeReminder: title => dispatch(NotificationActions.removeTalk(title))
   }

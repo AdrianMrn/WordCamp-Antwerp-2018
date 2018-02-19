@@ -21,8 +21,6 @@ interface TalkProps {
   isActive: boolean
   currentTime: Date
   onPress (): void
-  onPressTwitter (): void
-  onPressGithub (): void
   talkSpecial (): void
   talkNotSpecial (): void
   setReminder (): void
@@ -111,8 +109,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
               isFinished={isFinished || isActive}
               showWhenFinished={this.props.showWhenFinished}
               toggleRemindMe={SBHelper.toggleReminder(title, start, isSpecial, setReminder, removeReminder)}
-              onPressGithub={this.props.onPressGithub}
-              onPressTwitter={this.props.onPressTwitter}
             />
           </Animated.View>
         </TouchableWithoutFeedback>

@@ -12,8 +12,6 @@ interface TalkInfoProps {
   isFinished: boolean
   showWhenFinished: boolean
   toggleRemindMe (): void
-  onPressGithub (): void
-  onPressTwitter (): void
 }
 
 const TalkInfo = (props: TalkInfoProps) => {
@@ -45,12 +43,6 @@ const TalkInfo = (props: TalkInfoProps) => {
       {showRemindMe &&
         <View style={styles.remindMe}>
           <RemindMeButton onPress={toggleRemindMe} on={remindMe} />
-        </View>
-      }
-      {showSocialMedia &&
-        <View style={styles.socialButtons}>
-          {props.onPressTwitter && <SocialMediaButton network='twitter' onPress={props.onPressTwitter} /> }
-          {props.onPressGithub && <SocialMediaButton network='github' onPress={props.onPressGithub} /> }
         </View>
       }
     </View>

@@ -1,0 +1,1223 @@
+{
+    "sponsors": [
+        {
+            "id": 268,
+            "date": "2018-02-12T13:50:26",
+            "date_gmt": "2018-02-12T12:50:26",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=268"
+            },
+            "modified": "2018-02-12T13:50:26",
+            "modified_gmt": "2018-02-12T12:50:26",
+            "slug": "volta",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/volta/",
+            "title": {
+                "rendered": "Volta"
+            },
+            "template": "",
+            "acf": {
+                "description": "",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Volta-x-communicatie-in-vorm.png",
+                "type": "Bronze",
+                "url": "https://volta.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/268"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=268"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 266,
+            "date": "2018-02-12T13:49:54",
+            "date_gmt": "2018-02-12T12:49:54",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=266"
+            },
+            "modified": "2018-02-12T13:49:54",
+            "modified_gmt": "2018-02-12T12:49:54",
+            "slug": "con-impeto",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/con-impeto/",
+            "title": {
+                "rendered": "Con Impeto"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Con Impeto is yet another WordPress agency: Veerle Verbert &#038; Werner Huysmans create custom WordPress themes &#038; plugins since Ella (2007). They’re into WordCamps since 2010 (thank you, WordCamp Nederland-team!). And into the Antwerp community since 2014.</p>\n<p>Organising &#038; sponsoring as a contribution to The WordPress Project, glad there’s so much fine Open Source software around. Thank you all.</p>\n<p>If anyone wonders, ‘con impeto’ is like ‘mit schwung’. Because it don’t mean a thing if it ain’t got that swing. And Werner plays the piano. He was quite thrilled with WordPress 4.8, finally Evans.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/logo_conimpeto_2017.png",
+                "type": "Bronze",
+                "url": "https://conimpeto.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/266"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=266"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 264,
+            "date": "2018-02-12T13:49:10",
+            "date_gmt": "2018-02-12T12:49:10",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=264"
+            },
+            "modified": "2018-02-12T13:49:10",
+            "modified_gmt": "2018-02-12T12:49:10",
+            "slug": "davel",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/davel/",
+            "title": {
+                "rendered": "Davel"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Een website is méér dan een mooi visitekaartje,  het is een oplossing die je méér klanten aanlevert. Davel doet dit doelgericht, al meer dan 11 jaar.<br />\nDavel is specialist in maatwerk WordPress webdesign.</p>\n<p>Sinds 2018 heeft Davel er een broertje bij: Woofers.<br />\nWoofers ontwerp WooCommerce webwinkels op maat en begeleid ondernemers in hun online marketing. We denken ook mee met de praktische aanpak van een webwinkel.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/davel.png",
+                "type": "Bronze",
+                "url": "https://www.davel.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/264"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=264"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 262,
+            "date": "2018-02-12T13:48:40",
+            "date_gmt": "2018-02-12T12:48:40",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=262"
+            },
+            "modified": "2018-02-12T13:48:40",
+            "modified_gmt": "2018-02-12T12:48:40",
+            "slug": "we-are-knights",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/we-are-knights/",
+            "title": {
+                "rendered": "We Are Knights"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>We Are Knights helpt ondernemers met custom WordPress websites. Onze uitdaging: een ontwerp op maat, clean code, gebruiksvriendelijk en uniek. Onze oplossing: WordPress!</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/logo_web-768x416.png",
+                "type": "Bronze",
+                "url": "http://www.weareknights.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/262"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=262"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 260,
+            "date": "2018-02-12T13:47:48",
+            "date_gmt": "2018-02-12T12:47:48",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=260"
+            },
+            "modified": "2018-02-12T13:47:48",
+            "modified_gmt": "2018-02-12T12:47:48",
+            "slug": "nilmedia",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/nilmedia/",
+            "title": {
+                "rendered": "NILMEDIA"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>NILMEDIA is a Antwerp based web agency since 2002. We are enthausiastic WordPress be’Woo’vers with almost 100 WP websites and shops on our portfolio. We deliver design, development, hosting and maintenance services from sole proprietor to multinationals as clients.</p>\n<p>Want to know more about us and our way of working? Please feel free to contact us on nilmedia.com or DM us on twitter: @nilmedia.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/NILMEDIA-logo-2018-1-768x187.png",
+                "type": "Bronze",
+                "url": "https://www.nilmedia.com"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/260"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=260"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 258,
+            "date": "2018-02-12T13:47:03",
+            "date_gmt": "2018-02-12T12:47:03",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=258"
+            },
+            "modified": "2018-02-12T13:47:03",
+            "modified_gmt": "2018-02-12T12:47:03",
+            "slug": "quadus",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/quadus/",
+            "title": {
+                "rendered": "Quadus"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>QUADUS IS DE ONE STOP SHOP VOOR AL UW ONLINE BEHOEFTES<br />\nQuadus helpt u van A tot Z voor de opzet van uw websites, webshops, digitale catalogus, emails, sociale media en online marketing.<br />\nUw website of webshop wordt niet meer verder beheerd en/of is verouderd ? Geen nood, ook daar kunnen we u helpen.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Logo-Quadus-2017-300DPI-V2-768x474.png",
+                "type": "Bronze",
+                "url": "https://quadus.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/258"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=258"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 255,
+            "date": "2018-02-12T13:46:03",
+            "date_gmt": "2018-02-12T12:46:03",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=255"
+            },
+            "modified": "2018-02-12T13:46:03",
+            "modified_gmt": "2018-02-12T12:46:03",
+            "slug": "jerrixit",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/jerrixit/",
+            "title": {
+                "rendered": "JerrixIT"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>JerrixIT bouwt voornamelijk WordPress websites, we hosten en onderhouden ze en geven internet marketing advies.<br />\nWe werken voornamelijk met kleine ondernemingen. Bezoek jerrix.be eens voor de diensten.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/jerrixit-768x410.jpg",
+                "type": "Bronze",
+                "url": "https://jerrix.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/255"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=255"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 253,
+            "date": "2018-02-12T13:45:24",
+            "date_gmt": "2018-02-12T12:45:24",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=253"
+            },
+            "modified": "2018-02-12T13:46:31",
+            "modified_gmt": "2018-02-12T12:46:31",
+            "slug": "dailybits",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/dailybits/",
+            "title": {
+                "rendered": "dailybits"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Als Belgische techblogger gebruikt dailybits.be reeds WordPress sinds versie 2.1 (met in 2002 reeds een korte periode op WordPress voorloper B2/cafelog). Als technisch marketeer is Dailybits gespecialiseerd in technische SEO, marketing automation platformen en de aankomende GDPR wetgeving. Het ondersteunen van WordCamp Antwerp is een stukje teruggeven aan de community van vrijwilligers, die zich inzetten in het WordPress landschap.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/dailybits-logo.jpg",
+                "type": "Bronze",
+                "url": "https://www.dailybits.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/253"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=253"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 252,
+            "date": "2018-02-12T13:44:31",
+            "date_gmt": "2018-02-12T12:44:31",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=252"
+            },
+            "modified": "2018-02-12T13:46:27",
+            "modified_gmt": "2018-02-12T12:46:27",
+            "slug": "webbird",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/webbird/",
+            "title": {
+                "rendered": "WebBird"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>WordPress website, webshop, theme &#038; plugin development</p>\n",
+                "logo": false,
+                "type": "Bronze",
+                "url": "https://webbird.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/252"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=252"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 250,
+            "date": "2018-02-12T13:43:28",
+            "date_gmt": "2018-02-12T12:43:28",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=250"
+            },
+            "modified": "2018-02-12T13:43:28",
+            "modified_gmt": "2018-02-12T12:43:28",
+            "slug": "bluehost",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/bluehost/",
+            "title": {
+                "rendered": "Bluehost"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Bluehost has been a WordPress partner since 2005 and powers over 1 million WordPress sites worldwide. Their objective is to help customers, whether novice or pro, create a thriving online presence at an affordable price. With a team of in-house tech experts available 24/7, Bluehost dedicates time and resources to providing the best support and services in the industry. Join millions of other site owners and see what Bluehost can do for you and your online presence.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/bh_logo_2015.png",
+                "type": "Silver",
+                "url": "https://www.bluehost.com/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/250"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=250"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 248,
+            "date": "2018-02-12T13:43:03",
+            "date_gmt": "2018-02-12T12:43:03",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=248"
+            },
+            "modified": "2018-02-12T13:43:03",
+            "modified_gmt": "2018-02-12T12:43:03",
+            "slug": "dutchwebdesign",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/dutchwebdesign/",
+            "title": {
+                "rendered": "Dutchwebdesign"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Dutchwebdesign is een Full Service Internetbureau uit Nederland die zich specialiseert in WordPress. Met 12 jaar ervaring en 200+ WordPress implementaties kunnen we met recht zeggen dat we ruim ervaren zijn. We zijn gespecialiseerd in grotere WordPress websites met een complexe en diepe navigatie structuur. Dit dwingt ons om goed over dit soort zaken na te denken.</p>\n<p>De kennis die we met ons multidisciplinaire team door de jaren heen hebben verzameld zetten we vervolgens in om alle belangrijke facetten op een gebruiksvriendelijke manier samen te laten komen. Door middel van een logische structuur en aantrekkelijk UX design zorgen we er bijvoorbeeld voor dat bezoekers met een minimaal aantal clicks (muisklikken) bij de informatie of actie uitkomen waar ze naar op zoek zijn.</p>\n<p>De afgelopen jaren hebben we hard gewerkt om een extra DWD laag op de basis WordPress back-end te leggen. Hiermee bieden we onze klanten een betere gebruikerservaring en kunnen we geautomatiseerde processen gebruiken voor versiebeheer en updates.<br />\n______________________________</p>\n<p>Dutchwebdesign is a Full Service Digital Agency based in the Netherlands and specialized in WordPress. With 12 years experience and 200+ WordPress integrations we have lots of WordPress knowledge. We are specialized in big WordPress websites that make us think smart about structure and implementation.</p>\n<p>We then use the knowledge we have gathered over the years trough our multidisciplinary approach to connect all important aspects in a user-friendly way. Through a logical structure and attractive UX design we ensure the shortest possible clickpath for visitors to come to the information or action they are looking for.</p>\n<p>During the years we have improved the WordPress client experience by adding a DWD layer on top of the basis WordPress back-end. This makes sure that our WordPress installs are easy to use for our clients and we can implement custom functions easily.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/dutchwebdesign950x950.png",
+                "type": "Silver",
+                "url": "https://www.dutchwebdesign.nl/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/248"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=248"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 246,
+            "date": "2018-02-12T13:42:27",
+            "date_gmt": "2018-02-12T12:42:27",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=246"
+            },
+            "modified": "2018-02-12T13:42:27",
+            "modified_gmt": "2018-02-12T12:42:27",
+            "slug": "level-level",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/level-level/",
+            "title": {
+                "rendered": "Level Level"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Level Level is een full-service WordPress bureau en loopt voorop als het gaat om de inzet van WordPress. Wij bieden advies, interactive design, visual design, development en support voor grootschalige en complexe websites. Ons gedreven en multidisciplinaire team wordt blij van het creëren van mooie en stabiele producten voor het internet. Met de focus op een optimale gebruikerservaring voor alle apparaten helpen wij onze klanten hun online doelstellingen te bereiken.</p>\n<p>Wij geloven in kwaliteit: we leveren gebruiksvriendelijke designs en duurzame code. Een stabiele technische basis en geoptimaliseerd visuele beleving zijn essentieel voor een succesvolle website of applicatie. Responsive webdesign, usability, performance, accessibility, security en SEO zijn daarom bij ons niet optioneel maar de minimale eisen voor een succesvol project.</p>\n<p>Wil je eens vrijblijvend met ons van gedachten wisselen? Bel even met +31 (0) 10 842 9259 of e-mail naar mail@level-level.com</p>\n<p><strong>MEET LEVEL LEVEL </strong><br />\nLevel Level is a leading WordPress agency from the Netherlands. With a multidisciplinary team of professionals we design and develop large-scale websites and offer consultancy services to enterprise clients. We help brands connect to their customers by creating outstanding websites and applications that offer the best user experience on any device.</p>\n<p>We believe a successful web project needs to meet certain criteria. We see responsive web design, usability, accessibility, performance, security and SEO as the minimum requirements for any project we launch. As a team we share the drive to create beautiful products and deliver the highest quality, in both design and code.</p>\n<p>Want to get in touch with us? Just give us a call +31 (0) 10 842 9259 or send us an email at mail@level-level.com</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Level-Level-logo-black-with-payoff.png",
+                "type": "Silver",
+                "url": "https://level-level.com"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/246"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=246"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 244,
+            "date": "2018-02-12T13:41:24",
+            "date_gmt": "2018-02-12T12:41:24",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=244"
+            },
+            "modified": "2018-02-12T13:41:24",
+            "modified_gmt": "2018-02-12T12:41:24",
+            "slug": "jackmail",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/jackmail/",
+            "title": {
+                "rendered": "Jackmail"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Jackmail is the 1st WordPress Newsletter Plugin that helps you create a full email campaign suite into your WordPress dashboard and send it with a built-in SMTP service.</p>\n<p>No more queues, no spambox. With Jackmail, creating and sending newsletters has never been so easy!</p>\n<p>You want to try Jackmail?<br />\nJackmail is a free plugin with all features.<br />\nSupport is free (livechat, email, telephone)<br />\nWe grant 3,000 emails per month for free (100/day limit).</p>\n<p>Now, you know, you don’t have any excuse!</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/logo.png",
+                "type": "Silver",
+                "url": "https://www.jackmail.com/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/244"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=244"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 242,
+            "date": "2018-02-12T13:40:27",
+            "date_gmt": "2018-02-12T12:40:27",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=242"
+            },
+            "modified": "2018-02-12T13:40:27",
+            "modified_gmt": "2018-02-12T12:40:27",
+            "slug": "weglot",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/weglot/",
+            "title": {
+                "rendered": "Weglot"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Weglot is a WordPress multilingual plugin to translate and display your website in different languages.</p>\n<p>Completely different from historical players with a unique technical approach, and a continuous focus on user experience, Weglot offers a solution:</p>\n<p>easy to use and set-up: no code or source files manipulation required (2m to configure)<br />\n100% compatible: no issue with other Themes or Plugins, as Weglot is agnostic to the sources of content<br />\nSEO optimized: following Google SEO multilingual best practices, automatically creating unique URL for each language and translating SEO tags<br />\nmultiple sources of translation: machine, human and professional<br />\nlight and performing: the API approach avoids slowdowns<br />\ndedicated support: rated 4.8/5.0 with 500 reviews<br />\nDiscover the new solution for multiple languages in WordPress, already trusted by 20,000+ websites, on the Directory or, directly on the website.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Silver_weglot_logo_web_L_WCAntw-Cover-740x250px-VF2.png",
+                "type": "Silver",
+                "url": "https://dashboard.weglot.com/register-wordpress"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/242"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=242"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 240,
+            "date": "2018-02-12T13:39:57",
+            "date_gmt": "2018-02-12T12:39:57",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=240"
+            },
+            "modified": "2018-02-12T13:39:57",
+            "modified_gmt": "2018-02-12T12:39:57",
+            "slug": "savvii",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/savvii/",
+            "title": {
+                "rendered": "Savvii"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Do you want to get the best out of your website and your company? Then speed, security and ease of maintenance are essential. Not only for the visitors of your website, also for your rankings in Google.</p>\n<p>Silver sponsor Savvii Managed WordPress Hosting improves your websites on all factors. We are dedicated to create the communities best WordPress hosting platforms. Not convinced by just words? Just try our 14 day trial and we’ll convince you.</p>\n<p>Migrating to Savvii? Free and easy with our migration plugin. A Savvii account manager will support you with the first steps on our platform.</p>\n<p>Want to know more? Take a look on our website or speak with the Savvii Team during WordCamp Antwerpen</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/savvii.png",
+                "type": "Silver",
+                "url": "https://www.savvii.eu/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/240"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=240"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 238,
+            "date": "2018-02-12T13:39:18",
+            "date_gmt": "2018-02-12T12:39:18",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=238"
+            },
+            "modified": "2018-02-12T13:39:24",
+            "modified_gmt": "2018-02-12T12:39:24",
+            "slug": "appsaloon",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/appsaloon/",
+            "title": {
+                "rendered": "AppSaloon"
+            },
+            "template": "",
+            "acf": {
+                "description": "",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/appSaloon-big.png",
+                "type": "Silver",
+                "url": "https://appsaloon.be/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/238"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=238"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 175,
+            "date": "2018-02-08T16:38:25",
+            "date_gmt": "2018-02-08T15:38:25",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=175"
+            },
+            "modified": "2018-02-08T16:38:25",
+            "modified_gmt": "2018-02-08T15:38:25",
+            "slug": "godaddy",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/godaddy/",
+            "title": {
+                "rendered": "GoDaddy"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>GoDaddy Pro is a free membership program for web developers, designers &amp; agencies. It offers exclusive tools to help onboard, manage and maintain multiple clients and their sites fast and easy. With GoDaddy Pro tools, you can easily shop for your client, monitor their sites, and manage their products from a single dashboard. Additionally, your membership includes advanced 24/7 technical support and rewards for recommending GoDaddy to your clients.</p>\n<p>You can use GoDaddy Pro with all of GoDaddy’s newly refreshed hosting products, including Managed WordPress, cPanel shared hosting, our brand new cloud product, and our virtual and dedicated solutions.</p>\n<p>And, always get the best price on GoDaddy products with your “30% off list price” member benefit.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/GoDaddy_Pro_RGB_Full_B2.png",
+                "type": "Gold",
+                "url": "https://be.godaddy.com"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/175"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=175"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 173,
+            "date": "2018-02-08T16:37:29",
+            "date_gmt": "2018-02-08T15:37:29",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=173"
+            },
+            "modified": "2018-02-08T16:37:29",
+            "modified_gmt": "2018-02-08T15:37:29",
+            "slug": "mollie",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/mollie/",
+            "title": {
+                "rendered": "Mollie"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Mollie strives for innovation. When we started we spearheaded the payments industry by introducing clever payment products which provide our customers with an easy integration and implementation flow. Now, more than a decade later, Mollie is still building innovative products and working hard to make payments better.</p>\n<p>We couldn’t do this without our excellent team. We have a clear focus on building a team of young, creative and data driven minds. All of them share a natural urge to work with exciting, new technologies and products. We make sure that everyone gets an opportunity to create and optimise workflows, work at the forefront of technology and, ultimately, build the future of payments</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/MollieLogoAssets_Black-Text.png",
+                "type": "Gold",
+                "url": "https://www.mollie.com"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/173"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=173"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 171,
+            "date": "2018-02-08T16:36:34",
+            "date_gmt": "2018-02-08T15:36:34",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=171"
+            },
+            "modified": "2018-02-08T16:36:34",
+            "modified_gmt": "2018-02-08T15:36:34",
+            "slug": "combell",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/combell/",
+            "title": {
+                "rendered": "Combell"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Combell, founded in 1999, is the absolute market leader in hosting services and your one-stop partner to host about any IT infrastructure, website or application. We offer reliable hosting with 24/7 premium support so you can relax and focus on your core business.</p>\n<p>Our packages are 100% WordPress ready. We install your CMS for free, our Combell Movers can transfer your site to its new place, and once moved you are protected by our Combell Shield. In need of more resources and speed? Check out our performance hosting packages and caching options. To top it off we have a free helpdesk with tech experts (a. o. in the field of WordPress) available for you 24/7.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/combell-logo.png",
+                "type": "Gold",
+                "url": "https://www.combell.com"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/171"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=171"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 169,
+            "date": "2018-02-08T16:34:22",
+            "date_gmt": "2018-02-08T15:34:22",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=169"
+            },
+            "modified": "2018-02-08T16:34:22",
+            "modified_gmt": "2018-02-08T15:34:22",
+            "slug": "jetpack",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/jetpack/",
+            "title": {
+                "rendered": "Jetpack"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>Transform how you work with your WordPress sites and rest easy knowing they’re always firing on all cylinders. Jetpack connects your site to the global services, community, and support provided by WordPress.com so you can focus on the stuff that matters.</p>\n<p>Jetpack automatically shields your site from the unwanted attention of spammers, hackers, and malware, while real-time sync and backup means you don’t have to worry about data loss. Straightforward traffic-building tools help you attract the attention of readers and search engines. Pages and videos are delivered at high speed from a global, ad-free content delivery network.</p>\n<p>Jetpack sends new content directly to your subscribers’ inboxes and shows readers related content, helping you increase page views per visitor and boost ad revenue. Whenever you need it, you can rely on priority support from our global team of WordPress experts to ensure a friction-free experience for your visitors — and for you.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Jetpack_Horizontal_transparent.png",
+                "type": "Diamond",
+                "url": "https://jetpack.com/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/169"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=169"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 167,
+            "date": "2018-02-08T16:33:27",
+            "date_gmt": "2018-02-08T15:33:27",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=167"
+            },
+            "modified": "2018-02-08T16:33:27",
+            "modified_gmt": "2018-02-08T15:33:27",
+            "slug": "woocommerce",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/woocommerce/",
+            "title": {
+                "rendered": "WooCommerce"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>37% of all online stores are powered by WooCommerce. Built on WordPress, WooCommerce is a fully customizable, open source eCommerce solution.</p>\n<ul>\n<li>1+ million active installations</li>\n<li>16+ million downloads</li>\n<li>400+ extensions to add functionality<br />\nWhether you’re selling a few handcrafted items to a niche market, taking an existing business online, or going global with an enterprise level eCommerce business – WooCommerce will get you set up and selling fast and scale securely as you grow. Plus your content will be forever yours and customizable down to the finest button color.</li>\n</ul>\n<p>Developed and supported by a distributed team, WooCommerce is powered by Automattic, the creators of WordPress.com.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/woocommerce_logo.png",
+                "type": "Diamond",
+                "url": "https://woocommerce.com/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/167"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=167"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 166,
+            "date": "2018-02-08T16:29:05",
+            "date_gmt": "2018-02-08T15:29:05",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=166"
+            },
+            "modified": "2018-02-08T16:29:05",
+            "modified_gmt": "2018-02-08T15:29:05",
+            "slug": "all-in-one-seo-pack",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/all-in-one-seo-pack/",
+            "title": {
+                "rendered": "All in One SEO Pack"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>All in One SEO Pack Pro is one of the most popular WordPress plugins, and one of the oldest still being developed, since 2007 by Michael Torbert and Semper Plugins of Raleigh North Carolina, for managing the Search Engine Optimization and social media presence of your website. All in One SEO Pack is one of the most downloaded plugin for WordPress with over 40 million downloads. Chances are you’ve searched Google and found a website that’s running this powerful WordPress plugin.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/SemperPlugins-AIO-SEO-logo-on-white.png",
+                "type": "Diamond",
+                "url": "https://semperplugins.com"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/166"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=166"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 163,
+            "date": "2018-02-08T16:27:58",
+            "date_gmt": "2018-02-08T15:27:58",
+            "guid": {
+                "rendered": "https://fluxit.be/react/wordcamp18/?post_type=sponsor&#038;p=163"
+            },
+            "modified": "2018-02-08T16:27:58",
+            "modified_gmt": "2018-02-08T15:27:58",
+            "slug": "yoast",
+            "status": "publish",
+            "type": "sponsor",
+            "link": "https://fluxit.be/react/wordcamp18/sponsor/yoast/",
+            "title": {
+                "rendered": "Yoast"
+            },
+            "template": "",
+            "acf": {
+                "description": "<p>At Yoast, we optimize websites in a holistic way. Not just one aspect of websites, but every aspect. Making sites more usable, easier to navigate, faster and more reliable. In other words: we make websites work. For the owner ánd the visitor. The added bonus is that if you do all that right, a website becomes easier to find as well.</p>\n<p>With over 4 million active installs Yoast SEO is the most popular SEO plugins around. And there’s more!</p>\n<p>To help people create awesome websites we offer: plugins that make optimizing and analyzing websites easy as pie; website reviews that provide an in-depth analysis and lots of practical tips; online courses and eBooks that give people the skills and the knowledge to start improving their own site.</p>\n",
+                "logo": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Yoast_Logo_Large_RGB.png",
+                "type": "Diamond",
+                "url": "https://yoast.com/"
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/163"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/types/sponsor"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/media?parent=163"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https://api.w.org/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        }
+    ]
+}

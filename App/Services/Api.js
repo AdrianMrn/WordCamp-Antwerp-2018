@@ -2,7 +2,7 @@
 import apisauce from 'apisauce'
 
 // our "constructor"
-const create = (baseURL = 'https://infinite.red/files/') => {
+const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') => {
   // ------
   // STEP 1
   // ------
@@ -34,8 +34,10 @@ const create = (baseURL = 'https://infinite.red/files/') => {
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getSpeakers = () => api.get('schedule.json')
-  const getNearby = () => api.get('nearby.json')
+  const getSpeakers = () => api.get('speakers')
+  const getSponsors = () => api.get('sponsors')
+  const getTalks = () => api.get('talks')
+  //const getNearby = () => api.get('nearby.json')
 
   // ------
   // STEP 3
@@ -52,7 +54,9 @@ const create = (baseURL = 'https://infinite.red/files/') => {
   return {
     // a list of the API functions from step 2
     getSpeakers,
-    getNearby
+    getSponsors,
+    getTalks
+    //getNearby
   }
 }
 
