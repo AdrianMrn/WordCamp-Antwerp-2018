@@ -117,7 +117,18 @@ const images = {
   voodoo: require('../Images/img-voodoo.jpg'),
   waterfront: require('../Images/img-waterfront.jpg'),
 
+  // everything wordcamp
   wordcamp: require('../Images/wordcamp-logo.png'),
+
+  //sponsors
+  //diamond
+  jetpack: require('../Images/sponsors/wordcamp/jetpack.png'),
+  wooCommerce: require('../Images/sponsors/wordcamp/woocommerce.png'),
+  allInOneSEO: require('../Images/sponsors/wordcamp/allinoneseo.png'),
+  yoast: require('../Images/sponsors/wordcamp/yoast.png'),
+  //
+  volta: "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Volta-x-communicatie-in-vorm.png",
+  conImpeto: "https://fluxit.be/react/wordcamp18/wp-json/wp/v2/sponsors/266",
 }
 
 export default images

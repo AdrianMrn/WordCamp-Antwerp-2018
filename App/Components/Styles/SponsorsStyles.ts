@@ -55,7 +55,7 @@ const SponsorsStyles: SponsorStyles = {
     flexWrap: 'wrap'
   },
   sponsor: {
-    margin: 15,
+    margin: 10,
     flexShrink: 0,
     alignItems: 'center'
   },

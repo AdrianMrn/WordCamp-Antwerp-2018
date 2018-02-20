@@ -18,11 +18,21 @@ const Sponsors = () => {
         ask around and strike up a chat!
       </Text>
 
-      <Text style={styles.sponsorTierTitle}>
+      {/* <Text style={styles.sponsorTierTitle}>
         Platinum Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://www.squarespace.com/'} image={Images.squarespace} />
+        <Sponsor url={'https://www.squarespace.com/'} image={"https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Volta-x-communicatie-in-vorm.png"} />
+      </View> */}
+
+      <Text style={styles.sponsorTierTitle}>
+        Diamond Sponsors
+      </Text>
+      <View style={styles.sponsorTier}>
+        <Sponsor url={'https://nativebase.io/'} image={Images.jetpack} />
+        <Sponsor url={'https://formidable.com/'} image={Images.wooCommerce} />
+        <Sponsor url={'https://moduscreate.com/'} image={Images.allInOneSEO} />
+        <Sponsor url={'https://www.bugsnag.com/'} image={Images.yoast} />
       </View>
 
       <Text style={styles.sponsorTierTitle}>
@@ -67,6 +77,7 @@ const Sponsors = () => {
       <View style={styles.sponsorTier}>
         <Sponsor url={'http://www.qlik.com/us/'} image={Images.qlikCoffee} />
       </View>
+
     </View>
   )
 }
