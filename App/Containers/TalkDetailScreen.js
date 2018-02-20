@@ -22,7 +22,7 @@ class TalkDetail extends React.Component {
     )
   }
 
-  componentDidMount () {
+  componentDidMount() {
     BackHandler.addEventListener('hardwareBackPress', this.goBack)
   }
 
@@ -39,22 +39,6 @@ class TalkDetail extends React.Component {
         <Text style={styles.description}>
           {speaker.bio}
         </Text>
-        <View style={styles.social}>
-          { speaker.twitter &&
-            <SocialMediaButton
-              network='twitter'
-              spacing='right'
-              onPress={() => this.props.onPressTwitter(speaker.twitter)}
-            />
-          }
-          { speaker.github &&
-            <SocialMediaButton
-              network='github'
-              spacing='right'
-              onPress={() => this.props.onPressGithub(speaker.github)}
-            />
-          }
-        </View>
       </View>
     )
   }
@@ -64,11 +48,13 @@ class TalkDetail extends React.Component {
   renderSpeakers = () => {
     const { speakerInfo } = this.props
 
-    return (speakerInfo.map((speaker, index) => this.renderSpeaker(speaker, index)))
+    if (speakerInfo) {
+      return (speakerInfo.map((speaker, index) => this.renderSpeaker(speaker, index)))
+    }
   }
 
-  render () {
-    const {title, eventStart, setReminder, removeReminder} = this.props
+  render() {
+    const { title, eventStart, setReminder, removeReminder } = this.props
     return (
       <PurpleGradient style={styles.linearGradient}>
         <ScrollView>
@@ -79,10 +65,11 @@ class TalkDetail extends React.Component {
             </TouchableOpacity>
             <View style={styles.cardShadow1} />
             <View style={styles.cardShadow2} />
-            <Image
+            { this.props.image != "" &&
+              <Image
               style={styles.avatar}
-              source={{uri: `https://infinite.red/images/chainreact2017/${this.props.image}.png`}}
-            />
+              source={{ uri: this.props.image }}
+            />}
             <View style={styles.card}>
               <Text style={styles.sectionHeading}>
                 TALK
@@ -93,9 +80,11 @@ class TalkDetail extends React.Component {
               <Text style={styles.description}>
                 {this.props.description}
               </Text>
-              <Text style={styles.sectionHeading}>
-                ABOUT
-              </Text>
+              {this.props.speakerInfo != "" &&
+                <Text style={styles.sectionHeading}>
+                  ABOUT
+                </Text>
+              }
               {this.renderSpeakers()}
             </View>
             <TalkInfo
@@ -107,6 +96,8 @@ class TalkDetail extends React.Component {
               onPressTwitter={this.props.onPressTwitter}
               isFinished={this.props.currentTime > this.props.eventStart}
               showWhenFinished={false}
+              location={this.props.location}
+              room={this.props.room}
             />
           </View>
         </ScrollView>

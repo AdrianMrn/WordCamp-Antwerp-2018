@@ -20,6 +20,8 @@ interface TalkProps {
   isCurrentDay: boolean
   isActive: boolean
   currentTime: Date
+  location: string
+  room: string
   onPress (): void
   talkSpecial (): void
   talkNotSpecial (): void
@@ -70,7 +72,9 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
       isFinished,
       isSpecial,
       setReminder,
-      removeReminder
+      removeReminder,
+      location,
+      room
     } = this.props
 
     const animatedStyle = {
@@ -98,9 +102,11 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
                 <Text style={styles.name}>{name}</Text>
                 <Text style={styles.title}>{title}</Text>
               </View>
+              { avatarURL != "" &&
               <FadeIn>
                 <Image style={styles.avatar} source={{uri: avatarURL}} />
               </FadeIn>
+              }
             </View>
             <TalkInfo
               start={start}
@@ -109,6 +115,8 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
               isFinished={isFinished || isActive}
               showWhenFinished={this.props.showWhenFinished}
               toggleRemindMe={SBHelper.toggleReminder(title, start, isSpecial, setReminder, removeReminder)}
+              room={room}
+              location={location}
             />
           </Animated.View>
         </TouchableWithoutFeedback>

@@ -3,6 +3,7 @@ var async = require('async');
 var moment = require('moment');
 var fs = require('fs');
 var striptags = require('striptags');
+const Entities = require('html-entities').AllHtmlEntities;
 
 var api = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/';
 
@@ -33,18 +34,21 @@ function getTalks() {
                 }
 
                 formattedData.push({
+                    "location": talk.acf.type == "Talk" ? talk.acf.location : "",
+                    "room": talk.acf.type == "Talk" && talk.acf.location != "ViaVia" ? talk.acf.room : "",
                     "type": talk.acf.type == "Talk" ? "talk" : "break",
                     "speaker": speaker ? speaker.title.rendered : "",
-                    "image": talk.acf.type == "Talk" ? "talk" : "break",
-                    "title": talk.title.rendered,
-                    "description": talk.acf.description,
+                    //"image": talk.acf.type == "Talk" ? "talk" : "break",
+                    "image": speaker ? speaker.acf.speaker_image : "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+                    "title": formatString(talk.title.rendered),
+                    "description": formatString(talk.acf.description),
                     "time": formatTime(talk.acf.start_datetime),
                     "endtime": talk.acf.end_datetime ? formatTime(talk.acf.end_datetime) : "",
                     "duration": "5",
                     "speakerInfo": speaker ? [
                         {
                             "name": speaker.title.rendered,
-                            "bio": speaker.acf.speaker_description,
+                            "bio": formatString(speaker.acf.speaker_description),
                             "twitter": "",
                             "github": "",
                             "company": speaker.acf.organisation_url,
@@ -77,6 +81,10 @@ function getTalks() {
 function formatTime(timestamp) {
     var parsed = moment.unix(timestamp).add(-1, 'hours');
     return (parsed.format("D/M/YYYY h:m A"));
+}
+
+function formatString(text) {
+    return striptags(Entities.decode(text));
 }
 
 getTalks();

@@ -187,7 +187,8 @@ class ScheduleScreen extends Component {
         <Talk
           type={item.type}
           name={item.speaker}
-          avatarURL={`https://infinite.red/images/chainreact2017/${item.image}.png`}
+          avatarURL = {item.image}
+          //avatarURL = "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c3074c9e1a3914c8f01f3fd0f441bbe1.jpg"
           title={item.title}
           start={eventStart}
           duration={eventDuration}
@@ -200,6 +201,8 @@ class ScheduleScreen extends Component {
           isSpecial={special}
           isFinished={isFinished}
           showWhenFinished
+          location={item.location}
+          room={item.room}
         />
       )
     } else {
@@ -210,7 +213,6 @@ class ScheduleScreen extends Component {
           start={eventStart}
           end={eventFinal}
           duration={eventDuration}
-          onPress={() => this.onEventPress(item)}
           currentTime={currentTime}
           isCurrentDay={isCurrentDay}
           isActive={isActive}
@@ -227,13 +229,13 @@ class ScheduleScreen extends Component {
           activeDay={activeDay}
           onPressIn={this.setActiveDay}
         />
-        {isCurrentDay && <View style={styles.timeline} />}
+        {/* {isCurrentDay && <View style={styles.timeline} />} */}
         <FlatList
           ref='scheduleList'
           data={data}
           extraData={this.props}
           renderItem={this.renderItem}
-          keyExtractor={(item, idx) => item.eventStart}
+          keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
           contentContainerStyle={styles.listContent}
           getItemLayout={this.getItemLayout}
           showsVerticalScrollIndicator={false}

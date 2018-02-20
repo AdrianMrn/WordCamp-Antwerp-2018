@@ -112,7 +112,7 @@ class BreakDetail extends React.Component {
             <View style={styles.cardShadow2} />
             <View style={styles.card} onLayout={this.onCardLayout}>
               {this.renderMainImage()}
-              <View style={styles.content}>
+              {/* <View style={styles.content}>
                 <Text style={styles.heading}>
                   {toTitle(this.props.type)} Options
                 </Text>
@@ -120,7 +120,7 @@ class BreakDetail extends React.Component {
                   {this.renderOptions(options)}
                 </View>
                 {this.renderVeganOptions(veganOptions)}
-              </View>
+              </View> */}
             </View>
           </View>
         </ScrollView>

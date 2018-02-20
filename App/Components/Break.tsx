@@ -6,6 +6,8 @@ import BackgroundVideo from './BackgroundVideo'
 import { format, getTime } from 'date-fns'
 import styles from './Styles/BreakStyle'
 
+/* import styles from './Styles/TalkStyle' */
+
 interface BreakProps {
   start: Date,
   end: Date,
@@ -15,7 +17,7 @@ interface BreakProps {
   title: string
   isCurrentDay: boolean
   isActive: boolean
-  onPress (): void
+  onPress(): void
 }
 
 interface BreakState {
@@ -23,7 +25,7 @@ interface BreakState {
 }
 
 export default class Break extends React.Component<BreakProps, BreakState> {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
@@ -39,7 +41,7 @@ export default class Break extends React.Component<BreakProps, BreakState> {
     })
   }
 
-  renderContent () {
+  renderContent() {
     const {
       type,
       title,
@@ -66,16 +68,16 @@ export default class Break extends React.Component<BreakProps, BreakState> {
     return (
       <View>
         <View style={containerStyles} onLayout={this.onLayout}>
-          <Image source={background} style={[styles.background, {width: imageWidth}]} />
+          <Image source={background} style={[styles.background, { width: imageWidth }]} />
           <BackgroundVideo source={video} style={styles.video} isActive={isActive} />
           <View style={styles.contentContainer}>
             <View style={styles.content}>
               <Text style={styles.heading}>
                 {cellTitle}
               </Text>
-              <Text style={styles.duration}>
+              {/* <Text style={styles.duration}>
                 {timeframe}
-              </Text>
+              </Text> */}
             </View>
             {this.renderSponsor()}
           </View>
@@ -84,7 +86,7 @@ export default class Break extends React.Component<BreakProps, BreakState> {
     )
   }
 
-  renderSponsor () {
+  renderSponsor() {
     const { type } = this.props
 
     if (type === 'coffee') {
@@ -97,7 +99,7 @@ export default class Break extends React.Component<BreakProps, BreakState> {
     }
   }
 
-  renderWrapper () {
+  renderWrapper() {
     if (this.props.onPress) {
       return (
         <TouchableWithoutFeedback onPress={this.props.onPress}>
@@ -109,7 +111,7 @@ export default class Break extends React.Component<BreakProps, BreakState> {
     }
   }
 
-  render () {
+  render() {
     const { currentTime, duration, start, isActive } = this.props
 
     return (

@@ -11,11 +11,13 @@ interface TalkInfoProps {
   remindMe: boolean
   isFinished: boolean
   showWhenFinished: boolean
+  location: string
+  room: string
   toggleRemindMe (): void
 }
 
 const TalkInfo = (props: TalkInfoProps) => {
-  const { start, duration, remindMe, toggleRemindMe, isFinished, showWhenFinished } = props
+  const { start, duration, remindMe, toggleRemindMe, isFinished, showWhenFinished, location, room } = props
   const formattedStart = format(start, 'h:mmA')
   const showRemindMe = !isFinished
   const showSocialMedia = isFinished && showWhenFinished
@@ -33,18 +35,23 @@ const TalkInfo = (props: TalkInfoProps) => {
         </View>
         <View style={styles.detail}>
           <Text style={styles.detailLabel}>
-            Duration
+            Venue
           </Text>
           <Text style={styles.detailText}>
-            {`${duration} Minutes`}
+            {`${location}`}
           </Text>
         </View>
-      </View>
-      {showRemindMe &&
-        <View style={styles.remindMe}>
-          <RemindMeButton onPress={toggleRemindMe} on={remindMe} />
+        { room != "" && 
+        <View style={styles.detail}>
+          <Text style={styles.detailLabel}>
+            Room
+          </Text>
+          <Text style={styles.detailText}>
+            {`${room}`}
+          </Text>
         </View>
-      }
+        }
+      </View>
     </View>
   )
 }
