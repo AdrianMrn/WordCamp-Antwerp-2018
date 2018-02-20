@@ -1,5 +1,6 @@
-#  WordCamp Conference App (based on Chain React Conference app: https://github.com/infinitered/ChainReactApp)
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+#  WordCamp Conference App
+* Based on [Chain React Conference app](https://github.com/infinitered/ChainReactApp)
+* React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
 ## :arrow_up: How to Setup
 
