@@ -38,5 +38,26 @@ export default StyleSheet.create({
   },
   infiniteredButton: {
     marginTop: 25
+  },
+  schedule: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  title: {
+    fontFamily: 'Montserrat-SemiBold',
+    color: Colors.snow,
+    textAlign: 'center',
+    fontSize: 20,
+    letterSpacing: 0.5,
+  },
+  scheduleText: {
+    color: Colors.snow,
+    textAlign: 'center',
+    fontSize: 15,
+    letterSpacing: 0.5,
+  },
+  scheduleDay: {
+    width: '45%',
   }
 })

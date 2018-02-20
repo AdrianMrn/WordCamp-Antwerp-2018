@@ -80,11 +80,11 @@ class TalkDetail extends React.Component {
               <Text style={styles.description}>
                 {this.props.description}
               </Text>
-              {this.props.speakerInfo != "" &&
+              {/* {this.props.speakerInfo != "" &&
                 <Text style={styles.sectionHeading}>
                   ABOUT
                 </Text>
-              }
+              } */}
               {this.renderSpeakers()}
             </View>
             <TalkInfo

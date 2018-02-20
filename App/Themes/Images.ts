@@ -115,7 +115,9 @@ const images = {
   uberButton: require('../Images/uber-button.png'),
   usageExamples: require('../Images/Icons/icon-usage-examples.png'),
   voodoo: require('../Images/img-voodoo.jpg'),
-  waterfront: require('../Images/img-waterfront.jpg')
+  waterfront: require('../Images/img-waterfront.jpg'),
+
+  wordcamp: require('../Images/wordcamp-logo.png'),
 }
 
 export default images

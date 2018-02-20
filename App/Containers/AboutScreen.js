@@ -11,6 +11,7 @@ import PurpleGradient from '../Components/PurpleGradient'
 import InfiniteRed from '../Components/InfiniteRed'
 import SeeProcess from '../Components/SeeProcess'
 import Twitter from '../Components/Twitter'
+import WordCampInfo from '../Components/WordCampInfo'
 import Sponsors from '../Components/Sponsors'
 import LiveHelp from '../Components/LiveHelp'
 import ConferenceAnnouncements from '../Components/ConferenceAnnouncements'
@@ -30,7 +31,7 @@ class AboutScreen extends React.Component {
     super(props)
 
     this.state = {
-      activeTab: 'liveHelp'
+      activeTab: 'sponsors'
     }
   }
 
@@ -41,22 +42,22 @@ class AboutScreen extends React.Component {
 
   renderTabs () {
     const { activeTab } = this.state
-    const liveHelpStyles = [
+    /* const liveHelpStyles = [
       styles.tab, activeTab === 'liveHelp' && styles.activeTab
-    ]
+    ] */
     const sponsorStyles = [
       styles.tab, activeTab === 'sponsors' && styles.activeTab
     ]
-    const liveHelpTextStyles = [
+/*     const liveHelpTextStyles = [
       styles.tabText, activeTab === 'liveHelp' && styles.activeTabText
-    ]
+    ] */
     const sponsorTextStyles = [
       styles.tabText, activeTab === 'sponsors' && styles.activeTabText
     ]
 
     return (
       <View style={styles.tabsContainer}>
-        <View style={styles.tabs}>
+        {/* <View style={styles.tabs}>
           <TouchableOpacity
             style={liveHelpStyles}
             onPress={() => this.setActiveTab('liveHelp')}>
@@ -71,7 +72,7 @@ class AboutScreen extends React.Component {
               Sponsors
             </Text>
           </TouchableOpacity>
-        </View>
+        </View> */}
         {this.renderTabsContent()}
       </View>
     )
@@ -88,9 +89,10 @@ class AboutScreen extends React.Component {
         <ScrollView>
           <View style={styles.container}>
             <InfiniteRed />
-            <SeeProcess />
-            <ConferenceAnnouncements currentDate={this.props.currentTime} />
+            {/* <SeeProcess /> */}
+            {/* <ConferenceAnnouncements currentDate={this.props.currentTime} /> */}
             <Twitter />
+            {/* <WordCampInfo /> */}
             {this.renderTabs()}
           </View>
         </ScrollView>
