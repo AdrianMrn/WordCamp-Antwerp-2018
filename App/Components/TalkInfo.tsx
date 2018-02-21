@@ -17,10 +17,8 @@ interface TalkInfoProps {
 }
 
 const TalkInfo = (props: TalkInfoProps) => {
-  const { start, duration, remindMe, toggleRemindMe, isFinished, showWhenFinished, location, room } = props
-  const formattedStart = format(start, 'h:mmA')
-  const showRemindMe = !isFinished
-  const showSocialMedia = isFinished && showWhenFinished
+  const { start, location, room } = props
+  const formattedStart = format(start, 'HH:mm')
 
   return (
     <View style={styles.container}>

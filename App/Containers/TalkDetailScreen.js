@@ -1,6 +1,6 @@
 import React from 'react'
 import { BackHandler, ScrollView, Text, View, Image, TouchableOpacity } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
+import LinearGradient from 'react-native-linear-gradient'
 import TalkInfo from '../Components/TalkInfo'
 import SocialMediaButton from '../Components/SocialMediaButton'
 import { NavigationActions } from 'react-navigation'
@@ -8,7 +8,7 @@ import ScheduleActions from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
-import { Images } from '../Themes'
+import { Images, Colors } from '../Themes'
 import styles from './Styles/TalkDetailScreenStyle'
 import NotificationActions from '../Redux/NotificationRedux'
 import SBHelper from '../Lib/SpecialButtonHelper'
@@ -56,15 +56,16 @@ class TalkDetail extends React.Component {
   render() {
     const { title, eventStart, setReminder, removeReminder } = this.props
     return (
-      <PurpleGradient style={styles.linearGradient}>
+      <LinearGradient
+        colors={ Colors.wpBlueGradient }>
         <ScrollView>
           <View style={styles.container}>
             <TouchableOpacity style={styles.backButton} onPress={this.goBack}>
               <Image style={styles.backButtonIcon} source={Images.arrowIcon} />
               <Text style={styles.backButtonText}>Back</Text>
             </TouchableOpacity>
-            <View style={styles.cardShadow1} />
-            <View style={styles.cardShadow2} />
+            {/* <View style={styles.cardShadow1} />
+            <View style={styles.cardShadow2} /> */}
             { this.props.image != "" &&
               <Image
               style={styles.avatar}
@@ -101,7 +102,7 @@ class TalkDetail extends React.Component {
             />
           </View>
         </ScrollView>
-      </PurpleGradient>
+      </LinearGradient>
     )
   }
 }

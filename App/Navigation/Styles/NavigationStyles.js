@@ -9,16 +9,16 @@ export default StyleSheet.create({
     paddingHorizontal: 28,
     borderTopWidth: 1,
     borderTopColor: 'rgba(255,255,255,0.3)',
-    backgroundColor: Colors.darkPurple
+    backgroundColor: '#F6F7F9',
   },
   tabBarLabel: {
     fontFamily: 'Montserrat-Medium',
     fontSize: 9,
     letterSpacing: 0,
-    color: Colors.snow
+    color: Colors.charcoal
   },
   card: {
     opacity: 1,
-    backgroundColor: Colors.darkPurple
+    backgroundColor: '#369ED4'
   }
 })

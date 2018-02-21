@@ -29,53 +29,48 @@ const Sponsors = () => {
         Diamond Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://nativebase.io/'} image={Images.jetpack} />
-        <Sponsor url={'https://formidable.com/'} image={Images.wooCommerce} />
-        <Sponsor url={'https://moduscreate.com/'} image={Images.allInOneSEO} />
-        <Sponsor url={'https://www.bugsnag.com/'} image={Images.yoast} />
+        <Sponsor url={'https://jetpack.com/'} image={Images.jetpack} />
+        <Sponsor url={'https://woocommerce.com/'} image={Images.wooCommerce} />
+        <Sponsor url={'https://semperplugins.com'} image={Images.allInOneSEO} />
+        <Sponsor url={'https://yoast.com/'} image={Images.yoast} />
       </View>
 
       <Text style={styles.sponsorTierTitle}>
         Gold Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://nativebase.io/'} image={Images.nativeBase} />
-        <Sponsor url={'https://formidable.com/'} image={Images.formidable} />
-        <Sponsor url={'https://moduscreate.com/'} image={Images.modus} />
-        <Sponsor url={'https://www.bugsnag.com/'} image={Images.bugsnag} />
+        <Sponsor url={'https://www.combell.com'} image={Images.combell} />
+        <Sponsor url={'https://www.mollie.com'} image={Images.mollie} />
+        <Sponsor url={'https://be.godaddy.com'} image={Images.godaddy} />
       </View>
 
       <Text style={styles.sponsorTierTitle}>
         Silver Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://aws.amazon.com/'} image={Images.amazon} isLow />
-        <Sponsor url={'http://reactnative.training/'} image={Images.training} isLow />
-        <Sponsor url={'https://rangle.io/'} image={Images.rangle} isLow />
-        <Sponsor url={'https://gudog.co.uk/'} image={Images.gudog} isLow />
-        <Sponsor url={'http://www.oregon4biz.com'} image={Images.businessOregon} isLow />
-        <Sponsor url={'http://www.healthsparq.com/'} image={Images.healthsparq} isLow />
+        <Sponsor url={'https://appsaloon.be/'} image={Images.appsaloon}  />
+        <Sponsor url={'https://www.savvii.eu/'} image={Images.savvii}  />
+        <Sponsor url={'https://dashboard.weglot.com/register-wordpress'} image={Images.weglot}  />
+        <Sponsor url={'https://www.jackmail.com/'} image={Images.jackmail}  />
+        <Sponsor url={'https://level-level.com'} image={Images.levellevel}  />
+        <Sponsor url={'https://www.dutchwebdesign.nl/'} image={Images.dutchwebdesign}  />
+        <Sponsor url={'https://www.bluehost.com/'} image={Images.bluehost}  />
       </View>
 
       <Text style={styles.sponsorTierTitle}>
         Bronze Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://echobind.com/'} image={Images.echobind} isLow />
-        <Sponsor url={'https://www.capitalone.com/'} image={Images.capitalOne} isLow />
-        <Sponsor url={'https://www.salesforce.com/'} image={Images.salesforce} isLow />
-        <Sponsor url={'https://www.paypal.com/us/home'} image={Images.paypal} isLow />
-        <Sponsor url={'https://www.instrument.com/'} image={Images.instrument} isLow />
-        <Sponsor url={'http://www.qlik.com/us/'} image={Images.qlik} />
-        <Sponsor url={'https://callstack.io/'} image={Images.callstack} isLow />
-        <Sponsor url={'https://www.mlssoccer.com/'} image={Images.mls} isLow />
-      </View>
-
-      <Text style={styles.sponsorTierTitle}>
-        Additional Sponsors
-      </Text>
-      <View style={styles.sponsorTier}>
-        <Sponsor url={'http://www.qlik.com/us/'} image={Images.qlikCoffee} />
+        <Sponsor url={'https://webbird.be/'} image="" name="WebBird" isLow />
+        <Sponsor url={'https://www.dailybits.be/'} image="" name="dailybits" isLow />
+        <Sponsor url={'https://jerrix.be/'} image="" name="JerrixIT" isLow />
+        <Sponsor url={'https://quadus.be/'} image="" name="Quadus" isLow />
+        <Sponsor url={'https://www.nilmedia.com'} image="" name="NILMEDIA" isLow />
+        <Sponsor url={'http://www.weareknights.be/'} image="" name="We Are Knights" isLow />
+        <Sponsor url={'https://www.davel.be/'} image="" name="Davel" isLow />
+        <Sponsor url={'https://conimpeto.be/'} image="" name="Con Impeto" isLow />
+        <Sponsor url={'https://volta.be/'} image="" name="Volta" isLow />
+        <Sponsor url={'https://www.aranere.be/'} image="" name="ARANERE" isLow />
       </View>
 
     </View>

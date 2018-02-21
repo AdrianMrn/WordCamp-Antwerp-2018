@@ -7,7 +7,7 @@ import {
   Text,
   LayoutAnimation
 } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
+import LinearGradient from 'react-native-linear-gradient'
 import InfiniteRed from '../Components/InfiniteRed'
 import SeeProcess from '../Components/SeeProcess'
 import Twitter from '../Components/Twitter'
@@ -15,7 +15,7 @@ import WordCampInfo from '../Components/WordCampInfo'
 import Sponsors from '../Components/Sponsors'
 import LiveHelp from '../Components/LiveHelp'
 import ConferenceAnnouncements from '../Components/ConferenceAnnouncements'
-import { Images } from '../Themes'
+import { Images, Colors } from '../Themes'
 import { connect } from 'react-redux'
 import styles from './Styles/AboutScreenStyle'
 
@@ -27,7 +27,7 @@ class AboutScreen extends React.Component {
     )
   }
 
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
@@ -35,12 +35,12 @@ class AboutScreen extends React.Component {
     }
   }
 
-  setActiveTab (tab) {
-    LayoutAnimation.configureNext({...LayoutAnimation.Presets.linear, duration: 250})
-    this.setState({activeTab: tab})
+  setActiveTab(tab) {
+    LayoutAnimation.configureNext({ ...LayoutAnimation.Presets.linear, duration: 250 })
+    this.setState({ activeTab: tab })
   }
 
-  renderTabs () {
+  renderTabs() {
     const { activeTab } = this.state
     /* const liveHelpStyles = [
       styles.tab, activeTab === 'liveHelp' && styles.activeTab
@@ -48,9 +48,9 @@ class AboutScreen extends React.Component {
     const sponsorStyles = [
       styles.tab, activeTab === 'sponsors' && styles.activeTab
     ]
-/*     const liveHelpTextStyles = [
-      styles.tabText, activeTab === 'liveHelp' && styles.activeTabText
-    ] */
+    /*     const liveHelpTextStyles = [
+          styles.tabText, activeTab === 'liveHelp' && styles.activeTabText
+        ] */
     const sponsorTextStyles = [
       styles.tabText, activeTab === 'sponsors' && styles.activeTabText
     ]
@@ -78,25 +78,29 @@ class AboutScreen extends React.Component {
     )
   }
 
-  renderTabsContent () {
+  renderTabsContent() {
     const { activeTab } = this.state
     return activeTab === 'liveHelp' ? <LiveHelp /> : <Sponsors />
   }
 
-  render () {
+  render() {
+
     return (
-      <PurpleGradient style={[styles.linearGradient, {flex: 1}]}>
-        <ScrollView>
-          <View style={styles.container}>
-            <InfiniteRed />
-            {/* <SeeProcess /> */}
-            {/* <ConferenceAnnouncements currentDate={this.props.currentTime} /> */}
-            <Twitter />
-            {/* <WordCampInfo /> */}
-            {this.renderTabs()}
-          </View>
-        </ScrollView>
-      </PurpleGradient>
+      <LinearGradient
+        colors={ Colors.wpBlueGradient }>
+
+          <ScrollView>
+            <View style={styles.container}>
+              <InfiniteRed />
+              {/* <SeeProcess /> */}
+              {/* <ConferenceAnnouncements currentDate={this.props.currentTime} /> */}
+              <Twitter />
+              {/* <WordCampInfo /> */}
+              {this.renderTabs()}
+            </View>
+          </ScrollView>
+
+      </LinearGradient>
     )
   }
 }

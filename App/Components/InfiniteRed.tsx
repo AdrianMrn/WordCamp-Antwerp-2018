@@ -9,12 +9,7 @@ const InfiniteRed = (props) => {
   const gradient = ['#351F41', '#8E2044']
 
   return (
-    <LinearGradient
-      colors={gradient}
-      start={{ x: 0, y: 0 }}
-      end={{ x: 1, y: 1 }}
-      style={styles.infiniteRed}>
-      {/* <Text style={styles.heading}>Brought to you by:</Text> */}
+    <View style={styles.infiniteRed}>
       <Image style={styles.infiniteRedIcon} source={Images.wordcamp} />
       <View style={styles.line} />
       <Text style={styles.subheading}>
@@ -41,7 +36,7 @@ const InfiniteRed = (props) => {
           <TouchableOpacity onPress={() => Linking.openURL("https://goo.gl/maps/rTz2NGQefb82")}>
             <Text style={styles.title}>Friday</Text>
             <Text style={styles.scheduleText}>
-              Contributorday @ ViaVia {'\n'}
+              Contributorday @ ViaVia
             </Text>
           </TouchableOpacity>
         </View>
@@ -50,14 +45,14 @@ const InfiniteRed = (props) => {
           <TouchableOpacity onPress={() => Linking.openURL("https://goo.gl/maps/hZmJptnz3un")}>
             <Text style={styles.title}>Saturday</Text>
             <Text style={styles.scheduleText}>
-              Conference @ KdG {'\n'}
+              Conference @ KdG
             </Text>
           </TouchableOpacity>
         </View>
 
       </View>
 
-    </LinearGradient>
+    </View>
   )
 }
 

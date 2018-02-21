@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { AppState, View, Image, FlatList } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
+import LinearGradient from 'react-native-linear-gradient'
 import DayToggle from '../Components/DayToggle'
 import Talk from '../Components/Talk'
 import Break from '../Components/Break'
@@ -24,7 +24,7 @@ import {
 } from 'ramda'
 import NotificationActions from '../Redux/NotificationRedux'
 import Config from '../Config/AppConfig'
-import { Images } from '../Themes'
+import { Images, Colors } from '../Themes'
 import styles from './Styles/ScheduleScreenStyle'
 
 const isActiveCurrentDay = (currentTime, activeDay) =>
@@ -188,7 +188,6 @@ class ScheduleScreen extends Component {
           type={item.type}
           name={item.speaker}
           avatarURL = {item.image}
-          //avatarURL = "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c3074c9e1a3914c8f01f3fd0f441bbe1.jpg"
           title={item.title}
           start={eventStart}
           duration={eventDuration}
@@ -224,7 +223,8 @@ class ScheduleScreen extends Component {
   render () {
     const { isCurrentDay, activeDay, data } = this.state
     return (
-      <PurpleGradient style={styles.linearGradient}>
+      <LinearGradient
+        colors={ Colors.wpBlueGradient }>
         <DayToggle
           activeDay={activeDay}
           onPressIn={this.setActiveDay}
@@ -240,7 +240,7 @@ class ScheduleScreen extends Component {
           getItemLayout={this.getItemLayout}
           showsVerticalScrollIndicator={false}
         />
-      </PurpleGradient>
+      </LinearGradient>
     )
   }
 }

@@ -17,7 +17,6 @@ interface BreakStyleType {
 
 const BreakStyle: BreakStyleType = {
   container: {
-    marginVertical: Metrics.baseMargin,
     marginHorizontal: Metrics.doubleBaseMargin,
     backgroundColor: Colors.transparent,
     height: Metrics.breakHeight
@@ -75,9 +74,10 @@ const BreakStyle: BreakStyleType = {
   },
   content: {
     justifyContent: 'center',
-    marginLeft: 15
+    marginLeft: 15,
   },
   heading: {
+    textAlign: 'center',
     fontFamily: Fonts.type.semiBold,
     fontSize: 18,
     letterSpacing: -0.2,

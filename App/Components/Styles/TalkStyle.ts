@@ -5,7 +5,8 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     marginVertical: Metrics.baseMargin,
-    marginHorizontal: Metrics.doubleBaseMargin
+    marginHorizontal: Metrics.doubleBaseMargin,
+    elevation: 5,
   },
   currentDay: {
     marginLeft: 16,

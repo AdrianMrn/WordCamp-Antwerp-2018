@@ -117,9 +117,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
             />
           </Animated.View>
         </TouchableWithoutFeedback>
-        {isActive &&
-          <TimeIndicator start={start} duration={duration} time={currentTime} />
-        }
       </View>
     )
   }

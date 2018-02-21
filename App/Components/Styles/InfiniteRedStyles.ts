@@ -7,7 +7,8 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: 40,
-    paddingBottom: 40
+    paddingBottom: 40,
+    backgroundColor: Colors.transparent,
   },
   heading: {
     fontFamily: Fonts.type.description,

@@ -44,7 +44,7 @@ function getTalks() {
                     "description": formatString(talk.acf.description),
                     "time": formatTime(talk.acf.start_datetime),
                     "endtime": talk.acf.end_datetime ? formatTime(talk.acf.end_datetime) : "",
-                    "duration": "5",
+                    "duration": talk.acf.end_datetime ? (talk.acf.end_datetime - talk.acf.start_datetime)/60 : "5",
                     "speakerInfo": speaker ? [
                         {
                             "name": speaker.title.rendered,

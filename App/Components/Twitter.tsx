@@ -14,10 +14,10 @@ const tweetWithHashtag = () => {
 const Twitter = (props) => {
   return (
     <View style={styles.twitter}>
-      <Image style={styles.blowhorn} source={Images.blowhorn} />
-      <TouchableOpacity onPress={() => tweetWithHashtag()}>
+      <TouchableOpacity style={styles.twitterHeader} onPress={() => tweetWithHashtag()}>
+        <Image source={Images.chatheart} />
         <Text style={styles.heading}>
-          #WCANT
+          &nbsp;&nbsp;#WCANT
         </Text>
       </TouchableOpacity>
       <Text style={styles.description}>

@@ -8,7 +8,8 @@ interface SponsorStyles {
   sponsorTierTitle: TextStyle
   sponsorTier: ViewStyle
   sponsor: ViewStyle
-  lowTier: ImageStyle
+  normalTier: ImageStyle
+  lowTier: TextStyle
 }
 
 const SponsorsStyles: SponsorStyles = {
@@ -18,11 +19,10 @@ const SponsorsStyles: SponsorStyles = {
     justifyContent: 'center',
     marginHorizontal: 20,
     paddingBottom: 50,
-    paddingTop: 30,
+    paddingTop: 10,
     backgroundColor: Colors.transparent
   },
   heading: {
-    marginTop: 14,
     fontFamily: Fonts.type.bold,
     fontSize: 31,
     letterSpacing: 0.2,
@@ -33,13 +33,13 @@ const SponsorsStyles: SponsorStyles = {
     textAlign: 'center',
     fontFamily: 'Montserrat-Medium',
     fontSize: 15,
-    color: '#FDE5FF',
+    color: Colors.snow,
     letterSpacing: 0.47,
     lineHeight: 23
   },
   sponsorTierTitle: {
-    marginTop: 60,
-    marginBottom: Metrics.baseMargin,
+    marginTop: 40,
+    marginBottom: Metrics.baseMargin + 20,
     fontFamily: Fonts.type.bold,
     fontSize: 15,
     color: Colors.snow,
@@ -52,15 +52,25 @@ const SponsorsStyles: SponsorStyles = {
     alignItems: 'center',
     justifyContent: 'center',
     width: Metrics.screenWidth,
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
   },
   sponsor: {
+    height: 50,
     margin: 10,
+    marginVertical: 20,
     flexShrink: 0,
-    alignItems: 'center'
+    alignItems: 'center',
+  },
+  normalTier: {
+    flex: 1,
+    width: (Metrics.screenWidth/2)-50,
+    height: 100,
+    resizeMode: 'contain'
   },
   lowTier: {
-    marginHorizontal: 25
+    color: Colors.snow,
+    flex: 1,
+    marginHorizontal: 5
   }
 }
 

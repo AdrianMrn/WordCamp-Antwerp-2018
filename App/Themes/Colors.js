@@ -21,6 +21,7 @@ const colors = {
   eggplant: '#251a34',
   border: '#483F53',
   banner: '#5F3E63',
+  wpBlueGradient: ['#1D8CE0', '#369ED4'],
 
   snow: 'white',
   red: '#E64044',

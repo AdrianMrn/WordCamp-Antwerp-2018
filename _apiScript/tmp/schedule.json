@@ -10,7 +10,7 @@
             "description": "Wat is een contributor day?\nEen Contributor Day is een (halve) dag waarop de community elkaar leert om bij te dragen aan WordPress. Zoals je weet is WordPress Open Source software, en dat wordt volledig ondersteund door vrijwilligers over de ganse de wereld.\nVia een Contributor Day krijg je een introductie over hoe jij kan bijdragen aan The WordPress Project.\nContributor Day\n\n",
             "time": "2/3/2018 1:0 PM",
             "endtime": "2/3/2018 6:0 PM",
-            "duration": "5",
+            "duration": 300,
             "speakerInfo": [
                 {
                     "name": "WordCamp",
@@ -32,7 +32,7 @@
             "description": "",
             "time": "3/3/2018 9:0 PM",
             "endtime": "4/3/2018 1:0 AM",
-            "duration": "5",
+            "duration": 240,
             "speakerInfo": ""
         },
         {
@@ -45,7 +45,7 @@
             "description": "",
             "time": "3/3/2018 5:30 PM",
             "endtime": "3/3/2018 7:30 PM",
-            "duration": "5",
+            "duration": 120,
             "speakerInfo": ""
         },
         {
@@ -58,7 +58,7 @@
             "description": "",
             "time": "3/3/2018 5:0 PM",
             "endtime": "3/3/2018 5:30 PM",
-            "duration": "5",
+            "duration": 30,
             "speakerInfo": [
                 {
                     "name": "WordCamp",
@@ -124,7 +124,7 @@
             "description": "",
             "time": "3/3/2018 3:50 PM",
             "endtime": "3/3/2018 4:10 PM",
-            "duration": "5",
+            "duration": 20,
             "speakerInfo": ""
         },
         {
@@ -159,7 +159,7 @@
             "description": "There are lots of tools out there to manage your site’s data from within wp-admin. Maybe you spend a lot of time in Excel or with csv’s to prepare data for import, or you write complicated php code to do one-off data manipulation tasks. Sequel Pro and SQLite make a lot of this work easier and simpler, and leverage the power of SQL.\n",
             "time": "3/3/2018 2:30 PM",
             "endtime": "3/3/2018 2:40 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Toon Van De Putte",
@@ -181,7 +181,7 @@
             "description": "The goal is to enlighten the viewers about the workcycle of a cronjob and the different options in WordPress.\n",
             "time": "3/3/2018 2:20 PM",
             "endtime": "3/3/2018 2:30 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Aytac Kokus",
@@ -203,7 +203,7 @@
             "description": "How to make your life easier working with WordPress? Learn to use browser dev-tools to get insights you didn’t even know existed and create better websites in less time while you’re at it.\n",
             "time": "3/3/2018 2:10 PM",
             "endtime": "3/3/2018 2:20 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Maik Gruppen",
@@ -225,7 +225,7 @@
             "description": "Introductie voor beginners met enkele concrete praktijkvoorbeelden die verduidelijken hoe het gebruik van de commandolijn het dagelijks leven van iedere WordPress gebruiker makkelijker kan maken zodat er meer tijd overblijft voor de leuke dingen. Het leven is nu eenmaal meer dan website onderhoud alleen. Als beginnende WordPress gebruikers na de voordracht al niet onmiddellijk naar huis snellen om wp-cli uit te proberen dan hoop ik tenminste dat ik hun mogelijke angst voor de commandolijn een beetje kleiner heb kunnen maken 😉\n",
             "time": "3/3/2018 2:0 PM",
             "endtime": "3/3/2018 2:10 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Aart Geys",
@@ -269,7 +269,7 @@
             "description": "Pitfalls of starting a webshop in terms or organization, not tech focussed.\n",
             "time": "3/3/2018 2:30 PM",
             "endtime": "3/3/2018 2:40 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Tom Hermans",
@@ -291,7 +291,7 @@
             "description": "So you have a cute website on which you have worked a couple of years on and at one point – your site gets hacked! What do you do? No worries I have you covered! I am here to answer your questions why would someone hack your website? What to do if you are indeed hacked? And of course – the spring clean !\n",
             "time": "3/3/2018 2:20 PM",
             "endtime": "3/3/2018 2:30 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Diana Edreva",
@@ -313,7 +313,7 @@
             "description": "The Customizer is a great tool to live preview changes to a WordPress site. And it is becoming even more: what about a staging environment or a real WYSIWYG experience for editing content?\nIt is time to benefit from what the Customizer has to offer. In this presentation I will try to give some examples of how you as a web developer as well as your client or user can take advantage from well-known and less well-known features of the Customizer. You can offer your users/clients controlled flexibility and ease of use when customizing their site and at the same time benefit from the available features with regard to long-term support and client satisfaction.\n",
             "time": "3/3/2018 2:10 PM",
             "endtime": "3/3/2018 2:20 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Csaba Varszegi",
@@ -335,7 +335,7 @@
             "description": "De bedoeling van mijn talk is onder de toeschouwers brengen dat WordPress verder gaat dan alleen vrije tijd en professionele websites. In vele scholen wordt het platform ook gebruikt voor eindwerken, projecten etc. op scholen.\n",
             "time": "3/3/2018 2:0 PM",
             "endtime": "3/3/2018 2:10 PM",
-            "duration": "5",
+            "duration": 10,
             "speakerInfo": [
                 {
                     "name": "Jens De Beule",
@@ -357,7 +357,7 @@
             "description": "",
             "time": "3/3/2018 12:50 PM",
             "endtime": "3/3/2018 2:0 PM",
-            "duration": "5",
+            "duration": 70,
             "speakerInfo": ""
         },
         {
@@ -458,7 +458,7 @@
             "description": "",
             "time": "3/3/2018 10:40 AM",
             "endtime": "3/3/2018 11:0 AM",
-            "duration": "5",
+            "duration": 20,
             "speakerInfo": ""
         },
         {
@@ -492,8 +492,8 @@
             "title": "Doors Open & Registration",
             "description": "",
             "time": "3/3/2018 9:0 AM",
-            "endtime": "",
-            "duration": "5",
+            "endtime": "3/3/2018 9:30 AM",
+            "duration": 30,
             "speakerInfo": ""
         },
         {
