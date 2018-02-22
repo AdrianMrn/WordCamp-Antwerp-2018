@@ -3,5 +3,5 @@ import ScheduleActions from '../Redux/ScheduleRedux'
 
 export function* getScheduleUpdates(api, action) {
   let response = yield call(api.getTalks)
-  if (response.ok) yield put(ScheduleActions.updateSchedule(response.data.schedule))
+  if (response.ok) yield put(ScheduleActions.updateSchedule(response.data))
 }

@@ -5,6 +5,7 @@ import ScheduleResponseHandler from '../Transforms/ScheduleResponseHandler'
 
 // our "constructor"
 const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') => {
+/* const create = (baseURL = 'https://swapi.co/api/') => { */
   // ------
   // STEP 1
   // ------
@@ -36,10 +37,13 @@ const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') =
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getTalks = () => api.get('talks?per_page=100')/* .then((response) => ScheduleResponseHandler.transform(response)) */
+  const getTalks = () => api.get('talks?per_page=100').then((response) => ScheduleResponseHandler.transform(response))
+  const getSpeakers = () => api.get('talks?per_page=100').then((response) => ScheduleResponseHandler.transform(response))
+  /* const getSpeakers = () => api.get('talks?per_page=100')
+  const getTalks = () => api.get('talks?per_page=100') */
 
-  const getSpeakers = () => api.get('speakers?per_page=100')
-  const getSponsors = () => api.get('sponsors?per_page=100')
+  /* const getSpeakers = () => api.get('speakers?per_page=100')
+  const getSponsors = () => api.get('sponsors?per_page=100') */
   //const getNearby = () => api.get('nearby.json')
 
   // ------
@@ -58,7 +62,7 @@ const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') =
     // a list of the API functions from step 2
     getTalks,
     getSpeakers,
-    getSponsors,
+    /* getSponsors, */
     //getNearby
   }
 }
