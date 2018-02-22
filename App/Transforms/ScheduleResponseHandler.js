@@ -1,15 +1,18 @@
-const transform = response => {
+import moment from 'moment';
 
-    const data = JSON.parse(response.data);
-    const formattedData = data.map((talk) => {
-        if (talk.acf.speaker) {
-            var speaker = talk.acf.speaker[0].acf;
-            speaker.name = talk.acf.speaker.post_title
-        }
+const transform = response => {
+    const formattedData = response.data.map((talk) => {
 
         function formatTime(timestamp) {
-            var parsed = moment.unix(timestamp).add(-1, 'hours');
+            var parsed = moment.unix(timestamp);
             return (parsed.format("D/M/YYYY h:m A"));
+        }
+
+        /* console.error(talk.acf); */
+        let speaker = ""
+        if (talk.acf.speaker) {
+            speaker = talk.acf.speaker[0].acf;
+            speaker.name = talk.acf.speaker[0].post_title
         }
 
         return ({
@@ -18,7 +21,7 @@ const transform = response => {
             "type": talk.acf.type == "Talk" ? "talk" : "break",
             "speaker": speaker ? speaker.name : "",
             "image": speaker ? speaker.speaker_image : "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
-            "title": talk.name, //formatString()
+            "title": talk.title.rendered, //formatString()
             "description": talk.acf.description, //formatString()
             "time": formatTime(talk.acf.start_datetime),
             "endtime": talk.acf.end_datetime ? formatTime(talk.acf.end_datetime) : "",
@@ -35,8 +38,6 @@ const transform = response => {
             ] : ""
         });
     });
-
-    console.error(formattedData);
 
     return ({
         ok: true,

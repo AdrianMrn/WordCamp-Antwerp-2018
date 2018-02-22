@@ -102,7 +102,7 @@ function formatTalks() {
         const kek = talks.map((talk) => {
             if (talk.acf.speaker) {
                 var speaker = talk.acf.speaker[0].acf;
-                speaker.name = talk.acf.speaker.post_title
+                speaker.name = talk.acf.speaker[0].post_title
             }
 
             function formatTime(timestamp) {
@@ -116,7 +116,7 @@ function formatTalks() {
                 "type": talk.acf.type == "Talk" ? "talk" : "break",
                 "speaker": speaker ? speaker.name : "",
                 "image": speaker ? speaker.speaker_image : "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
-                "title": talk.name, //formatString()
+                "title": talk.title.rendered, //formatString()
                 "description": talk.acf.description, //formatString()
                 "time": formatTime(talk.acf.start_datetime),
                 "endtime": talk.acf.end_datetime ? formatTime(talk.acf.end_datetime) : "",
@@ -133,8 +133,6 @@ function formatTalks() {
                 ] : ""
             });
         });
-
-        console.log(kek);
 
     });
 }
