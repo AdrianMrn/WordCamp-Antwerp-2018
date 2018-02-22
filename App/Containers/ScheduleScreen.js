@@ -70,6 +70,7 @@ class ScheduleScreen extends Component {
 
       return merge(e, { eventStart, eventEnd, eventDuration, eventFinal })
     }
+
     const sorted = [...schedule].map(mergeTimes).sort((a, b) => {
       return compareAsc(a.eventStart, b.eventStart)
     })
@@ -103,16 +104,16 @@ class ScheduleScreen extends Component {
 
   _handleAppStateChange = (nextAppState) => {
     const { appState } = this.state
-    /* if (appState.match(/inactive|background/) && nextAppState === 'active') {
+    if (appState.match(/inactive|background/) && nextAppState === 'active') {
       this.props.getScheduleUpdates()
-    } */
+    }
     this.setState({appState: nextAppState})
   }
 
   componentWillReceiveProps (newProps) {
     const { activeDay, eventsByDay } = this.state
     const { specialTalks, currentTime, schedule } = newProps
-
+  
     // Update currentTime before updating data
     if (currentTime) {
       this.setState({ currentTime }, () => {

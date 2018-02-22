@@ -6,7 +6,7 @@ import sagaPlugin from 'reactotron-redux-saga'
 
   // https://github.com/infinitered/reactotron for more options!
 Reactotron
-  .configure({ name: 'Chain React App' })
+  .configure({ name: 'WCANT' })
   .useReactNative()
   .use(reduxPlugin({ onRestore: Immutable }))
   // register the redux-saga plugin so we can use the monitor in CreateStore.js

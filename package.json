@@ -42,6 +42,7 @@
     "format-json": "^1.0.3",
     "mobile-center-analytics": "^0.4.0",
     "mobile-center-crashes": "^0.4.0",
+    "moment": "^2.20.1",
     "querystringify": "1.0.0",
     "ramda": "0.24.1",
     "react": "16.0.0-alpha.12",
