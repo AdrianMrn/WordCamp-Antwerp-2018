@@ -1,6 +1,8 @@
 // a library to wrap and simplify api calls
 import apisauce from 'apisauce'
 
+import ScheduleResponseHandler from '../Transforms/ScheduleResponseHandler'
+
 // our "constructor"
 const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') => {
   // ------
@@ -34,9 +36,10 @@ const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') =
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getSpeakers = () => api.get('speakers')
-  const getSponsors = () => api.get('sponsors')
-  const getTalks = () => api.get('talks')
+  const getTalks = () => api.get('talks?per_page=100')/* .then((response) => ScheduleResponseHandler.transform(response)) */
+
+  const getSpeakers = () => api.get('speakers?per_page=100')
+  const getSponsors = () => api.get('sponsors?per_page=100')
   //const getNearby = () => api.get('nearby.json')
 
   // ------
@@ -53,9 +56,9 @@ const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') =
   //
   return {
     // a list of the API functions from step 2
+    getTalks,
     getSpeakers,
     getSponsors,
-    getTalks
     //getNearby
   }
 }

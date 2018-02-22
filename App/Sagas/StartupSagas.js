@@ -8,6 +8,6 @@ export function * startup (action) {
   /* ********************************************************
   * Readonly API Calls are better handled through code push *
   * *********************************************************/
-  // yield put(ScheduleActions.getScheduleUpdates())
+  yield put(ScheduleActions.getScheduleUpdates())
   // yield put(LocationActions.getNearbyUpdates())
 }

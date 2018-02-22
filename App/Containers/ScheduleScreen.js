@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { AppState, View, Image, FlatList } from 'react-native'
+import { AppState, View, Image, FlatList, Alert } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import DayToggle from '../Components/DayToggle'
 import Talk from '../Components/Talk'
@@ -70,6 +70,9 @@ class ScheduleScreen extends Component {
 
       return merge(e, { eventStart, eventEnd, eventDuration, eventFinal })
     }
+
+    Alert.alert('title', JSON.stringify(schedule));
+
     const sorted = [...schedule].map(mergeTimes).sort((a, b) => {
       return compareAsc(a.eventStart, b.eventStart)
     })
@@ -103,15 +106,17 @@ class ScheduleScreen extends Component {
 
   _handleAppStateChange = (nextAppState) => {
     const { appState } = this.state
-    /* if (appState.match(/inactive|background/) && nextAppState === 'active') {
+    if (appState.match(/inactive|background/) && nextAppState === 'active') {
       this.props.getScheduleUpdates()
-    } */
+    }
     this.setState({appState: nextAppState})
   }
 
   componentWillReceiveProps (newProps) {
     const { activeDay, eventsByDay } = this.state
     const { specialTalks, currentTime, schedule } = newProps
+    
+    //Alert.alert('title', JSON.stringify(newProps))
 
     // Update currentTime before updating data
     if (currentTime) {

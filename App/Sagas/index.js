@@ -19,12 +19,12 @@ import { getNearbyUpdates } from './LocationSagas'
 import API from '../Services/Api'
 import DebugConfig from '../Config/DebugConfig'
 import FixtureAPI from '../Services/FixtureApi'
-// const api = API.create()
+/* const api = API.create() */
 
 // The API we use is only used from Sagas, so we create it here and pass along
 // to the sagas which need it.
-//const api = DebugConfig.useFixtures ? FixtureAPI : API.create()
-const api = FixtureAPI;
+const api = DebugConfig.useFixtures ? FixtureAPI : API.create()
+// const api = FixtureAPI;
 
 /* ------------- Connect Types To Sagas ------------- */
 
@@ -40,7 +40,7 @@ export default function * root () {
   // debug conditional API calls
   if (DebugConfig.getAPI) {
     sagaIndex.push(takeLatest(ScheduleTypes.GET_SCHEDULE_UPDATES, getScheduleUpdates, api))
-    sagaIndex.push(takeLatest(LocationTypes.GET_NEARBY_UPDATES, getNearbyUpdates, api))
+    /* sagaIndex.push(takeLatest(LocationTypes.GET_NEARBY_UPDATES, getNearbyUpdates, api)) */
   }
 
   yield sagaIndex
