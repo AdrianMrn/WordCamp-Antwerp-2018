@@ -44,7 +44,6 @@ const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') =
 
   /* const getSpeakers = () => api.get('speakers?per_page=100')
   const getSponsors = () => api.get('sponsors?per_page=100') */
-  //const getNearby = () => api.get('nearby.json')
 
   // ------
   // STEP 3
@@ -63,7 +62,6 @@ const create = (baseURL = 'https://fluxit.be/react/wordcamp18/wp-json/wp/v2/') =
     getTalks,
     getSpeakers,
     /* getSponsors, */
-    //getNearby
   }
 }
 

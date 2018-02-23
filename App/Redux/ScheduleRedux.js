@@ -15,8 +15,6 @@ const { Types, Creators } = createActions({
   clearSelectedEvent: null,
   updateSchedule: ['schedule'],
   getScheduleUpdates: null,
-  visitTwitter: ['account'],
-  visitGithub: ['account']
 })
 
 export const ScheduleTypes = Types
