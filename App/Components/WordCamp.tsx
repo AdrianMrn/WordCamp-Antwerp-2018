@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, Image, Linking, TouchableOpacity } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
-import RoundedButton from './RoundedButton'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/WordCampStyles'
 

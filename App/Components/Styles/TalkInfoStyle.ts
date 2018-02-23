@@ -31,10 +31,6 @@ export default StyleSheet.create({
     color: Colors.darkPurple,
     letterSpacing: 0
   },
-  remindMe: {
-    flex: 1,
-    alignItems: 'stretch'
-  },
   socialButtons: {
     alignItems: 'center',
     flexDirection: 'row'

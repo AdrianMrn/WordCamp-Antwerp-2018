@@ -1,5 +1,4 @@
 export default {
-  showDevScreens: __DEV__,
   useFixtures: false,
   yellowBox: __DEV__,
   includeExamples: __DEV__,

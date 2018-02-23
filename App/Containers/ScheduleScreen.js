@@ -22,7 +22,6 @@ import {
   sum,
   findIndex
 } from 'ramda'
-import NotificationActions from '../Redux/NotificationRedux'
 import Config from '../Config/AppConfig'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/ScheduleScreenStyle'
@@ -30,17 +29,14 @@ import styles from './Styles/ScheduleScreenStyle'
 const isActiveCurrentDay = (currentTime, activeDay) =>
   isSameDay(currentTime, new Date(Config.conferenceDates[activeDay]))
 
-const addSpecials = (specialTalksList, talks) =>
-  map((talk) => assoc('special', contains(talk.title, specialTalksList), talk), talks)
-
 class ScheduleScreen extends Component {
   constructor (props) {
     super(props)
 
-    const { schedule, specialTalks, currentTime } = props
+    const { schedule, currentTime } = props
     const eventsByDay = this.getEventsByDayFromSchedule(schedule)
     const activeDay = 0
-    const data = addSpecials(specialTalks, eventsByDay[activeDay])
+    const data = eventsByDay[activeDay]
     const isCurrentDay = isActiveCurrentDay(currentTime, activeDay)
     const appState = AppState.currentState
 
@@ -110,13 +106,13 @@ class ScheduleScreen extends Component {
 
   componentWillReceiveProps (newProps) {
     const { activeDay, eventsByDay } = this.state
-    const { specialTalks, currentTime, schedule } = newProps
+    const { currentTime, schedule } = newProps
   
     // Update currentTime before updating data
     if (currentTime) {
       this.setState({ currentTime }, () => {
         this.setState({
-          data: addSpecials(specialTalks, eventsByDay[activeDay]),
+          data: eventsByDay[activeDay],
           eventsByDay: this.getEventsByDayFromSchedule(schedule),
           isCurrentDay: isActiveCurrentDay(currentTime, activeDay)
         })
@@ -140,8 +136,8 @@ class ScheduleScreen extends Component {
 
   setActiveDay = (activeDay) => {
     const { eventsByDay } = this.state
-    const { currentTime, specialTalks } = this.props
-    const data = addSpecials(specialTalks, eventsByDay[activeDay])
+    const { currentTime } = this.props
+    const data = eventsByDay[activeDay]
     const isCurrentDay = isActiveCurrentDay(currentTime, activeDay)
 
     this.setState({data, activeDay, isCurrentDay}, () => {
@@ -176,8 +172,8 @@ class ScheduleScreen extends Component {
 
   renderItem = ({item}) => {
     const { isCurrentDay } = this.state
-    const { currentTime, setReminder, removeReminder } = this.props
-    const { eventDuration, eventStart, eventEnd, eventFinal, special } = item
+    const { currentTime } = this.props
+    const { eventDuration, eventStart, eventEnd, eventFinal } = item
     const isActive = isWithinRange(currentTime, eventStart, eventEnd)
     const isFinished = currentTime > eventEnd
 
@@ -191,12 +187,9 @@ class ScheduleScreen extends Component {
           start={eventStart}
           duration={eventDuration}
           onPress={() => this.onEventPress(item)}
-          setReminder={() => setReminder(item.title)}
-          removeReminder={() => removeReminder(item.title)}
           currentTime={currentTime}
           isCurrentDay={isCurrentDay}
           isActive={isActive}
-          isSpecial={special}
           isFinished={isFinished}
           showWhenFinished
           location={item.location}
@@ -247,8 +240,7 @@ class ScheduleScreen extends Component {
 const mapStateToProps = (state) => {
   return {
     currentTime: new Date(state.schedule.currentTime),
-    schedule: state.schedule.speakerSchedule,
-    specialTalks: state.notifications.specialTalks
+    schedule: state.schedule.speakerSchedule
   }
 }
 
@@ -256,8 +248,6 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getScheduleUpdates: () => dispatch(ScheduleActions.getScheduleUpdates()),
     setSelectedEvent: data => dispatch(ScheduleActions.setSelectedEvent(data)),
-    setReminder: title => dispatch(NotificationActions.addTalk(title)),
-    removeReminder: title => dispatch(NotificationActions.removeTalk(title))
   }
 }
 

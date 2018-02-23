@@ -10,7 +10,6 @@ import { connect } from 'react-redux'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/TalkDetailScreenStyle'
 import NotificationActions from '../Redux/NotificationRedux'
-import SBHelper from '../Lib/SpecialButtonHelper'
 import { contains } from 'ramda'
 
 class TalkDetail extends React.Component {
@@ -42,8 +41,6 @@ class TalkDetail extends React.Component {
     )
   }
 
-  isSpecial = () => contains(this.props.title, this.props.specialTalks)
-
   renderSpeakers = () => {
     const { speakerInfo } = this.props
 
@@ -53,7 +50,7 @@ class TalkDetail extends React.Component {
   }
 
   render() {
-    const { title, eventStart, setReminder, removeReminder } = this.props
+    const { title, eventStart } = this.props
     return (
       <LinearGradient
         colors={ Colors.wpBlueGradient }>
@@ -90,10 +87,6 @@ class TalkDetail extends React.Component {
             <TalkInfo
               start={new Date(this.props.eventStart)}
               duration={Number(this.props.duration)}
-              remindMe={this.isSpecial()}
-              toggleRemindMe={SBHelper.toggleReminder(title, eventStart, this.isSpecial(), setReminder, removeReminder)}
-              onPressGithub={this.props.onPressGithub}
-              onPressTwitter={this.props.onPressTwitter}
               isFinished={this.props.currentTime > this.props.eventStart}
               showWhenFinished={false}
               location={this.props.location}
@@ -109,18 +102,14 @@ class TalkDetail extends React.Component {
 const mapStateToProps = (state) => {
   return {
     ...state.schedule.selectedEvent,
-    currentTime: new Date(state.schedule.currentTime),
-    specialTalks: state.notifications.specialTalks
+    currentTime: new Date(state.schedule.currentTime)
   }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onPressGithub: url => dispatch(ScheduleActions.visitGithub(url)),
-    onPressTwitter: url => dispatch(ScheduleActions.visitTwitter(url)),
-    setReminder: title => dispatch(NotificationActions.addTalk(title)),
-    removeReminder: title => dispatch(NotificationActions.removeTalk(title))
   }
 }
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(TalkDetail)

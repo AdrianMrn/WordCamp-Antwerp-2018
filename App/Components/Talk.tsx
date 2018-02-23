@@ -5,7 +5,6 @@ import TimeIndicator from './TimeIndicator'
 import styles from './Styles/TalkStyle'
 import PushNotification from 'react-native-push-notification'
 import PNHelpers from '../Lib/PushNotificationHelpers'
-import SBHelper from '../Lib/SpecialButtonHelper'
 import FadeIn from 'react-native-fade-in-image'
 
 interface TalkProps {
@@ -16,17 +15,12 @@ interface TalkProps {
   duration: number
   isFinished: boolean
   showWhenFinished: boolean
-  isSpecial: boolean
   isCurrentDay: boolean
   isActive: boolean
   currentTime: Date
   location: string
   room: string
   onPress (): void
-  talkSpecial (): void
-  talkNotSpecial (): void
-  setReminder (): void
-  removeReminder (): void
 }
 
 interface TalkState {
@@ -70,9 +64,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
       duration,
       currentTime,
       isFinished,
-      isSpecial,
-      setReminder,
-      removeReminder,
       location,
       room
     } = this.props
@@ -108,10 +99,8 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
             <TalkInfo
               start={start}
               duration={duration}
-              remindMe={this.props.isSpecial}
               isFinished={isFinished || isActive}
               showWhenFinished={this.props.showWhenFinished}
-              toggleRemindMe={SBHelper.toggleReminder(title, start, isSpecial, setReminder, removeReminder)}
               room={room}
               location={location}
             />
