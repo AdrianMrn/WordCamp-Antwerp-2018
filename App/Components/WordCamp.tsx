@@ -3,7 +3,7 @@ import { View, Text, Image, Linking, TouchableOpacity } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import RoundedButton from './RoundedButton'
 import { Images, Colors } from '../Themes'
-import styles from './Styles/InfiniteRedStyles'
+import styles from './Styles/WordCampStyles'
 
 const InfiniteRed = (props) => {
   const gradient = ['#351F41', '#8E2044']
@@ -11,8 +11,8 @@ const InfiniteRed = (props) => {
   {/* <LinearGradient colors={ Colors.wpBlueGradient }>
   <LinearGradient colors={['#FFEC94', '#f2d31f']}> */}
   return (
-      <View style={styles.infiniteRed}>
-        <Image style={styles.infiniteRedIcon} source={Images.wordcamp} />
+      <View style={styles.wordCamp}>
+        <Image style={styles.wordCampIcon} source={Images.wordcamp} />
         <View style={styles.line} />
         <Text style={styles.subheading}>
           WordPress is almost literally the engine of the web:{'\n'}

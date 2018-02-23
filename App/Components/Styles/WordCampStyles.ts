@@ -3,7 +3,7 @@ import { ApplicationStyles, Colors, Fonts } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
-  infiniteRed: {
+  wordCamp: {
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: 40,
@@ -17,7 +17,7 @@ export default StyleSheet.create({
     backgroundColor: Colors.transparent,
     color: '#FDE5FF'
   },
-  infiniteRedIcon: {
+  wordCampIcon: {
     marginTop: 15
   },
   line: {
@@ -36,9 +36,6 @@ export default StyleSheet.create({
     backgroundColor: Colors.transparent,
     color: Colors.snow,
     textAlign: 'center'
-  },
-  infiniteredButton: {
-    marginTop: 25
   },
   schedule: {
     flex: 1,

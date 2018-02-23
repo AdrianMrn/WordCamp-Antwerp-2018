@@ -8,10 +8,9 @@ import {
   LayoutAnimation
 } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
-import InfiniteRed from '../Components/InfiniteRed'
+import WordCamp from '../Components/WordCamp'
 import SeeProcess from '../Components/SeeProcess'
 import Twitter from '../Components/Twitter'
-import WordCampInfo from '../Components/WordCampInfo'
 import Sponsors from '../Components/Sponsors'
 import LiveHelp from '../Components/LiveHelp'
 import ConferenceAnnouncements from '../Components/ConferenceAnnouncements'
@@ -90,7 +89,7 @@ class AboutScreen extends React.Component {
         {/* <LinearGradient colors={ ['#FFEC94', '#f2d31f'] }> */}
           <ScrollView>
             <View style={styles.container}>
-              <InfiniteRed />
+              <WordCamp />
               {/* <SeeProcess /> */}
               {/* <ConferenceAnnouncements currentDate={this.props.currentTime} /> */}
               <Twitter />
