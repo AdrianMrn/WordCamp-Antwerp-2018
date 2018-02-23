@@ -13,7 +13,6 @@ export default () => {
   const rootReducer = combineReducers({
     nav: navReducer,
     schedule: require('./ScheduleRedux').reducer,
-    notifications: require('./NotificationRedux').reducer
   })
 
   return configureStore(rootReducer, rootSaga)

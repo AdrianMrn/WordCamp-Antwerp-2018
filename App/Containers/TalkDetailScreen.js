@@ -9,7 +9,6 @@ import { connect } from 'react-redux'
 // import YourActions from '../Redux/YourRedux'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/TalkDetailScreenStyle'
-import NotificationActions from '../Redux/NotificationRedux'
 import { contains } from 'ramda'
 
 class TalkDetail extends React.Component {

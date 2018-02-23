@@ -3,8 +3,6 @@ import { View, Text, Image, TouchableWithoutFeedback, LayoutAnimation, Animated 
 import TalkInfo from './TalkInfo'
 import TimeIndicator from './TimeIndicator'
 import styles from './Styles/TalkStyle'
-import PushNotification from 'react-native-push-notification'
-import PNHelpers from '../Lib/PushNotificationHelpers'
 import FadeIn from 'react-native-fade-in-image'
 
 interface TalkProps {

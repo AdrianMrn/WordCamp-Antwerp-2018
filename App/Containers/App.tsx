@@ -1,5 +1,4 @@
 import '../Config'
-import PushConfig from '../Config/PushConfig'
 import DebugConfig from '../Config/DebugConfig'
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
@@ -15,9 +14,6 @@ import codePush from 'react-native-code-push'
 
 // create our store
 const store = createStore()
-
-// Configure push notifications, passing store's dispatch
-PushConfig.configure(store.dispatch)
 
 /**
  * Provides an entry point into our application.  Both index.ios.js and index.android.js
