@@ -12,7 +12,7 @@ interface TalkProps {
   title: string
   name: string
   avatarURL: string
-  start: Date
+  start: Number
   duration: number
   isFinished: boolean
   showWhenFinished: boolean

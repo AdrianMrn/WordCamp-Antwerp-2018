@@ -13,19 +13,23 @@ const tweetWithHashtag = () => {
 
 const Twitter = (props) => {
   return (
-    <View style={styles.twitter}>
-      <TouchableOpacity style={styles.twitterHeader} onPress={() => tweetWithHashtag()}>
-        <Image source={Images.chatheart} />
-        <Text style={styles.heading}>
-          &nbsp;&nbsp;#WCANT
-        </Text>
-      </TouchableOpacity>
-      <Text style={styles.description}>
-        Stay connected, tweet about your favourite talks at WordCamp with the hashtag&nbsp;
-        <Text style={styles.hashtag} onPress={() => tweetWithHashtag()}>
-          #wcant
-        </Text>.
-      </Text>
+    <View style={styles.container}>
+      <Image style={styles.background} source={Images.antwerpBg}>
+        <View style={styles.twitter}>
+          <TouchableOpacity style={styles.twitterHeader} onPress={() => tweetWithHashtag()}>
+            <Image source={Images.chatheart} />
+            <Text style={styles.heading}>
+              &nbsp;&nbsp;#WCANT
+          </Text>
+          </TouchableOpacity>
+          <Text style={styles.description}>
+            Stay connected, tweet about your favourite talks at WordCamp with the hashtag&nbsp;
+            <Text style={styles.hashtag} onPress={() => tweetWithHashtag()}>
+                #wcant
+            </Text>
+          </Text>
+        </View>
+      </Image>
     </View>
   )
 }

@@ -63,7 +63,7 @@ class ScheduleScreen extends Component {
   getEventsByDayFromSchedule = (schedule) => {
     const mergeTimes = (e) => {
       const eventDuration = Number(e.duration)
-      const eventStart = new Date(e.time)
+      const eventStart = new Date(e.time*1000)
       const eventFinal = addMinutes(eventStart, eventDuration)
       // ends 1 millisecond before event
       const eventEnd = subMilliseconds(eventFinal, 1)

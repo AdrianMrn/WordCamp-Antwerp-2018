@@ -1,11 +1,19 @@
-import moment from 'moment';
+/* import moment from 'moment'; */
+const Entities = require('html-entities').AllHtmlEntities;
+
+import striptags from 'striptags'
+/* import Entities from 'html-entities' */
 
 const transform = response => {
     const formattedData = response.data.map((talk) => {
 
-        function formatTime(timestamp) {
+        /* function formatTime(timestamp) {
             var parsed = moment.unix(timestamp);
             return (parsed.format("D/M/YYYY h:m A"));
+        } */
+
+        function formatString(text) {
+            return striptags(Entities.decode(text));
         }
 
         /* console.error(talk.acf); */
@@ -21,15 +29,15 @@ const transform = response => {
             "type": talk.acf.type == "Talk" ? "talk" : "break",
             "speaker": speaker ? speaker.name : "",
             "image": speaker ? speaker.speaker_image : "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
-            "title": talk.title.rendered, //formatString()
-            "description": talk.acf.description, //formatString()
-            "time": formatTime(talk.acf.start_datetime),
-            "endtime": talk.acf.end_datetime ? formatTime(talk.acf.end_datetime) : "",
+            "title": formatString(talk.title.rendered), //formatString()
+            "description": formatString(talk.acf.description), //formatString()
+            "time": talk.acf.start_datetime,
+            "endtime": talk.acf.end_datetime ? talk.acf.end_datetime : "",
             "duration": talk.acf.end_datetime ? (talk.acf.end_datetime - talk.acf.start_datetime) / 60 : "5",
             "speakerInfo": speaker ? [
                 {
                     "name": speaker.name,
-                    "bio": speaker.speaker_description, //formatString()
+                    "bio": formatString(speaker.speaker_description), //formatString()
                     "twitter": "",
                     "github": "",
                     "company": speaker.organisation_url,

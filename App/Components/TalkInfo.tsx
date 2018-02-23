@@ -6,7 +6,7 @@ import { format } from 'date-fns'
 import styles from './Styles/TalkInfoStyle'
 
 interface TalkInfoProps {
-  start: Date
+  start: Number
   duration: Number
   remindMe: boolean
   isFinished: boolean

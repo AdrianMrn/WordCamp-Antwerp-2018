@@ -18,6 +18,7 @@ interface SponsorProps {
 
 const Sponsor = (props: SponsorProps) => {
   return (
+    
     <TouchableOpacity
       style={styles.sponsor}
       onPress={() => Linking.openURL(props.url)}>

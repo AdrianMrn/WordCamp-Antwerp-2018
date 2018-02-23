@@ -34,6 +34,8 @@ const images = {
   // everything wordcamp
   wordcamp: require('../Images/wordcamp-logo.png'),
 
+  antwerpBg: require('../Images/antwerp-station-bg.jpeg'),
+
   // sponsors
   // diamond
   jetpack: require('../Images/sponsors/wordcamp/jetpack.png'),

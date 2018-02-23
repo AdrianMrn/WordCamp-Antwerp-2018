@@ -99,16 +99,16 @@ function formatTalks() {
         if (error) console.log(error);
         var talks = JSON.parse(body);
 
-        const kek = talks.map((talk) => {
+        const formattedData = talks.map((talk) => {
             if (talk.acf.speaker) {
                 var speaker = talk.acf.speaker[0].acf;
                 speaker.name = talk.acf.speaker[0].post_title
             }
 
-            function formatTime(timestamp) {
+            /* function formatTime(timestamp) {
                 var parsed = moment.unix(timestamp).add(-1, 'hours');
                 return (parsed.format("D/M/YYYY h:m A"));
-            }
+            } */
 
             return ({
                 "location": talk.acf.type == "Talk" ? talk.acf.location : "",
@@ -118,8 +118,8 @@ function formatTalks() {
                 "image": speaker ? speaker.speaker_image : "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
                 "title": talk.title.rendered, //formatString()
                 "description": talk.acf.description, //formatString()
-                "time": formatTime(talk.acf.start_datetime),
-                "endtime": talk.acf.end_datetime ? formatTime(talk.acf.end_datetime) : "",
+                "time": talk.acf.start_datetime,
+                "endtime": talk.acf.end_datetime ? talk.acf.end_datetime : "",
                 "duration": talk.acf.end_datetime ? (talk.acf.end_datetime - talk.acf.start_datetime) / 60 : "5",
                 "speakerInfo": speaker ? [
                     {
@@ -134,7 +134,23 @@ function formatTalks() {
             });
         });
 
+        const content = JSON.stringify(formattedData);
+
+        fs.writeFile("./tmp/schedule.json", "{\"schedule\":" + content + "}", 'utf8', function (err) {
+            if (err) {
+                return console.log(err);
+            }
+
+            console.log("The file was saved!");
+        });
+
     });
 }
 
 formatTalks();
+
+var datefns = require('date-fns')
+
+const theTime = datefns.format(1519995600000, 'HH:mm')
+
+/* console.log(theTime) */
