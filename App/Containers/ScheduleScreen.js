@@ -81,9 +81,7 @@ class ScheduleScreen extends Component {
     const { navigation, setSelectedEvent } = this.props
     setSelectedEvent(item)
 
-    item.type === 'talk'
-      ? navigation.navigate('TalkDetail')
-      : navigation.navigate('BreakDetail')
+    navigation.navigate('TalkDetail')
   }
 
   componentDidMount () {

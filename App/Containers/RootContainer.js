@@ -5,7 +5,6 @@ import { connect } from 'react-redux'
 import StartupActions from '../Redux/StartupRedux'
 import NotificationActions from '../Redux/NotificationRedux'
 import ReduxPersist from '../Config/ReduxPersist'
-import NotificationsBar from '../Components/NotificationsBar'
 import styles from './Styles/RootContainerStyles'
 
 class RootContainer extends Component {
@@ -24,10 +23,6 @@ class RootContainer extends Component {
     return (
       <View style={styles.applicationView}>
         <StatusBar barStyle='light-content' />
-        <NotificationsBar
-          notifications={notifications}
-          clearNotifications={clearNotifications}
-        />
         <ReduxNavigation />
       </View>
     )

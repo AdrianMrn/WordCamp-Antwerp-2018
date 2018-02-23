@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import RemindMeButton from './RemindMeButton'
-import SocialMediaButton from './SocialMediaButton'
 import { format } from 'date-fns'
 import styles from './Styles/TalkInfoStyle'
 
