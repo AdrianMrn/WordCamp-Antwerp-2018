@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.chainreactapp"
+        applicationId "com.wcant"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 43
@@ -127,11 +127,11 @@ android {
     signingConfigs {
         // https://facebook.github.io/react-native/docs/signed-apk-android.html
         release {
-            if (project.hasProperty('CHAINREACT_RELEASE_STORE_FILE')) {
-                storeFile file(CHAINREACT_RELEASE_STORE_FILE)
-                storePassword CHAINREACT_RELEASE_STORE_PASSWORD
-                keyAlias CHAINREACT_RELEASE_KEY_ALIAS
-                keyPassword CHAINREACT_RELEASE_KEY_PASSWORD
+            if (project.hasProperty('WCANT_RELEASE_STORE_FILE')) {
+                storeFile file(WCANT_RELEASE_STORE_FILE)
+                storePassword WCANT_RELEASE_STORE_PASSWORD
+                keyAlias WCANT_RELEASE_KEY_ALIAS
+                keyPassword WCANT_RELEASE_KEY_PASSWORD
             }
         }
     }

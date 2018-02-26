@@ -3,3 +3,5 @@ android/app/build
 
 **.DS_Store
 .DS_Store
+
+**my-release-key.keystore
