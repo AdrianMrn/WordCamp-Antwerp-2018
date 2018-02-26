@@ -15,7 +15,7 @@ export default StyleSheet.create({
   active: {
     marginLeft: 6,
     marginRight: 34,
-    borderRadius: 5,
+    /* borderRadius: 5, */
     shadowOffset: {
       width: 1,
       height: 1
@@ -31,19 +31,20 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: Metrics.doubleBaseMargin,
+    padding: Metrics.doubleBaseMargin,/* 
     borderTopLeftRadius: Metrics.cardRadius,
-    borderTopRightRadius: Metrics.cardRadius,
-    backgroundColor: Colors.snow
+    borderTopRightRadius: Metrics.cardRadius, */
+    backgroundColor: Colors.snow,
   },
   infoText: {
+
     flex: 1,
     paddingRight: Metrics.doubleBaseMargin
   },
   title: {
     fontFamily: 'Montserrat-SemiBold',
     fontSize: 17,
-    color: Colors.darkPurple,
+    color: Colors.coal,
     letterSpacing: 0
   },
   name: {
@@ -58,15 +59,16 @@ export default StyleSheet.create({
     height: Metrics.images.avatar,
     borderColor: Colors.avatarBorder,
     borderWidth: 1,
-    borderRadius: Metrics.images.avatar / 2
+    borderRadius: Metrics.images.avatar / 2,
+    marginRight: 20,
   },
   moreInfo: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 13,
-    paddingHorizontal: Metrics.doubleBaseMargin,
+    paddingHorizontal: Metrics.doubleBaseMargin,/* 
     borderBottomLeftRadius: Metrics.cardRadius,
-    borderBottomRightRadius: Metrics.cardRadius,
+    borderBottomRightRadius: Metrics.cardRadius, */
     backgroundColor: Colors.silver
   },
   details: {

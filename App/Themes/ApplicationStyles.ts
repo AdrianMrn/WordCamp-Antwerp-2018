@@ -11,6 +11,9 @@ export interface ApplicationStylesType {
   groupContainer
   sectionTitle
   linearGradient
+  viaviaStyle
+  trappenAulaStyle
+  auditoriumStyle
 }
 
 export interface ScreenStylesType {
@@ -98,6 +101,18 @@ const ApplicationStyles: ApplicationStylesType = {
   },
   linearGradient: {
     flex: 1
+  },
+  viaviaStyle: {
+    borderColor: Colors.viavia,
+    borderLeftWidth: 8,
+  },
+  trappenAulaStyle: {
+    borderColor: Colors.trappenaula,
+    borderLeftWidth: 8,
+  },
+  auditoriumStyle: {
+    borderColor: Colors.auditorium,
+    borderLeftWidth: 8,
   }
 }
 

@@ -52,7 +52,7 @@ class TalkDetail extends React.Component {
     const { title, eventStart } = this.props
     return (
       <LinearGradient
-        colors={ Colors.wpBlueGradient }>
+        colors={Colors.wpBlueGradient}>
         <ScrollView>
           <View style={styles.container}>
             <TouchableOpacity style={styles.backButton} onPress={this.goBack}>
@@ -61,11 +61,13 @@ class TalkDetail extends React.Component {
             </TouchableOpacity>
             {/* <View style={styles.cardShadow1} />
             <View style={styles.cardShadow2} /> */}
-            { this.props.image != "" &&
-              <Image
-              style={styles.avatar}
-              source={{ uri: this.props.image }}
-            />}
+            {this.props.image != "" &&
+              <View style={styles.circle}>
+                <Image
+                  style={styles.avatar}
+                  source={{ uri: this.props.image }}
+                />
+              </View>}
             <View style={styles.card}>
               <Text style={styles.sectionHeading}>
                 TALK

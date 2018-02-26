@@ -18,8 +18,19 @@ interface BreakStyleType {
 const BreakStyle: BreakStyleType = {
   container: {
     marginHorizontal: Metrics.doubleBaseMargin,
-    backgroundColor: Colors.transparent,
-    height: Metrics.breakHeight
+    marginVertical: Metrics.baseMargin,
+    height: Metrics.breakHeight,
+    elevation: 5,
+    borderColor: '#1D8CE0',
+    /* borderWidth: 0, */
+    borderLeftWidth: 8,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: Metrics.doubleBaseMargin,
+    /* borderRadius: Metrics.cardRadius, */
+    backgroundColor: Colors.snow
+
   },
   currentDay: {
     marginLeft: 16,
@@ -83,14 +94,14 @@ const BreakStyle: BreakStyleType = {
     letterSpacing: -0.2,
     lineHeight: 27,
     backgroundColor: Colors.transparent,
-    color: Colors.snow
+    color: Colors.coal
   },
   duration: {
     fontFamily: Fonts.type.semiBold,
     fontSize: 16,
     letterSpacing: -0.19,
     backgroundColor: Colors.transparent,
-    color: Colors.snow
+    color: Colors.lightText
   }
 }
 

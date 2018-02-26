@@ -10,14 +10,15 @@ interface TalkInfoProps {
   showWhenFinished: boolean
   location: string
   room: string
+  borderRoomStyle: string
 }
 
 const TalkInfo = (props: TalkInfoProps) => {
-  const { start, location, room } = props
+  const { start, location, room, borderRoomStyle } = props
   const formattedStart = format(start, 'HH:mm')
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, borderRoomStyle]}>
       <View style={styles.details}>
         <View style={styles.detail}>
           <Text style={styles.detailLabel}>

@@ -44,21 +44,23 @@ export default StyleSheet.create({
   },
   card: {
     paddingTop: 48,
-    paddingHorizontal: 30,
+    paddingHorizontal: 30,/* 
     borderTopLeftRadius: Metrics.cardRadius,
-    borderTopRightRadius: Metrics.cardRadius,
+    borderTopRightRadius: Metrics.cardRadius, */
     backgroundColor: Colors.snow
   },
   avatar: {
-    position: 'absolute',
+    /* position: 'absolute',
     top: -43,
     left: (Metrics.screenWidth - (Metrics.doubleBaseMargin * 2)) / 2 - 53,
     height: 106,
-    width: 106,
+    width: 106, */
     borderRadius: 53,
-    borderColor: Colors.snow,
-    borderWidth: 1,
-    zIndex: 4
+    height: 106,
+    width: 106,
+    /* borderColor: Colors.snow, */
+    /* borderWidth: 1, */
+    /* zIndex: 4 */
   },
   sectionHeading: {
     alignSelf: 'flex-start',
@@ -86,5 +88,18 @@ export default StyleSheet.create({
   social: {
     flexDirection: 'row',
     marginBottom: 30
+  },
+  circle: {
+    position: 'absolute',
+    top: -43,
+    left: (Metrics.screenWidth - (Metrics.doubleBaseMargin * 2)) / 2 - 53,
+    height: 106,
+    width: 106,
+    borderRadius: 53,
+    borderWidth: 1,
+    borderColor: Colors.snow,
+    backgroundColor: Colors.silver,
+    overflow: 'hidden',
+    zIndex: 4
   }
 })

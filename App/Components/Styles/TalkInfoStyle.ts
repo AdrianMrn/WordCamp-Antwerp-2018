@@ -7,10 +7,10 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 13,
-    paddingHorizontal: Metrics.doubleBaseMargin,
+    paddingHorizontal: Metrics.doubleBaseMargin,/* 
     borderBottomLeftRadius: Metrics.cardRadius,
-    borderBottomRightRadius: Metrics.cardRadius,
-    backgroundColor: Colors.silver
+    borderBottomRightRadius: Metrics.cardRadius, */
+    backgroundColor: Colors.silver,
   },
   details: {
     flex: 1,

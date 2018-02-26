@@ -65,6 +65,7 @@ const Sponsors = () => {
         <Sponsor url={'https://www.dailybits.be/'} image="" name="dailybits" isLow />
         <Sponsor url={'https://jerrix.be/'} image="" name="JerrixIT" isLow />
         <Sponsor url={'https://quadus.be/'} image="" name="Quadus" isLow />
+        <Sponsor url={'https://quadus.be/'} image="" name="Quadus" isLow />
         <Sponsor url={'https://www.nilmedia.com'} image="" name="NILMEDIA" isLow />
         <Sponsor url={'http://www.weareknights.be/'} image="" name="We Are Knights" isLow />
         <Sponsor url={'https://www.davel.be/'} image="" name="Davel" isLow />

@@ -4,6 +4,7 @@ import TalkInfo from './TalkInfo'
 import TimeIndicator from './TimeIndicator'
 import styles from './Styles/TalkStyle'
 import FadeIn from 'react-native-fade-in-image'
+import { Colors, ApplicationStyles } from '../Themes';
 
 interface TalkProps {
   title: string
@@ -18,7 +19,7 @@ interface TalkProps {
   currentTime: Date
   location: string
   room: string
-  onPress (): void
+  onPress(): void
 }
 
 interface TalkState {
@@ -27,7 +28,7 @@ interface TalkState {
 }
 
 export default class Talk extends React.Component<TalkProps, TalkState> {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
@@ -51,7 +52,7 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
     }).start()
   }
 
-  render () {
+  render() {
     const {
       isCurrentDay,
       isActive,
@@ -70,9 +71,20 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
       transform: [{ scale: this.state.animatedSize }]
     }
 
+    let borderRoomStyle;
+    if (location === "ViaVia") {
+      borderRoomStyle = ApplicationStyles.viaviaStyle
+    } else {
+      if (room === 'Trappenaula') {
+        borderRoomStyle = ApplicationStyles.trappenAulaStyle
+      } else {
+        borderRoomStyle = ApplicationStyles.auditoriumStyle
+      }
+    }
+
     const containerStyles = [
       styles.container,
-      animatedStyle
+      animatedStyle,
     ]
 
     return (
@@ -83,16 +95,16 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
           onPress={this.props.onPress}
         >
           <Animated.View style={containerStyles}>
-            <View style={styles.info}>
-              <View style={styles.infoText}>
-                <Text style={styles.name}>{name}</Text>
-                <Text style={styles.title}>{title}</Text>
-              </View>
-              { avatarURL != "" &&
-              <FadeIn>
-                <Image style={styles.avatar} source={{uri: avatarURL}} />
-              </FadeIn>
+            <View style={[styles.info, borderRoomStyle]}>
+              {avatarURL != "" &&
+                <FadeIn>
+                  <Image style={styles.avatar} source={{ uri: avatarURL }} />
+                </FadeIn>
               }
+              <View style={styles.infoText}>
+                <Text style={styles.title}>{title}</Text>
+                <Text style={styles.titlename}>{name}</Text>
+              </View>
             </View>
             <TalkInfo
               start={start}
@@ -101,6 +113,7 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
               showWhenFinished={this.props.showWhenFinished}
               room={room}
               location={location}
+              borderRoomStyle={borderRoomStyle}
             />
           </Animated.View>
         </TouchableWithoutFeedback>
