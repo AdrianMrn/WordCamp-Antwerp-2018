@@ -7,6 +7,7 @@ export default StyleSheet.create({
     marginVertical: Metrics.baseMargin,
     marginHorizontal: Metrics.doubleBaseMargin,
     elevation: 5,
+    backgroundColor: Colors.snow
   },
   currentDay: {
     marginLeft: 16,

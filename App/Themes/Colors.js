@@ -23,7 +23,7 @@ const colors = {
   banner: '#5F3E63',
   wpBlueGradient: ['#1D8CE0', '#369ED4'],
   viavia: '#e67e22',
-  trappenaula: '#e74c3c',
+  trappenaula: '#e84393',
   auditorium: '#2ecc71',
 
   snow: 'white',

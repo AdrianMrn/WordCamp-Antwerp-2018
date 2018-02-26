@@ -20,7 +20,6 @@ const BreakStyle: BreakStyleType = {
     marginHorizontal: Metrics.doubleBaseMargin,
     marginVertical: Metrics.baseMargin,
     height: Metrics.breakHeight,
-    elevation: 5,
     borderColor: '#1D8CE0',
     /* borderWidth: 0, */
     borderLeftWidth: 8,
@@ -29,7 +28,7 @@ const BreakStyle: BreakStyleType = {
     justifyContent: 'space-between',
     padding: Metrics.doubleBaseMargin,
     /* borderRadius: Metrics.cardRadius, */
-    backgroundColor: Colors.snow
+    backgroundColor: Colors.cloud
 
   },
   currentDay: {

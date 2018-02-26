@@ -9,7 +9,8 @@ export default StyleSheet.create({
     paddingHorizontal: 28,
     borderTopWidth: 1,
     borderTopColor: 'rgba(255,255,255,0.3)',
-    backgroundColor: '#F6F7F9',
+    backgroundColor: Colors.snow,
+    elevation: 5,
   },
   tabBarLabel: {
     fontFamily: 'Montserrat-Medium',

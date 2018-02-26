@@ -36,6 +36,13 @@ const images = {
 
   antwerpBg: require('../Images/antwerp-station-bg.jpeg'),
 
+  // break background images
+  Afterchat: require('../Images/afterchat.jpeg'),
+  Lunch: require('../Images/lunch.jpeg'),
+  Coffee: require('../Images/coffee.jpeg'),
+  SocialEvening: require('../Images/socialevening.jpeg'),
+  Registration: require('../Images/registration.jpeg'),
+
   // sponsors
   // diamond
   jetpack: require('../Images/sponsors/wordcamp/jetpack.png'),

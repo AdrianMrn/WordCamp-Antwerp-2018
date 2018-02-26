@@ -23,27 +23,27 @@ const SponsorsStyles: SponsorStyles = {
     backgroundColor: Colors.transparent
   },
   heading: {
+    marginTop: Metrics.doubleBaseMargin,
     fontFamily: Fonts.type.bold,
     fontSize: 31,
     letterSpacing: 0.2,
     backgroundColor: Colors.transparent,
-    color: Colors.snow
+    color: Colors.coal,
   },
   description: {
     textAlign: 'center',
     fontFamily: 'Montserrat-Medium',
     fontSize: 15,
-    color: Colors.snow,
+    color: Colors.charcoal,
     letterSpacing: 0.47,
     lineHeight: 23
   },
   sponsorTierTitle: {
     marginTop: 40,
-    marginBottom: Metrics.baseMargin + 20,
+    marginBottom: Metrics.baseMargin,
     fontFamily: Fonts.type.bold,
     fontSize: 15,
-    color: Colors.snow,
-    opacity: 0.6,
+    color: Colors.coal,
     letterSpacing: 0.5,
     lineHeight: 23
   },
@@ -68,7 +68,7 @@ const SponsorsStyles: SponsorStyles = {
     resizeMode: 'contain'
   },
   lowTier: {
-    color: Colors.snow,
+    color: Colors.charcoal,
     flex: 1,
     marginHorizontal: 5
   }

@@ -25,16 +25,13 @@ class AboutScreen extends React.Component {
 
   render() {
     return (
-      <LinearGradient colors={ Colors.wpBlueGradient }>
-        {/* <LinearGradient colors={ ['#FFEC94', '#f2d31f'] }> */}
-          <ScrollView>
-            <View style={styles.container}>
-              <WordCamp />
-              <Twitter />
-              <Sponsors />
-            </View>
-          </ScrollView>
-      </LinearGradient>
+      <ScrollView>
+        <View style={styles.container}>
+          <WordCamp />
+          <Twitter />
+          <Sponsors />
+        </View>
+      </ScrollView>
     )
   }
 }

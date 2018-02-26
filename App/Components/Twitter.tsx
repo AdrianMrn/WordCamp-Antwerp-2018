@@ -25,7 +25,7 @@ const Twitter = (props) => {
           <Text style={styles.description}>
             Stay connected, tweet about your favourite talks at WordCamp with the hashtag&nbsp;
             <Text style={styles.hashtag} onPress={() => tweetWithHashtag()}>
-                #wcant
+                #WCANT
             </Text>
           </Text>
         </View>

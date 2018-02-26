@@ -19,7 +19,8 @@ export default StyleSheet.create({
     justifyContent: 'space-around',
     paddingTop: Metrics.doubleBaseMargin,
     height: 85,
-    backgroundColor: Colors.clear
+    elevation: 10,
+    backgroundColor: Colors.wpBlueGradient[0],
   },
   inactiveDay: {
     backgroundColor: Colors.clear,

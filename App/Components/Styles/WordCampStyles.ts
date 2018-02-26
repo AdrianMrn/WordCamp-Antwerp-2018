@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { ApplicationStyles, Colors, Fonts } from '../../Themes/'
+import { ApplicationStyles, Colors, Fonts, Metrics } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
@@ -15,7 +15,7 @@ export default StyleSheet.create({
     fontSize: 13,
     letterSpacing: 0.2,
     backgroundColor: Colors.transparent,
-    color: '#FDE5FF'
+    color: Colors.coal,
   },
   wordCampIcon: {
     marginTop: 15
@@ -29,18 +29,14 @@ export default StyleSheet.create({
     width: '80%'
   },
   subheading: {
+    marginHorizontal: Metrics.doubleBaseMargin,
     marginBottom: 30,
     fontFamily: Fonts.type.description,
     fontSize: 15,
     letterSpacing: 0.5,
     backgroundColor: Colors.transparent,
-    color: Colors.snow,
+    color: Colors.charcoal,
     textAlign: 'center'
-  },
-  schedule: {
-    flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
   },
   title: {
     fontFamily: 'Montserrat-SemiBold',
@@ -49,13 +45,33 @@ export default StyleSheet.create({
     fontSize: 20,
     letterSpacing: 0.5,
   },
+  schedule: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  scheduleDay: {
+    marginHorizontal: 5,
+    width: '45%',
+    backgroundColor: Colors.wpBlueGradient[0],
+    elevation: 5,
+    borderWidth: 1,
+    borderColor: Colors.clear,
+
+    paddingVertical: 10,
+    paddingHorizontal: 5,
+  },
   scheduleText: {
     color: Colors.snow,
     textAlign: 'center',
     fontSize: 15,
     letterSpacing: 0.5,
   },
-  scheduleDay: {
-    width: '45%',
+  where: {
+    textAlign: 'center',
+    marginTop: 5,
+    color: Colors.snow,
+    opacity: 0.6,
+    fontSize: 10,
   }
 })

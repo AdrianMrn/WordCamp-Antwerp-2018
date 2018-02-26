@@ -9,21 +9,10 @@ const Sponsors = () => {
     <View style={styles.sponsors}>
       <Text style={styles.heading}>Our Sponsors</Text>
       <Text style={styles.description}>
-        {/* We love the sponsors for this conference.
-        They make all of this fun stuff possible, and we
-        couldn’t have done it without them. */}
-
         Our sponsors make it possible for us to host WordCamp 2018. 
         Most of them will be represented at the event, 
         ask around and strike up a chat!
       </Text>
-
-      {/* <Text style={styles.sponsorTierTitle}>
-        Platinum Sponsors
-      </Text>
-      <View style={styles.sponsorTier}>
-        <Sponsor url={'https://www.squarespace.com/'} image={"https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/Volta-x-communicatie-in-vorm.png"} />
-      </View> */}
 
       <Text style={styles.sponsorTierTitle}>
         Diamond Sponsors
