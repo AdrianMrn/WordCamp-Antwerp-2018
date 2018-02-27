@@ -10,13 +10,13 @@ const Flux = (props) => {
   return (
     <View style={styles.flux}>
       <Text style={styles.heading}>
-        Powered By Flux
+        Powered By WordPress
       </Text>
       <View style={styles.line} />
       <Text style={styles.description}>
-        This conference app was made by Flux Webdesign Antwerp using the WordPress REST API as a back end.
+        This conference app was made by <Text style={styles.bold}>Flux</Text> using the WordPress REST API as a back end.
         All conference data can be easily managed through the WordPress CMS.{'\n'}{'\n'}
-        The app itself was made in React Native and can be compiled for both Android and iOS (currently we only made WCANT available for Android).
+        The app itself was made in React Native and can be compiled for both Android and iOS (we have currently only made the app available for Android).
       </Text>
       <TouchableOpacity onPress={() => Linking.openURL("https://flux.be/")}>
         <Image style={styles.image} source={Images.Flux} />

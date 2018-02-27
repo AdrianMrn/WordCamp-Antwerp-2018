@@ -17,7 +17,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around',
-    paddingTop: Metrics.doubleBaseMargin,
+    /* paddingTop: Metrics.doubleBaseMargin, */
     height: 85,
     elevation: 10,
     backgroundColor: Colors.wpBlueGradient[0],

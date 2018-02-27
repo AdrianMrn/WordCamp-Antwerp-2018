@@ -37,5 +37,8 @@ export default StyleSheet.create({
   },
   image: {
     marginTop: Metrics.doubleBaseMargin,
+  },
+  bold: {
+    fontFamily: Fonts.type.bold
   }
 })
