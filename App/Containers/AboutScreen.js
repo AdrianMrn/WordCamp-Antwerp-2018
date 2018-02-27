@@ -9,6 +9,7 @@ import {
 } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import WordCamp from '../Components/WordCamp'
+import Flux from '../Components/Flux'
 import Twitter from '../Components/Twitter'
 import Sponsors from '../Components/Sponsors'
 import { Images, Colors } from '../Themes'
@@ -29,6 +30,7 @@ class AboutScreen extends React.Component {
         <View style={styles.container}>
           <WordCamp />
           <Twitter />
+          <Flux />
           <Sponsors />
         </View>
       </ScrollView>

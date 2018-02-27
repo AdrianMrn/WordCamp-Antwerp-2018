@@ -21,10 +21,13 @@ const colors = {
   eggplant: '#251a34',
   border: '#483F53',
   banner: '#5F3E63',
+
+  breakBackground: 'rgba(0,0,0, 0.3)',
   wpBlueGradient: ['#1D8CE0', '#369ED4'],
   viavia: '#e67e22',
   trappenaula: '#e84393',
   auditorium: '#2ecc71',
+  breakTitle: '#656565',
 
   snow: 'white',
   red: '#E64044',

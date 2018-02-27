@@ -32,18 +32,19 @@ const SponsorsStyles: SponsorStyles = {
   },
   description: {
     textAlign: 'center',
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.base,
     fontSize: 15,
     color: Colors.charcoal,
     letterSpacing: 0.47,
-    lineHeight: 23
+    lineHeight: 23,
+    paddingTop: 15,
   },
   sponsorTierTitle: {
     marginTop: 40,
     marginBottom: Metrics.baseMargin,
     fontFamily: Fonts.type.bold,
     fontSize: 15,
-    color: Colors.coal,
+    color: Colors.charcoal,
     letterSpacing: 0.5,
     lineHeight: 23
   },

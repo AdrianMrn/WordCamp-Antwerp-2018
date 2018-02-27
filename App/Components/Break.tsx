@@ -15,6 +15,7 @@ interface BreakProps {
   title: string
   isCurrentDay: boolean
   isActive: boolean
+  breaktype: string
   onPress(): void
 }
 
@@ -43,22 +44,27 @@ export default class Break extends React.Component<BreakProps, BreakState> {
       isCurrentDay,
       isActive,
       start,
-      end
+      end,
+      breaktype
     } = this.props
 
     const containerStyles = [
       styles.container,
     ]
+
+    //const background = Images[`$(breaktype)`]
+    const background = Images[`${breaktype}`]
     
     const cellTitle = title || `${type.charAt(0).toUpperCase() + type.slice(1)} Break`
 
     return (
       <View>
         <View style={containerStyles} onLayout={this.onLayout}>
+          <Image source={background} style={[styles.background, {width: 335}]} />
           <View style={styles.contentContainer}>
             <View style={styles.content}>
               <Text style={styles.heading}>
-                {cellTitle}
+                {title}
               </Text>
               <Text style={styles.duration}>
                 {format(getTime(start), 'HH:mm')} - {format(getTime(end), 'HH:mm')}

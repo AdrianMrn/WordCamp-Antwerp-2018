@@ -21,15 +21,12 @@ const BreakStyle: BreakStyleType = {
     marginVertical: Metrics.baseMargin,
     height: Metrics.breakHeight,
     borderColor: '#1D8CE0',
-    /* borderWidth: 0, */
     borderLeftWidth: 8,
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: Metrics.doubleBaseMargin,
-    /* borderRadius: Metrics.cardRadius, */
-    backgroundColor: Colors.cloud
-
+    backgroundColor: Colors.clear,
+    elevation: 5,
   },
   currentDay: {
     marginLeft: 16,
@@ -50,7 +47,6 @@ const BreakStyle: BreakStyleType = {
   background: {
     flex: 2,
     resizeMode: 'cover',
-    borderRadius: 5
   },
   video: {
     position: 'absolute',
@@ -61,6 +57,8 @@ const BreakStyle: BreakStyleType = {
     borderRadius: 5
   },
   contentContainer: {
+    backgroundColor: Colors.breakBackground,
+    padding: Metrics.doubleBaseMargin,
     position: 'absolute',
     top: 0,
     bottom: 0,
@@ -93,14 +91,14 @@ const BreakStyle: BreakStyleType = {
     letterSpacing: -0.2,
     lineHeight: 27,
     backgroundColor: Colors.transparent,
-    color: Colors.coal
+    color: Colors.silver
   },
   duration: {
     fontFamily: Fonts.type.semiBold,
     fontSize: 16,
     letterSpacing: -0.19,
     backgroundColor: Colors.transparent,
-    color: Colors.lightText
+    color: Colors.silver
   }
 }
 

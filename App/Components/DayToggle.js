@@ -11,10 +11,10 @@ const DayToggle = props => {
   return (
     <View style={styles.dayToggle}>
       <TouchableOpacity onPressIn={() => onPressIn(0)}>
-        <Text style={dayStyle(0)}>Friday</Text>
+        <Text style={[dayStyle(0), styles.dayButtonStyle]}>Friday</Text>
       </TouchableOpacity>
       <TouchableOpacity onPressIn={() => onPressIn(1)}>
-        <Text style={dayStyle(1)}>Saturday</Text>
+        <Text style={[dayStyle(1), styles.dayButtonStyle]}>Saturday</Text>
       </TouchableOpacity>
     </View>
   )

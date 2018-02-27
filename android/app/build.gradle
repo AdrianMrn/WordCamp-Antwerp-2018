@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.wcant"
+        applicationId "com.wordcampantwerp18"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 43

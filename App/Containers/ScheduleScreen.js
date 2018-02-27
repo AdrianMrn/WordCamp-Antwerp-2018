@@ -207,7 +207,7 @@ class ScheduleScreen extends Component {
           currentTime={currentTime}
           isCurrentDay={isCurrentDay}
           isActive={isActive}
-          breakstyle={item.break_style}
+          breaktype={item.break_type}
         />
       )
     }

@@ -35,6 +35,9 @@ export default StyleSheet.create({
     fontSize: 20,
     color: Colors.snow,
     letterSpacing: 0
+  },
+  dayButtonStyle: {
+    padding: 20,
   }
 
 })

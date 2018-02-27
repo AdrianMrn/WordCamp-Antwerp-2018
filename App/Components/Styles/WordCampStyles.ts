@@ -18,7 +18,7 @@ export default StyleSheet.create({
     color: Colors.coal,
   },
   wordCampIcon: {
-    marginTop: 15
+    marginVertical: 15
   },
   line: {
     marginTop: 30,
@@ -30,13 +30,14 @@ export default StyleSheet.create({
   },
   subheading: {
     marginHorizontal: Metrics.doubleBaseMargin,
-    marginBottom: 30,
-    fontFamily: Fonts.type.description,
+    fontFamily: Fonts.type.base,
     fontSize: 15,
     letterSpacing: 0.5,
+    lineHeight: 23,
     backgroundColor: Colors.transparent,
     color: Colors.charcoal,
-    textAlign: 'center'
+    textAlign: 'center',
+    paddingVertical: 15
   },
   title: {
     fontFamily: 'Montserrat-SemiBold',
@@ -73,5 +74,19 @@ export default StyleSheet.create({
     color: Colors.snow,
     opacity: 0.6,
     fontSize: 10,
+  },
+  link: {
+    textDecorationLine: 'underline',
+    fontFamily: Fonts.type.base,
+    fontSize: 15,
+    letterSpacing: 0.5,
+    lineHeight: 23,
+    backgroundColor: Colors.transparent,
+    color: Colors.charcoal,
+    textAlign: 'center',
+    padding: 5,
+  },
+  linkContainer: {
+    marginBottom: 30
   }
 })

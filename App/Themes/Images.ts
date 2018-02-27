@@ -38,10 +38,12 @@ const images = {
 
   // break background images
   Afterchat: require('../Images/afterchat.jpeg'),
-  Lunch: require('../Images/lunch.jpeg'),
+  Lunch: require('../Images/lunch.jpg'),
   Coffee: require('../Images/coffee.jpeg'),
   SocialEvening: require('../Images/socialevening.jpeg'),
   Registration: require('../Images/registration.jpeg'),
+  
+  Flux: require('../Images/flux-logo.png'),
 
   // sponsors
   // diamond

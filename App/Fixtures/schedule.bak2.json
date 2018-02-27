@@ -1,0 +1,522 @@
+{
+    "schedule": [
+        {
+            "location": "ViaVia",
+            "room": "",
+            "type": "talk",
+            "speaker": "WordCamp",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Contributorday @ ViaVia",
+            "description": "<h3>Wat is een contributor day?</h3>\n<p>Een Contributor Day is een (halve) dag waarop de community elkaar leert om bij te dragen aan WordPress. Zoals je weet is WordPress Open Source software, en dat wordt volledig ondersteund door vrijwilligers over de ganse de wereld.<br />\nVia een Contributor Day krijg je een introductie over hoe jij kan bijdragen aan The WordPress Project.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"WNZmmVsAk8\"><p><a href=\"https://2018.antwerp.wordcamp.org/contributor-day/\">Contributor Day</a></p></blockquote>\n<p><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://2018.antwerp.wordcamp.org/contributor-day/embed/#?secret=WNZmmVsAk8\" data-secret=\"WNZmmVsAk8\" width=\"525\" height=\"296\" title=\"&#8220;Contributor Day&#8221; &#8212; WordCamp Antwerp\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n",
+            "time": "1519995600",
+            "endtime": "1520013600",
+            "duration": 300,
+            "speakerInfo": [
+                {
+                    "name": "WordCamp",
+                    "bio": "",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://2018.antwerp.wordcamp.org/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cropped-wordcamp-antwerp-logo-web.png"
+                }
+            ]
+        },
+        {
+            "location": "",
+            "room": "",
+            "type": "break",
+            "speaker": "",
+            "image": "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Social Evening in the centre",
+            "description": "",
+            "time": "1520110800",
+            "endtime": "1520125200",
+            "duration": 240,
+            "speakerInfo": ""
+        },
+        {
+            "location": "",
+            "room": "",
+            "type": "break",
+            "speaker": "",
+            "image": "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "After Chat",
+            "description": "",
+            "time": "1520098200",
+            "endtime": "1520105400",
+            "duration": 120,
+            "speakerInfo": ""
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "WordCamp",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Closing Remarks",
+            "description": "",
+            "time": "1520096400",
+            "endtime": "1520098200",
+            "duration": 30,
+            "speakerInfo": [
+                {
+                    "name": "WordCamp",
+                    "bio": "",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://2018.antwerp.wordcamp.org/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cropped-wordcamp-antwerp-logo-web.png"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Thijs Feryn",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/ca901ddcea38854b9783781c91fc87c9.jpg",
+            "title": "Docker for WordPress developers",
+            "description": "<p>If you’re in IT, you’ve probably heard about Docker. But what is the hype all about? In this session, I’ll explain the Docker ecosystem and how you can leverage Docker to host your WordPress application in a containerized environment.</p>\n",
+            "time": "1520093400",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Thijs Feryn",
+                    "bio": "<p>Thijs Feryn is a “technical evangelist” at Combell and Sentia. Both are leading webhosting companies in the Benelux area: the former in the SME market, the latter in the enterprise market. His goal is to bring technology to the people and people to technology. He focuses on bridging the gap between code and infrastructure. Thijs is a published author at O’Reilly, he is also involved in many open source communities and leads the PHPBenelux community. He speaks, listens, writes, codes, teaches, blogs, vlogs, organizes and is above all very excited to speak at WordCamp Antwerp.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/ca901ddcea38854b9783781c91fc87c9.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Annelieke",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/acc32f23445c978d13ae2c9dc2139809.png",
+            "title": "How to handle the SEO of a multilingual WordPress website",
+            "description": "<p>We&#8217;re here in Antwerp, Belgium and Belgium is a multilingual country where they speak two languages, Flemish-Dutch and French. And if you have a website where you want to address whole of Belgium, how can optimize your SEO so that you’ll rank for both Flanders and Wallonia? In this talk I’m going to walk you through the most important steps of how to prepare your website for multilingual SEO.</p>\n",
+            "time": "1520093400",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Annelieke",
+                    "bio": "<p>I manage the Marketing department at Yoast. I have my Master’s degree in Sociology and focus on all things related to marketing, in particular data analysis. I contribute to Yoast Academy as well.<br />\nI’m 31 years old, I have a 3 year old daughter and I like to sing and dance</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://yoast.nl/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/acc32f23445c978d13ae2c9dc2139809.png"
+                }
+            ]
+        },
+        {
+            "location": "",
+            "room": "",
+            "type": "break",
+            "speaker": "",
+            "image": "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Coffee Refill Break",
+            "description": "",
+            "time": "1520092200",
+            "endtime": "1520093400",
+            "duration": 20,
+            "speakerInfo": ""
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Thorsten Frommen",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/744f3af7bc2f334a74b68aad996871be.png",
+            "title": "The Hitchhiker’s Guide to the WordPress Coding Standards",
+            "description": "<p>Rules are meant to be broken. Nevertheless, rules are there for good reasons, and even more when you have a say in them.</p>\n<p>In this talk, Thorsten will start by providing an overview of the rules and best practices for coding in the WordPress universe. If you want to know about code style, coding standards, code conventions, code quality—and why it all matters!—this talk is for you.</p>\n<p>The second half of the talk will cover applying these rules via a WordPress-specific Composer package based on the well-known PHP_CodeSniffer tool. Both projects changed a lot recently, so you might learn something new. And now with Tide, this is getting more and more important for plugin and theme authors.</p>\n",
+            "time": "1520089200",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Thorsten Frommen",
+                    "bio": "<p>Thorsten is a certified PHP engineer, web development professional and tester. He is working in the web since 2000, and with (and on) WordPress since 2005. Thorsten is a Senior WordPress Engineer at Human Made.</p>\n<p>A big fan of open source, Thorsten created several plugins and other projects, but also contributed to existing open source projects. Also, he is an advocate of object-oriented design, and software testing.</p>\n<p>Since the first official German WordCamp in Hamburg in June 2014, Thorsten fell in love with both the WordPress community and WordCamps, in particular, where he likes to both gain and share knowledge.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://humanmade.com/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/744f3af7bc2f334a74b68aad996871be.png"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Toon Van De Putte",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/a5f399ff0d4cae624251df328f602518.jpg",
+            "title": "Get to know your data better with SQLite and Sequel Pro",
+            "description": "<p>There are lots of tools out there to manage your site’s data from within wp-admin. Maybe you spend a lot of time in Excel or with csv’s to prepare data for import, or you write complicated php code to do one-off data manipulation tasks. Sequel Pro and SQLite make a lot of this work easier and simpler, and leverage the power of SQL.</p>\n",
+            "time": "1520087400",
+            "endtime": "1520088000",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Toon Van De Putte",
+                    "bio": "<p>Graphic design, web design, UX, Information architecture and now web development. I’ve been imtimately involved with pretty much every aspect of website building, specifically with WordPress. For the last ten years, I’ve been mostly working for Klasse, maker of on- and offline magazines and issuer of the Teacher’s Card (Lerarenkaart)</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/a5f399ff0d4cae624251df328f602518.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Aytac Kokus",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/AAEAAQAAAAAAAAa8AAAAJGEyZGY4MTgyLWZiYTMtNDIwYi1iYjU0LWNmZTc3NGNkOTE2ZA.jpg",
+            "title": "How to use cron for WordPress",
+            "description": "<p>The goal is to enlighten the viewers about the workcycle of a cronjob and the different options in WordPress.</p>\n",
+            "time": "1520086800",
+            "endtime": "1520087400",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Aytac Kokus",
+                    "bio": "<p>My first WordPress developer experience was being a front-end developer at Queromedia. Mostly working within theme directory. After that I started working as a backend developer at AppSaloon and I’m still there. My job consists of creating custom features (plugins) or optimizing websites.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://appsaloon.be/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/AAEAAQAAAAAAAAa8AAAAJGEyZGY4MTgyLWZiYTMtNDIwYi1iYjU0LWNmZTc3NGNkOTE2ZA.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Maik Gruppen",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/f7b7923cf9da6ab5bc0301b7cc49259a.png",
+            "title": "Seven secret tips in working with browser dev-tools",
+            "description": "<p>How to make your life easier working with WordPress? Learn to use browser dev-tools to get insights you didn’t even know existed and create better websites in less time while you’re at it.</p>\n",
+            "time": "1520086200",
+            "endtime": "1520086800",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Maik Gruppen",
+                    "bio": "<p>Maik has been working with WordPress since 2010. At first as a freelance web designer and currently at Savvii Managed WordPress Hosting. Maik is Savvii’s ‘travelling consultant’. His talks with partners and clients do not only concern technical details, but mostly focus on exploring possibilities for growth. Because growth for partners and clients equals growth for Savvii!</p>\n<p>Maik werkt sinds 2010 met WordPress. Eest als een freelance webdesginer en nu bij Savvii Managed WordPress Hosting. Maik is Savvii’s reizende consultant. Zijn gesprekken met partners en klanten gaan niet alleen over de technische details, maar gaan vooral over de mogelijkheden die er zijn op het gebied van groei. Dit omdat groei voor partners ook leidt tot groei voor Savvii.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://www.savvii.eu/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/f7b7923cf9da6ab5bc0301b7cc49259a.png"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Aart Geys",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/0b022bf.jpg",
+            "title": "WordPress website onderhoud met wp-cli",
+            "description": "<p>Introductie voor beginners met enkele concrete praktijkvoorbeelden die verduidelijken hoe het gebruik van de commandolijn het dagelijks leven van iedere WordPress gebruiker makkelijker kan maken zodat er meer tijd overblijft voor de leuke dingen. Het leven is nu eenmaal meer dan website onderhoud alleen. Als beginnende WordPress gebruikers na de voordracht al niet onmiddellijk naar huis snellen om wp-cli uit te proberen dan hoop ik tenminste dat ik hun mogelijke angst voor de commandolijn een beetje kleiner heb kunnen maken 😉</p>\n",
+            "time": "1520085600",
+            "endtime": "1520086200",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Aart Geys",
+                    "bio": "<p>Aart is sinds 2001 bezig met alles wat web is. Content creator, project manager, webmaster, themer, developer… geen enkele rol is hem vreemd. Vandaag is hij actief als WordPress developer in de reiswereld. Als hij even geen zin heeft in online communicatie trekt hij nog het allerliefst zijn wandelschoenen om rond te zwerven over de de Hagelandse heuvels.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://www.omniatravel.be/nl/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/0b022bf.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "David De Boer",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/2f291a5bea11d39d3a9bab08fe4b4814.png",
+            "title": "Trends in online betalingen: van donaties tot abonnementen",
+            "description": "<p>Klik, een product in je winkelwagen, afrekenen en dan afwachten. Dat is zo enorm saai!</p>\n<p>Als je tegenwoordig een webwinkel wilt bouwen of runnen en ook nog de concurrentie voor wilt blijven, moet je je onderscheiden op creatievere manieren dan met een standaard winkeltje en een kortingscode op je FaceBook page.</p>\n<p>Tijdens deze presentatie kijken we naar ontwikkelingen die webwinkels een edge geven ten opzichte van hun concurrenten, en we focusen ons op hoe innovaties in online betalingen nieuwe vormen van online shoppen mogelijk maken.</p>\n<p>Abonnementen, in het Engels: recurring payments, zijn helemaal hot en ingeburgerd in Amerika, maar lijken in Nederland nog in de kinderschoenen te staan. Hoe implementeer je die in jou webwinkel? Welke plugins heb je nodig? Met welke betaal partner kun je in zee?</p>\n",
+            "time": "1520089200",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "David De Boer",
+                    "bio": "<p>David created Paytium (https://www.paytium.nl), a simple plugin to accept payments in WordPress websites without complicated integrations. He is an online payments expert and entrepreneur that has been sharing his knowledge and experience since 2003.</p>\n<p>David also manages other WordPress plugins such as the Mollie integration for WooCommerce and Post Snippets (https://www.postsnippets.com). Together these plugins run on more than 60.000 websites!</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://www.paytium.nl/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/2f291a5bea11d39d3a9bab08fe4b4814.png"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Tom Hermans",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c01ec3987fe661b08026ff2a0c7512ff.png",
+            "title": "Start to webshop",
+            "description": "<p>Pitfalls of starting a webshop in terms or organization, not tech focussed.</p>\n",
+            "time": "1520087400",
+            "endtime": "1520088000",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Tom Hermans",
+                    "bio": "<p>Designer. Developer. Building websites and brands.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c01ec3987fe661b08026ff2a0c7512ff.png"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Diana Edreva",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cffb5890804d2e074bcac8b0d2b76731.png",
+            "title": "Oh, no! I got hacked?!",
+            "description": "<p>So you have a cute website on which you have worked a couple of years on and at one point – your site gets hacked! What do you do? No worries I have you covered! I am here to answer your questions why would someone hack your website? What to do if you are indeed hacked? And of course – the spring clean !</p>\n",
+            "time": "1520086800",
+            "endtime": "1520087400",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Diana Edreva",
+                    "bio": "<p>Hi my name is Diana and I am “Just another WordPress enthusiast” I am also a plugin dev newbie as well as a big Star Wars fan (heavy Vader breathing) and absolutely love being part of the WordPress community!</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cffb5890804d2e074bcac8b0d2b76731.png"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Csaba Varszegi",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c393b7808fc6d39f5cab8928c7f994b6.jpg",
+            "title": "Benefit from the WordPress Customizer",
+            "description": "<p>The Customizer is a great tool to live preview changes to a WordPress site. And it is becoming even more: what about a staging environment or a real WYSIWYG experience for editing content?<br />\nIt is time to benefit from what the Customizer has to offer. In this presentation I will try to give some examples of how you as a web developer as well as your client or user can take advantage from well-known and less well-known features of the Customizer. You can offer your users/clients controlled flexibility and ease of use when customizing their site and at the same time benefit from the available features with regard to long-term support and client satisfaction.</p>\n",
+            "time": "1520086200",
+            "endtime": "1520086800",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Csaba Varszegi",
+                    "bio": "<p>I am a WordPress enthousiast and a JavaScript lover. I work since last year as a frontend and WordPress developer as “LittleBigThings”, mostly creating WordPress websites. I have found WordPress in 2013 and contributed since in the forums, as a member of the theme review theme, as a WordCamp organizer and to the Twenty Seventeen default theme in WordPress 4.7. I love the idea of “open source”, the WordPress’ philosophy and community. Oh yes, I am a minimalist who enjoys simplicity in life.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://littlebigthings.be/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c393b7808fc6d39f5cab8928c7f994b6.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Jens De Beule",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/062dc40aaf82ff88a70d6603b02d5c1a.png",
+            "title": "WordPress 4 Education",
+            "description": "<p>De bedoeling van mijn talk is onder de toeschouwers brengen dat WordPress verder gaat dan alleen vrije tijd en professionele websites. In vele scholen wordt het platform ook gebruikt voor eindwerken, projecten etc. op scholen.</p>\n",
+            "time": "1520085600",
+            "endtime": "1520086200",
+            "duration": 10,
+            "speakerInfo": [
+                {
+                    "name": "Jens De Beule",
+                    "bio": "<p>WordPress-gebruiker en community-contributor in hart en nieren! WP heeft heel veel te bieden aan zijn eindgebruikers en soms verstopt het zichzelf een beetje, aan mij om jouw ogen te openen! Ik zit zelf al meer als 5 jaar in beide voornoemde wereldjes en ben enorm gepassioneerd door de mogelijkheden van deze open-source community.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/062dc40aaf82ff88a70d6603b02d5c1a.png"
+                }
+            ]
+        },
+        {
+            "location": "",
+            "room": "",
+            "type": "break",
+            "speaker": "",
+            "image": "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Lunch Break",
+            "description": "",
+            "time": "1520081400",
+            "endtime": "1520085600",
+            "duration": 70,
+            "speakerInfo": ""
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Brecht Ryckaert",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/d4db4629ab30a50a135e5dc8d83c1112.jpg",
+            "title": "Debugging WordPress",
+            "description": "<p>We’ve all encountered the issue: a blank screen or worse, a 500 error on the server. How do you cope with this kind of issue, what do you do to find the culprit and resolve the error.</p>\n",
+            "time": "1520078400",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Brecht Ryckaert",
+                    "bio": "<p>Brecht is a WordPress enthusiast from Belgium who’s been using WordPress since version 1.5. He has 10 years of experience in the hosting industry and is well versed with security, performance and problem solving. When not diving into WordPress, he loves to write while nipping on a single malt.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/d4db4629ab30a50a135e5dc8d83c1112.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Trappenaula",
+            "type": "talk",
+            "speaker": "Jaime Martínez",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/2fa581b69fdbbecad075275cf79f064d.jpg",
+            "title": "A modular approach to WordPress theme development",
+            "description": "<p>Bij Level Level hebben we te maken met websites die schaalbaar en flexibel moeten zijn. Tijdens het ontwikkelen van een maatwerkproject willen we een goede basis neerzetten, zodat wijzigingen eenvoudig doorgevoerd kunnen worden en uitbreidingen gebruik kunnen maken van de bestaande onderdelen. Door enkele richtlijnen aan te houden zorgen we ervoor dat we het technisch gezien bij omvangrijke projecten allemaal op een rijtje houden. Denk hierbij aan methodes zoals Object Georiënteerd Programmeren, BEM (CSS) en technieken zoals Twig templating (Clarkson), Gulp of Webpack. Dit allemaal zonder het contact met WordPress te verliezen.</p>\n<p>Ons doel is om websites op te leveren van hoge kwaliteit welke schaalbaar, stabiel en eenvoudig te onderhouden zijn. Dit resulteert in diverse projecten zoals Autotaalglas, Business Insider Nederland, ABN AMRO Financial Focus, Kansfonds of SOMO.</p>\n<p>De klant blij, wij blij.</p>\n",
+            "time": "1520074800",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Jaime Martínez",
+                    "bio": "<p>Happy coder @ Level Level &amp; long time WordPress enthousiast. Naast het organiseren van de WPMeetup010 &amp; WordCamp in Rotterdam duikt hij graag op bij andere Meetups of WordCamps. Daarnaast draagt hij zijn steentje bij aan de Open Source community door mee te werken aan projecten zoals WP-CLI &amp; Clarkson of toont zijn liefde via random Pull Requests.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://level-level.com/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/2fa581b69fdbbecad075275cf79f064d.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Bas van der Lans",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/0e039931a1e0bbfeaeb6331ddbddd7dd.jpg",
+            "title": "Digitale Slagkracht met WordPress: Van Visitekaartje naar Verkoopmachine",
+            "description": "<p>Of je nu aannemer of uitvaartondernemer bent, en of je nu mayonaise, rollators of kinderwagens produceert of auto’s, taarten, bh’s of EHBO-cursussen verkoopt; als je je website inzet als visitekaartje dan mis je de kansen van nu.</p>\n<p>Oriëntatie voor bijna iedere aankoop – B2B én B2C – start digitaal. Ben je daar niet waardevol? Dan is de kans groot dat deze potentiële klant niet voor jou kiest.<br />\nAan de hand van aansprekende voorbeelden neemt Bas je mee. Tijdens de workshop breng je je marketing en salesfunnel in kaart en je maakt een actieplan om van jouw site in 2018 een verkoopmachine te maken die serieus gaat bijdragen aan je leads en omzet.</p>\n<p>De Digitale Slagkracht Methode is de blauwprint voor meer omzet in het digitale tijdperk met WordPress, inclusief de tools en WP Plugins die je kan gebruiken om morgen aan de slag te gaan.</p>\n<p>De workshop is erop gericht om met WordPress jouw bedrijf te doen groeien.</p>\n",
+            "time": "1520078400",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Bas van der Lans",
+                    "bio": "<p>Bas van der Lans (1988) is auteur van het Handboek voor Digitale Slagkracht. Als oprichter van 20-koppig WordPress bureau ‘Van Ons’ (2006) heeft hij zich dit doel gesteld: “In 2025 zijn er alleen nog effectieve websites en marketing in Nederland!”</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://www.van-ons.nl/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/0e039931a1e0bbfeaeb6331ddbddd7dd.jpg"
+                }
+            ]
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Marcel Bootsman",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/b2a45130b3d157ed256b04d5738198cd.jpg",
+            "title": "Meet Gutenberg, the future of WordPress publishing.",
+            "description": "<p>There’s something new on the way for WordPress. The editor as we know it is about to be replaced by a thing called Gutenberg. After this talk you will be inspired to try/test Gutenberg a day possibly contribute in giving feedback, asking questions or even add some pull requests.</p>\n",
+            "time": "1520074800",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Marcel Bootsman",
+                    "bio": "<p>WordPress specialist, eigenaar van nostromo.nl, actief in de WordPress community als polyglot, forum moderator, admin voor nl.wordpress.org en co-organiser van WordCamp Europe, Nederland en Rotterdam. Houdt van tennis, mountainbiken (als het droog is).</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://nostromo.nl/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/b2a45130b3d157ed256b04d5738198cd.jpg"
+                }
+            ]
+        },
+        {
+            "location": "",
+            "room": "",
+            "type": "break",
+            "speaker": "",
+            "image": "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Coffee Refill Break",
+            "description": "",
+            "time": "1520073600",
+            "endtime": "1520074800",
+            "duration": 20,
+            "speakerInfo": ""
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "WordCamp",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Opening Remarks",
+            "description": "",
+            "time": "1520069400",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "WordCamp",
+                    "bio": "",
+                    "twitter": "",
+                    "github": "",
+                    "company": "https://2018.antwerp.wordcamp.org/",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/cropped-wordcamp-antwerp-logo-web.png"
+                }
+            ]
+        },
+        {
+            "location": "",
+            "room": "",
+            "type": "break",
+            "speaker": "",
+            "image": "https://2018.antwerp.wordcamp.org/files/2018/01/cropped-wordcamp-antwerp-logo-web.png",
+            "title": "Doors Open &#038; Registration",
+            "description": "",
+            "time": "1520067600",
+            "endtime": "1520069400",
+            "duration": 30,
+            "speakerInfo": ""
+        },
+        {
+            "location": "KdG",
+            "room": "Auditorium",
+            "type": "talk",
+            "speaker": "Herman Maes",
+            "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c3074c9e1a3914c8f01f3fd0f441bbe1.jpg",
+            "title": "10 WordPress GDPR fails",
+            "description": "<p>Doing GDPR audits I found some nice fails with WordPress fails. During this talk I’ll showcase some GDPR fails and quickwins in order to comply to the new privacylaws.</p>\n",
+            "time": "1520070600",
+            "endtime": "",
+            "duration": "5",
+            "speakerInfo": [
+                {
+                    "name": "Herman Maes",
+                    "bio": "<p>As a techblogger since 2002 Herman is an early user of WP. Working as a freelance technical marketer and GDPR guy with a technical background he is jumping between the business and technical side of projects.</p>\n",
+                    "twitter": "",
+                    "github": "",
+                    "company": "",
+                    "image": "https://fluxit.be/react/wordcamp18/wp-content/uploads/2018/02/c3074c9e1a3914c8f01f3fd0f441bbe1.jpg"
+                }
+            ]
+        }
+    ]
+}

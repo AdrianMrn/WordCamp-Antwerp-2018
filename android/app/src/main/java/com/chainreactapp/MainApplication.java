@@ -1,4 +1,4 @@
-package com.chainreactapp;
+package com.wordcampantwerp18;
 
 import android.app.Application;
 

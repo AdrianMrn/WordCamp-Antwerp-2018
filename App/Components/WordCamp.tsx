@@ -4,7 +4,7 @@ import LinearGradient from 'react-native-linear-gradient'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/WordCampStyles'
 
-const InfiniteRed = (props) => {
+const Wordcamp = (props) => {
   const gradient = ['#351F41', '#8E2044']
 
   {/* <LinearGradient colors={ Colors.wpBlueGradient }>
@@ -12,7 +12,6 @@ const InfiniteRed = (props) => {
   return (
     <View style={styles.wordCamp}>
       <Image style={styles.wordCampIcon} source={Images.wordcamp} />
-      <View style={styles.line} />
       <Text style={styles.subheading}>
         WordCamp is a conference that focuses on everything WordPress.
         WordCamps are informal, community-organized events that are put together by WordPress users like you. Everyone from casual users to core developers participate, share ideas, and get to know each other.
@@ -25,6 +24,11 @@ const InfiniteRed = (props) => {
         All conference data can be easily managed {'\n'}
         through the WP admin panel.{'\n'}{'\n'} */}
       </Text>
+      <TouchableOpacity style={styles.linkContainer} onPress={() => Linking.openURL("https://2018.antwerp.wordcamp.org/")}>
+        <Text style={styles.link}>
+          Visit the website
+        </Text>
+      </TouchableOpacity>
 
       <View style={styles.schedule}>
 
@@ -59,4 +63,4 @@ const InfiniteRed = (props) => {
   )
 }
 
-export default InfiniteRed
+export default Wordcamp
