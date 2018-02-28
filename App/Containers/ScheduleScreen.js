@@ -25,7 +25,6 @@ import {
 import Config from '../Config/AppConfig'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/ScheduleScreenStyle'
-import GestureRecognizer, { swipeDirections } from '../ForkedPackages/react-native-swipe-gestures-thegamenicorus'
 
 const isActiveCurrentDay = (currentTime, activeDay) =>
   isSameDay(currentTime, new Date(Config.conferenceDates[activeDay]))
@@ -214,26 +213,9 @@ class ScheduleScreen extends Component {
     }
   }
 
-  onSwipeLeft(gestureState) {
-    this.setActiveDay(0)
-  }
-
-  onSwipeRight(gestureState) {
-    this.setActiveDay(1)
-  }
-
   render() {
     const { isCurrentDay, activeDay, data } = this.state
-    const config = {
-      velocityThreshold: 0.3,
-      directionalOffsetThreshold: 80
-    };
     return (
-      <GestureRecognizer
-        onSwipeLeft={(state) => this.onSwipeLeft(state)}
-        onSwipeRight={(state) => this.onSwipeRight(state)}
-        config={config}
-      >
         <LinearGradient
           colors={Colors.wpBlueGradient}>
           <DayToggle
@@ -252,7 +234,6 @@ class ScheduleScreen extends Component {
             showsVerticalScrollIndicator={false}
           />
         </LinearGradient>
-      </GestureRecognizer>
     )
   }
 }
