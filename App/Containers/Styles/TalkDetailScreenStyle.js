@@ -55,6 +55,9 @@ export default StyleSheet.create({
     left: (Metrics.screenWidth - (Metrics.doubleBaseMargin * 2)) / 2 - 53,
     height: 106,
     width: 106, */
+    position: 'absolute',
+    top: -1,
+    left: -1,
     borderRadius: 53,
     height: 106,
     width: 106,
