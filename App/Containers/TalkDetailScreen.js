@@ -1,5 +1,5 @@
 import React from 'react'
-import { BackHandler, ScrollView, Text, View, Image, TouchableOpacity } from 'react-native'
+import { BackHandler, ScrollView, Text, View, Image, TouchableOpacity, Linking } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import TalkInfo from '../Components/TalkInfo'
 import { NavigationActions } from 'react-navigation'
@@ -7,7 +7,7 @@ import ScheduleActions from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
-import { Images, Colors } from '../Themes'
+import { Images, Colors, Fonts } from '../Themes'
 import styles from './Styles/TalkDetailScreenStyle'
 import { contains } from 'ramda'
 
@@ -36,6 +36,13 @@ class TalkDetail extends React.Component {
         <Text style={styles.description}>
           {speaker.bio}
         </Text>
+        { (speaker.company != "") &&
+          <TouchableOpacity onPress={() => Linking.openURL(speaker.company)}>
+            <Text style={[styles.description, Fonts.underline]}>
+              Visit website
+            </Text>
+          </TouchableOpacity>
+        }
       </View>
     )
   }
