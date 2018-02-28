@@ -12,10 +12,6 @@ interface TalkProps {
   avatarURL: string
   start: Number
   duration: number
-  isFinished: boolean
-  showWhenFinished: boolean
-  isCurrentDay: boolean
-  isActive: boolean
   currentTime: Date
   location: string
   room: string
@@ -23,7 +19,6 @@ interface TalkProps {
 }
 
 interface TalkState {
-  isActive: boolean,
   animatedSize: Animated.Value
 }
 
@@ -32,7 +27,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
     super(props)
 
     this.state = {
-      isActive: false,
       animatedSize: new Animated.Value(1)
     }
   }
@@ -54,15 +48,12 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
 
   render() {
     const {
-      isCurrentDay,
-      isActive,
       name,
       title,
       avatarURL,
       start,
       duration,
       currentTime,
-      isFinished,
       location,
       room
     } = this.props
@@ -109,8 +100,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
             <TalkInfo
               start={start}
               duration={duration}
-              isFinished={isFinished || isActive}
-              showWhenFinished={this.props.showWhenFinished}
               room={room}
               location={location}
               borderRoomStyle={borderRoomStyle}

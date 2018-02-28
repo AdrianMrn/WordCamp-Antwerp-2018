@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, Image, Linking, TouchableOpacity } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
-import { Images, Colors } from '../Themes'
+import { Images, Colors, Fonts } from '../Themes'
 import styles from './Styles/FluxStyles'
 
 const Flux = (props) => {
@@ -18,6 +18,11 @@ const Flux = (props) => {
         All conference data can be easily managed through the WordPress CMS.{'\n'}{'\n'}
         The app itself was made in React Native and can be compiled for both Android and iOS (we have currently only made the app available for Android).
       </Text>
+      <TouchableOpacity style={styles.linkContainer} onPress={() => Linking.openURL("https://2018.antwerp.wordcamp.org/")}>
+        <Text style={[styles.description, Fonts.underline]}>
+          Visit our website
+        </Text>
+      </TouchableOpacity>
       <TouchableOpacity onPress={() => Linking.openURL("https://flux.be/")}>
         <Image style={styles.image} source={Images.Flux} />
       </TouchableOpacity>

@@ -20,8 +20,8 @@ const BreakStyle: BreakStyleType = {
     marginHorizontal: Metrics.doubleBaseMargin,
     marginVertical: Metrics.baseMargin,
     height: Metrics.breakHeight,
-    borderColor: '#1D8CE0',
-    borderLeftWidth: 8,
+    /* borderColor: '#1D8CE0',
+    borderLeftWidth: 8, */
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',

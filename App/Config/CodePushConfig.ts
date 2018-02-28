@@ -10,6 +10,6 @@ if (Platform.OS === 'ios') {
   deploymentKey = DebugConfig.codepushStaging ? Secrets.CODE_PUSH_ANDROID_STAGING : Secrets.CODE_PUSH_ANDROID_PRODUCTION
 }
 
-(console as any).tron.log(`deploymentKey = ${deploymentKey}`)
+/* (console as any).tron.log(`deploymentKey = ${deploymentKey}`) */
 
 codePush.sync({ deploymentKey })

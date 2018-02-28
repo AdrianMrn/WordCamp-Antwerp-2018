@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, Image, Linking, TouchableOpacity } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
-import { Images, Colors } from '../Themes'
+import { Images, Colors, Fonts } from '../Themes'
 import styles from './Styles/WordCampStyles'
 
 const Wordcamp = (props) => {
@@ -15,17 +15,9 @@ const Wordcamp = (props) => {
       <Text style={styles.subheading}>
         WordCamp is a conference that focuses on everything WordPress.
         WordCamps are informal, community-organized events that are put together by WordPress users like you. Everyone from casual users to core developers participate, share ideas, and get to know each other.
-        {/* WordPress is almost literally the engine of the web:{'\n'}
-        over 25% of all websites on the internet{'\n'}
-        are powered by WordPress.{'\n'}{'\n'}
-
-        This app was made using React Native and {'\n'}
-        the WordPress API as a back end. {'\n'}
-        All conference data can be easily managed {'\n'}
-        through the WP admin panel.{'\n'}{'\n'} */}
       </Text>
       <TouchableOpacity style={styles.linkContainer} onPress={() => Linking.openURL("https://2018.antwerp.wordcamp.org/")}>
-        <Text style={styles.link}>
+        <Text style={[styles.subheading, Fonts.underline]}>
           Visit the website
         </Text>
       </TouchableOpacity>
@@ -36,10 +28,10 @@ const Wordcamp = (props) => {
           <View>
             <Text style={styles.title}>Friday</Text>
             <Text style={styles.scheduleText}>
-              Contributorday @ ViaVia
+              @ ViaVia
             </Text>
             <Text style={styles.where}>
-              Where?
+              see on Google Maps
             </Text>
           </View>
         </TouchableOpacity>
@@ -48,10 +40,10 @@ const Wordcamp = (props) => {
           <View>
             <Text style={styles.title}>Saturday</Text>
             <Text style={styles.scheduleText}>
-              Conference @ KdG
+              @ KdG
             </Text>
             <Text style={styles.where}>
-              Where?
+              see on Google Maps
             </Text>
           </View>
         </TouchableOpacity>

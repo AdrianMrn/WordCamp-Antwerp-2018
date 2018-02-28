@@ -6,8 +6,6 @@ import styles from './Styles/TalkInfoStyle'
 interface TalkInfoProps {
   start: Number
   duration: Number
-  isFinished: boolean
-  showWhenFinished: boolean
   location: string
   room: string
   borderRoomStyle: string
@@ -15,7 +13,7 @@ interface TalkInfoProps {
 
 const TalkInfo = (props: TalkInfoProps) => {
   const { start, location, room, borderRoomStyle } = props
-  const formattedStart = format(start, 'HH:mm')
+  const formattedStart = format(start-3600000, 'HH:mm')
 
   return (
     <View style={[styles.container, borderRoomStyle]}>

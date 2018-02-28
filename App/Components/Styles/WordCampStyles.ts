@@ -69,22 +69,12 @@ export default StyleSheet.create({
     letterSpacing: 0.5,
   },
   where: {
+    ...Fonts.underline,
     textAlign: 'center',
     marginTop: 5,
     color: Colors.snow,
     opacity: 0.6,
     fontSize: 10,
-  },
-  link: {
-    textDecorationLine: 'underline',
-    fontFamily: Fonts.type.base,
-    fontSize: 15,
-    letterSpacing: 0.5,
-    lineHeight: 23,
-    backgroundColor: Colors.transparent,
-    color: Colors.charcoal,
-    textAlign: 'center',
-    padding: 5,
   },
   linkContainer: {
     marginBottom: 30

@@ -67,7 +67,7 @@ export default class Break extends React.Component<BreakProps, BreakState> {
                 {title}
               </Text>
               <Text style={styles.duration}>
-                {format(getTime(start), 'HH:mm')} - {format(getTime(end), 'HH:mm')}
+                {format(getTime(start-3600000), 'HH:mm')} - {format(getTime(end-3600000), 'HH:mm')}
               </Text>
             </View>
           </View>

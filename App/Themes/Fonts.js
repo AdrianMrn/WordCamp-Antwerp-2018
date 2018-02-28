@@ -36,8 +36,13 @@ const style = {
   }
 }
 
+const underline = {
+  textDecorationLine: 'underline',
+}
+
 export default {
   type,
   size,
-  style
+  style,
+  underline
 }
