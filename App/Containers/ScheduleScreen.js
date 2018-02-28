@@ -25,12 +25,13 @@ import {
 import Config from '../Config/AppConfig'
 import { Images, Colors } from '../Themes'
 import styles from './Styles/ScheduleScreenStyle'
+import GestureRecognizer, { swipeDirections } from '../ForkedPackages/react-native-swipe-gestures-thegamenicorus'
 
 const isActiveCurrentDay = (currentTime, activeDay) =>
   isSameDay(currentTime, new Date(Config.conferenceDates[activeDay]))
 
 class ScheduleScreen extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     const { schedule, currentTime } = props
@@ -40,7 +41,7 @@ class ScheduleScreen extends Component {
     const isCurrentDay = isActiveCurrentDay(currentTime, activeDay)
     const appState = AppState.currentState
 
-    this.state = {eventsByDay, data, isCurrentDay, activeDay, appState}
+    this.state = { eventsByDay, data, isCurrentDay, activeDay, appState }
   }
 
   static navigationOptions = {
@@ -59,7 +60,7 @@ class ScheduleScreen extends Component {
   getEventsByDayFromSchedule = (schedule) => {
     const mergeTimes = (e) => {
       const eventDuration = Number(e.duration)
-      const eventStart = new Date(e.time*1000)
+      const eventStart = new Date(e.time * 1000)
       const eventFinal = addMinutes(eventStart, eventDuration)
       // ends 1 millisecond before event
       const eventEnd = subMilliseconds(eventFinal, 1)
@@ -80,7 +81,7 @@ class ScheduleScreen extends Component {
     navigation.navigate('TalkDetail')
   }
 
-  componentDidMount () {
+  componentDidMount() {
     AppState.addEventListener('change', this._handleAppStateChange)
 
     const { data } = this.state
@@ -88,11 +89,11 @@ class ScheduleScreen extends Component {
     // fixes https://github.com/facebook/react-native/issues/13202
     const wait = new Promise((resolve) => setTimeout(resolve, 200))
     wait.then(() => {
-      this.refs.scheduleList.scrollToIndex({index, animated: false})
+      this.refs.scheduleList.scrollToIndex({ index, animated: false })
     })
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     AppState.removeEventListener('change', this._handleAppStateChange)
   }
 
@@ -101,13 +102,13 @@ class ScheduleScreen extends Component {
     if (appState.match(/inactive|background/) && nextAppState === 'active') {
       this.props.getScheduleUpdates()
     }
-    this.setState({appState: nextAppState})
+    this.setState({ appState: nextAppState })
   }
 
-  componentWillReceiveProps (newProps) {
+  componentWillReceiveProps(newProps) {
     const { activeDay, eventsByDay } = this.state
     const { currentTime, schedule } = newProps
-  
+
     // Update currentTime before updating data
     if (currentTime) {
       this.setState({ currentTime }, () => {
@@ -140,15 +141,15 @@ class ScheduleScreen extends Component {
     const data = eventsByDay[activeDay]
     const isCurrentDay = isActiveCurrentDay(currentTime, activeDay)
 
-    this.setState({data, activeDay, isCurrentDay}, () => {
-      if (isCurrentDay) {
+    this.setState({ data, activeDay, isCurrentDay }, () => {
+      /* if (isCurrentDay) {
         // Scroll to active
         const index = this.getActiveIndex(data)
-        this.refs.scheduleList.scrollToIndex({index, animated: false})
-      } else {
+        this.refs.scheduleList.scrollToIndex({ index, animated: false })
+      } else { */
         // Scroll to top
-        this.refs.scheduleList.scrollToOffset({y: 0, animated: false})
-      }
+        this.refs.scheduleList.scrollToOffset({ y: 0, animated: false })
+      /* } */
     })
   }
 
@@ -170,7 +171,7 @@ class ScheduleScreen extends Component {
   // if value exists, create the function calling it, otherwise false
   funcOrFalse = (func, val) => val ? () => func.call(this, val) : false
 
-  renderItem = ({item}) => {
+  renderItem = ({ item }) => {
     const { isCurrentDay } = this.state
     const { currentTime } = this.props
     const { eventDuration, eventStart, eventEnd, eventFinal } = item
@@ -182,7 +183,7 @@ class ScheduleScreen extends Component {
         <Talk
           type={item.type}
           name={item.speaker}
-          avatarURL = {item.image}
+          avatarURL={item.image}
           title={item.title}
           start={eventStart}
           duration={eventDuration}
@@ -213,27 +214,45 @@ class ScheduleScreen extends Component {
     }
   }
 
-  render () {
+  onSwipeLeft(gestureState) {
+    this.setActiveDay(0)
+  }
+
+  onSwipeRight(gestureState) {
+    this.setActiveDay(1)
+  }
+
+  render() {
     const { isCurrentDay, activeDay, data } = this.state
+    const config = {
+      velocityThreshold: 0.3,
+      directionalOffsetThreshold: 80
+    };
     return (
-      <LinearGradient
-        colors={ Colors.wpBlueGradient }>
-        <DayToggle
-          activeDay={activeDay}
-          onPressIn={this.setActiveDay}
-        />
-        {/* {isCurrentDay && <View style={styles.timeline} />} */}
-        <FlatList
-          ref='scheduleList'
-          data={data}
-          extraData={this.props}
-          renderItem={this.renderItem}
-          keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
-          contentContainerStyle={styles.listContent}
-          getItemLayout={this.getItemLayout}
-          showsVerticalScrollIndicator={false}
-        />
-      </LinearGradient>
+      <GestureRecognizer
+        onSwipeLeft={(state) => this.onSwipeLeft(state)}
+        onSwipeRight={(state) => this.onSwipeRight(state)}
+        config={config}
+      >
+        <LinearGradient
+          colors={Colors.wpBlueGradient}>
+          <DayToggle
+            activeDay={activeDay}
+            onPressIn={this.setActiveDay}
+          />
+          {/* {isCurrentDay && <View style={styles.timeline} />} */}
+          <FlatList
+            ref='scheduleList'
+            data={data}
+            extraData={this.props}
+            renderItem={this.renderItem}
+            keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
+            contentContainerStyle={styles.listContent}
+            getItemLayout={this.getItemLayout}
+            showsVerticalScrollIndicator={false}
+          />
+        </LinearGradient>
+      </GestureRecognizer>
     )
   }
 }

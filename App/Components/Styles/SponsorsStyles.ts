@@ -1,4 +1,4 @@
-import { TextStyle, ViewStyle, ImageStyle } from 'react-native'
+import { TextStyle, ViewStyle, ImageStyle, ImageStatic } from 'react-native'
 import { Colors, Fonts, Metrics } from '../../Themes/'
 
 interface SponsorStyles {
@@ -8,8 +8,12 @@ interface SponsorStyles {
   sponsorTierTitle: TextStyle
   sponsorTier: ViewStyle
   sponsor: ViewStyle
-  normalTier: ImageStyle
+  sponsorLogo: ImageStyle
   lowTier: TextStyle
+  diamondSponsorStyle: ImageStyle
+  goldSponsorStyle: ImageStyle
+  silverSponsorStyle: ImageStyle
+  /* bronzeSponsorStyle: TextStyle */
 }
 
 const SponsorsStyles: SponsorStyles = {
@@ -62,17 +66,30 @@ const SponsorsStyles: SponsorStyles = {
     flexShrink: 0,
     alignItems: 'center',
   },
-  normalTier: {
+  sponsorLogo: {
     flex: 1,
-    width: (Metrics.screenWidth/2)-50,
-    height: 100,
     resizeMode: 'contain'
   },
   lowTier: {
     color: Colors.charcoal,
     flex: 1,
     marginHorizontal: 5
-  }
+  },
+  diamondSponsorStyle: {
+    width: (Metrics.screenWidth / 2) - 50,
+    height: 100,
+  },
+  goldSponsorStyle: {
+    width: (Metrics.screenWidth / 3) - 50,
+    height: 100,
+  },
+  silverSponsorStyle: {
+    width: (Metrics.screenWidth / 3) - 40,
+    height: 100,
+  },/* 
+  bronzeSponsorStyle: {
+
+  }, */
 }
 
 export default SponsorsStyles

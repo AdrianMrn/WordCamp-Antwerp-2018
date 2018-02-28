@@ -5,7 +5,7 @@ export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
     flex: 1,
-    backgroundColor: Colors.snow
+    backgroundColor: Colors.snow,
   },
   row: {
     flex: 1,
@@ -21,7 +21,7 @@ export default StyleSheet.create({
   },
   listContent: {
     paddingTop: Metrics.baseMargin,
-    paddingBottom: Metrics.baseMargin * 8
+    paddingBottom: Metrics.baseMargin * 10
   },
   timeline: {
     width: 2,

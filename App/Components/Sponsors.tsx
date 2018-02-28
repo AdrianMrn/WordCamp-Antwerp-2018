@@ -18,32 +18,32 @@ const Sponsors = () => {
         Diamond Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://jetpack.com/'} image={Images.jetpack} />
-        <Sponsor url={'https://woocommerce.com/'} image={Images.wooCommerce} />
-        <Sponsor url={'https://semperplugins.com'} image={Images.allInOneSEO} />
-        <Sponsor url={'https://yoast.com/'} image={Images.yoast} />
+        <Sponsor url={'https://jetpack.com/'} tier="diamond" image={Images.jetpack} />
+        <Sponsor url={'https://woocommerce.com/'} tier="diamond" image={Images.wooCommerce} />
+        <Sponsor url={'https://semperplugins.com'} tier="diamond" image={Images.allInOneSEO} />
+        <Sponsor url={'https://yoast.com/'} tier="diamond" image={Images.yoast} />
       </View>
 
       <Text style={styles.sponsorTierTitle}>
         Gold Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://www.combell.com'} image={Images.combell} />
-        <Sponsor url={'https://www.mollie.com'} image={Images.mollie} />
-        <Sponsor url={'https://be.godaddy.com'} image={Images.godaddy} />
+        <Sponsor url={'https://www.combell.com'} tier="gold" image={Images.combell} />
+        <Sponsor url={'https://www.mollie.com'} tier="gold" image={Images.mollie} />
+        <Sponsor url={'https://be.godaddy.com'} tier="gold" image={Images.godaddy} />
       </View>
 
       <Text style={styles.sponsorTierTitle}>
         Silver Sponsors
       </Text>
       <View style={styles.sponsorTier}>
-        <Sponsor url={'https://appsaloon.be/'} image={Images.appsaloon}  />
-        <Sponsor url={'https://www.savvii.eu/'} image={Images.savvii}  />
-        <Sponsor url={'https://dashboard.weglot.com/register-wordpress'} image={Images.weglot}  />
-        <Sponsor url={'https://www.jackmail.com/'} image={Images.jackmail}  />
-        <Sponsor url={'https://level-level.com'} image={Images.levellevel}  />
-        <Sponsor url={'https://www.dutchwebdesign.nl/'} image={Images.dutchwebdesign}  />
-        <Sponsor url={'https://www.bluehost.com/'} image={Images.bluehost}  />
+        <Sponsor url={'https://appsaloon.be/'} tier="silver" image={Images.appsaloon}  />
+        <Sponsor url={'https://www.savvii.eu/'} tier="silver" image={Images.savvii}  />
+        <Sponsor url={'https://dashboard.weglot.com/register-wordpress'} tier="silver" image={Images.weglot}  />
+        <Sponsor url={'https://www.jackmail.com/'} tier="silver" image={Images.jackmail}  />
+        <Sponsor url={'https://level-level.com'} tier="silver" image={Images.levellevel}  />
+        <Sponsor url={'https://www.dutchwebdesign.nl/'} tier="silver" image={Images.dutchwebdesign}  />
+        <Sponsor url={'https://www.bluehost.com/'} tier="silver" image={Images.bluehost}  />
       </View>
 
       <Text style={styles.sponsorTierTitle}>

@@ -21,7 +21,7 @@ const TabNav = TabNavigator({
   tabBarComponent: TabBarBottom,
   tabBarPosition: 'bottom',
   animationEnabled: true,
-  swipeEnabled: true,
+  swipeEnabled: false,
   headerMode: 'none',
   initialRouteName: 'Schedule',
   tabBarOptions: {

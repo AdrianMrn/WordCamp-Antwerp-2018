@@ -14,6 +14,7 @@ interface SponsorProps {
   image: string
   isLow?: boolean
   name?: string
+  tier?: string
 }
 
 const Sponsor = (props: SponsorProps) => {
@@ -23,7 +24,7 @@ const Sponsor = (props: SponsorProps) => {
       style={styles.sponsor}
       onPress={() => Linking.openURL(props.url)}>
       {(!props.isLow) &&
-        <Image style={styles.normalTier} source={props.image} />
+        <Image style={[styles.sponsorLogo, styles[props.tier + 'SponsorStyle']]} source={props.image} />
       }
       {(props.isLow) &&
         <Text style={styles.lowTier}>
