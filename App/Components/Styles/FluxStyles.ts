@@ -11,6 +11,7 @@ export default StyleSheet.create({
     backgroundColor: Colors.transparent,
   },
   heading: {
+    textAlign: 'center',
     marginTop: Metrics.doubleBaseMargin,
     fontFamily: Fonts.type.bold,
     fontSize: 31,
