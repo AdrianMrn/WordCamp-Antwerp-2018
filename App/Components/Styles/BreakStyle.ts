@@ -85,7 +85,6 @@ const BreakStyle: BreakStyleType = {
     marginLeft: 15,
   },
   heading: {
-    textAlign: 'center',
     fontFamily: Fonts.type.semiBold,
     fontSize: 18,
     letterSpacing: -0.2,

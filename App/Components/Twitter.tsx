@@ -23,9 +23,9 @@ const Twitter = (props) => {
           </Text>
           </TouchableOpacity>
           <Text style={styles.description}>
-            Stay connected, tweet about your favourite talks at WordCamp with the hashtag&nbsp;
+            Stay connected, tweet and share about your favorite talks at WordCamp with the hashtag&nbsp;
             <Text style={styles.hashtag} onPress={() => tweetWithHashtag()}>
-                #WCANT
+              #WCANT
             </Text>
           </Text>
         </View>

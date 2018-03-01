@@ -9,9 +9,9 @@ const Sponsors = () => {
     <View style={styles.sponsors}>
       <Text style={styles.heading}>Our Sponsors</Text>
       <Text style={styles.description}>
-        Our sponsors make it possible for us to host WordCamp 2018. 
-        Most of them will be represented at the event, 
-        ask around and strike up a chat!
+      Our sponsors make it possible for us to host WordCamp 2018.
+      Most of them will be represented at the event so ask around
+      and strike up a chat with one of them!
       </Text>
 
       <Text style={styles.sponsorTierTitle}>

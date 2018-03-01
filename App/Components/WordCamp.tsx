@@ -13,8 +13,10 @@ const Wordcamp = (props) => {
     <View style={styles.wordCamp}>
       <Image style={styles.wordCampIcon} source={Images.wordcamp} />
       <Text style={styles.subheading}>
-        WordCamp is a conference that focuses on everything WordPress.
-        WordCamps are informal, community-organized events that are put together by WordPress users like you. Everyone from casual users to core developers participate, share ideas, and get to know each other.
+      WordCamp is a conference that focuses on everything WordPress-related. 
+      WordCamps are informal, community-organized events that are put together by WordPress users, 
+      just like you and me. Everyone from casual users to core developers participate, 
+      share ideas and get to know each other. Interested in becoming a part of the community? Come visit WordCamp!
       </Text>
       <TouchableOpacity style={styles.linkContainer} onPress={() => Linking.openURL("https://2018.antwerp.wordcamp.org/")}>
         <Text style={[styles.subheading, Fonts.underline]}>

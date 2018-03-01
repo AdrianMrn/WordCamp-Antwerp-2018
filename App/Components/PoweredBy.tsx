@@ -13,8 +13,8 @@ const Flux = (props) => {
       </Text>
       <View style={styles.line} />
       <Text style={styles.description}>
-        This conference app was made using the WordPress REST API as a back end.
-        All conference data can be easily managed through the WordPress CMS.{'\n'}{'\n'}
+        This conference app was made with the WordPress REST API as a back end.
+        All conference data can be managed easily through the WordPress CMS.{'\n'}{'\n'}
         The app itself was made in React Native and can be compiled for both Android and iOS.
       </Text>
     </View>
