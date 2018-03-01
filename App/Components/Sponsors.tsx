@@ -49,11 +49,10 @@ const Sponsors = () => {
       <Text style={styles.sponsorTierTitle}>
         Bronze Sponsors
       </Text>
-      <View style={styles.sponsorTier}>
+      <View style={[styles.sponsorTier, styles.lowTierContainer]}>
         <Sponsor url={'https://webbird.be/'} image="" name="WebBird" isLow />
         <Sponsor url={'https://www.dailybits.be/'} image="" name="dailybits" isLow />
         <Sponsor url={'https://jerrix.be/'} image="" name="JerrixIT" isLow />
-        <Sponsor url={'https://quadus.be/'} image="" name="Quadus" isLow />
         <Sponsor url={'https://quadus.be/'} image="" name="Quadus" isLow />
         <Sponsor url={'https://www.nilmedia.com'} image="" name="NILMEDIA" isLow />
         <Sponsor url={'http://www.weareknights.be/'} image="" name="We Are Knights" isLow />

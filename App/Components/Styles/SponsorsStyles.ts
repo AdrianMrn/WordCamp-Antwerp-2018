@@ -13,6 +13,7 @@ interface SponsorStyles {
   diamondSponsorStyle: ImageStyle
   goldSponsorStyle: ImageStyle
   silverSponsorStyle: ImageStyle
+  lowTierContainer: ViewStyle
   /* bronzeSponsorStyle: TextStyle */
 }
 
@@ -22,11 +23,11 @@ const SponsorsStyles: SponsorStyles = {
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 20,
-    paddingBottom: 50,
     paddingTop: 10,
     backgroundColor: Colors.transparent
   },
   heading: {
+    textAlign: 'center',
     marginTop: Metrics.doubleBaseMargin,
     fontFamily: Fonts.type.bold,
     fontSize: 31,
@@ -86,10 +87,10 @@ const SponsorsStyles: SponsorStyles = {
   silverSponsorStyle: {
     width: (Metrics.screenWidth / 3) - 40,
     height: 100,
-  },/* 
-  bronzeSponsorStyle: {
-
-  }, */
+  },
+  lowTierContainer: {
+    paddingHorizontal: 5
+  },
 }
 
 export default SponsorsStyles

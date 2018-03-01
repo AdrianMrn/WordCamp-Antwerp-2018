@@ -3,10 +3,9 @@ import { ApplicationStyles, Colors, Fonts, Metrics } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
-  flux: {
+  container: {
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 40,
     backgroundColor: Colors.transparent,
   },
   heading: {
@@ -26,7 +25,7 @@ export default StyleSheet.create({
     letterSpacing: 0.47,
     lineHeight: 23,
     paddingHorizontal: 15,
-    paddingVertical: 10,
+    paddingVertical: 15,
   },
   title: {
     fontFamily: 'Montserrat-SemiBold',
