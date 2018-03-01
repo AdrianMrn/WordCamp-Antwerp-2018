@@ -11,6 +11,7 @@ import LinearGradient from 'react-native-linear-gradient'
 import WordCamp from '../Components/WordCamp'
 import PoweredBy from '../Components/PoweredBy'
 import Flux from '../Components/Flux'
+import VersionNumber from '../Components/VersionNumber'
 import Twitter from '../Components/Twitter'
 import Sponsors from '../Components/Sponsors'
 import { Images, Colors } from '../Themes'
@@ -34,6 +35,7 @@ class AboutScreen extends React.Component {
           <PoweredBy />
           <Sponsors />
           <Flux />
+          <VersionNumber />
         </View>
       </ScrollView>
     )

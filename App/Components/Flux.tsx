@@ -17,9 +17,6 @@ const Flux = (props) => {
           Visit our website
         </Text>
       </TouchableOpacity>
-      <Text style={[styles.description, Fonts.underline]}>
-        Visit our website
-      </Text>
 
     </View>
   )

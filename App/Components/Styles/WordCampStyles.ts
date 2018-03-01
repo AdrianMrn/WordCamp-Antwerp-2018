@@ -18,7 +18,12 @@ export default StyleSheet.create({
     color: Colors.coal,
   },
   wordCampIcon: {
-    marginVertical: 15
+    width: Metrics.screenWidth -100,
+    height: Metrics.screenWidth /2,
+    margin: 10,
+    padding: 5,
+    flex: 1,
+    resizeMode: 'contain'
   },
   line: {
     marginTop: 30,

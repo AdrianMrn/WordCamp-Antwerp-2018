@@ -32,7 +32,7 @@ const images = {
   tileBg: require('../Images/tile_bg.png'),
 
   // everything wordcamp
-  wordcamp: require('../Images/wordcamp-logo.png'),
+  wordcamp: require('../Images/wordcamp-logo-huge.png'),
 
   antwerpBg: require('../Images/antwerp-station-bg.jpeg'),
 

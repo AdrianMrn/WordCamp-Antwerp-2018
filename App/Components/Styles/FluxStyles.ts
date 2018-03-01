@@ -6,7 +6,7 @@ export default StyleSheet.create({
   flux: {
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 40,
+    paddingTop: 40,
     backgroundColor: Colors.transparent,
   },
   heading: {
