@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesUtils.m \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesUtils.h \
+  ../../../ios/MobileCenterCrashes.framework/Modules/module.modulemap \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSAbstractLog.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSService.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSServiceAbstract.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSErrorReport.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSCrashes.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MobileCenterCrashes.h \
+  ../../../ios/MobileCenter.framework/Modules/module.modulemap \
+  ../../../ios/MobileCenter.framework/Headers/MSCustomProperties.h \
+  ../../../ios/MobileCenter.framework/Headers/MSServiceAbstract.h \
+  ../../../ios/MobileCenter.framework/Headers/MSService.h \
+  ../../../ios/MobileCenter.framework/Headers/MSMobileCenterErrors.h \
+  ../../../ios/MobileCenter.framework/Headers/MSMobileCenter.h \
+  ../../../ios/MobileCenter.framework/Headers/MSLogWithProperties.h \
+  ../../../ios/MobileCenter.framework/Headers/MSWrapperSdk.h \
+  ../../../ios/MobileCenter.framework/Headers/MSDevice.h \
+  ../../../ios/MobileCenter.framework/Headers/MSConstants.h \
+  ../../../ios/MobileCenter.framework/Headers/MSAbstractLog.h \
+  ../../../ios/MobileCenter.framework/Headers/MobileCenter.h

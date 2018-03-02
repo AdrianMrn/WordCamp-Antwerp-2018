@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesDelegate.m \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesDelegate.h \
+  ../../../ios/MobileCenterCrashes.framework/Modules/module.modulemap \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSAbstractLog.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSService.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSServiceAbstract.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSErrorReport.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MSCrashes.h \
+  ../../../ios/MobileCenterCrashes.framework/Headers/MobileCenterCrashes.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/adriaanmarain/Documents/code/ChainReactApp/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesUtils.h
