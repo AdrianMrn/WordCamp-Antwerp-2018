@@ -40,7 +40,9 @@ class ScheduleScreen extends Component {
     const isCurrentDay = isActiveCurrentDay(currentTime, activeDay)
     const appState = AppState.currentState
 
-    this.state = { eventsByDay, data, isCurrentDay, activeDay, appState }
+    const sortedSchedule = this.getSortedEvents(schedule)
+
+    this.state = { eventsByDay, data, isCurrentDay, activeDay, appState, sortedSchedule }
   }
 
   static navigationOptions = {
@@ -67,17 +69,47 @@ class ScheduleScreen extends Component {
       return merge(e, { eventStart, eventEnd, eventDuration, eventFinal })
     }
 
+
     const sorted = [...schedule].map(mergeTimes).sort((a, b) => {
       return compareAsc(a.eventStart, b.eventStart)
     })
+
     return groupWith((a, b) => isSameDay(a.eventStart, b.eventStart), sorted)
+  }
+
+  //almost exactly copied from getEventsByDayFromSchedule but needed "sorted" returned (both days)
+  getSortedEvents = (schedule) => {
+    const mergeTimes = (e) => {
+      const eventDuration = Number(e.duration)
+      const eventStart = new Date(e.time * 1000)
+      const eventFinal = addMinutes(eventStart, eventDuration)
+      // ends 1 millisecond before event
+      const eventEnd = subMilliseconds(eventFinal, 1)
+
+      return merge(e, { eventStart, eventEnd, eventDuration, eventFinal })
+    }
+
+
+    const sorted = [...schedule].map(mergeTimes).sort((a, b) => {
+      return compareAsc(a.eventStart, b.eventStart)
+    })
+
+    return sorted
   }
 
   onEventPress = (item) => {
     const { navigation, setSelectedEvent } = this.props
-    setSelectedEvent(item)
 
-    navigation.navigate('TalkDetail')
+    /* Getting the event's key in our data object to scroll to the correct one in the carousel */
+
+    const { sortedSchedule } = this.state
+    const eventIndex = Object.keys(sortedSchedule).find(key => sortedSchedule[key].title === item.title);
+    item.eventIndex = eventIndex
+
+    setSelectedEvent(item)
+    /* setSelectedEvent({eventIndex}) */
+
+    navigation.navigate('ScheduleCarousel')
   }
 
   componentDidMount() {
@@ -114,7 +146,8 @@ class ScheduleScreen extends Component {
         this.setState({
           data: eventsByDay[activeDay],
           eventsByDay: this.getEventsByDayFromSchedule(schedule),
-          isCurrentDay: isActiveCurrentDay(currentTime, activeDay)
+          isCurrentDay: isActiveCurrentDay(currentTime, activeDay),
+          getSortedEvents: this.getSortedEvents(schedule)
         })
       })
     }
@@ -146,8 +179,8 @@ class ScheduleScreen extends Component {
         const index = this.getActiveIndex(data)
         this.refs.scheduleList.scrollToIndex({ index, animated: false })
       } else { */
-        // Scroll to top
-        this.refs.scheduleList.scrollToOffset({ y: 0, animated: false })
+      // Scroll to top
+      this.refs.scheduleList.scrollToOffset({ y: 0, animated: false })
       /* } */
     })
   }
@@ -216,24 +249,24 @@ class ScheduleScreen extends Component {
   render() {
     const { isCurrentDay, activeDay, data } = this.state
     return (
-        <LinearGradient
-          colors={Colors.wpBlueGradient}>
-          <DayToggle
-            activeDay={activeDay}
-            onPressIn={this.setActiveDay}
-          />
-          {/* {isCurrentDay && <View style={styles.timeline} />} */}
-          <FlatList
-            ref='scheduleList'
-            data={data}
-            extraData={this.props}
-            renderItem={this.renderItem}
-            keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
-            contentContainerStyle={styles.listContent}
-            getItemLayout={this.getItemLayout}
-            showsVerticalScrollIndicator={false}
-          />
-        </LinearGradient>
+      <LinearGradient
+        colors={Colors.wpBlueGradient}>
+        <DayToggle
+          activeDay={activeDay}
+          onPressIn={this.setActiveDay}
+        />
+        {/* {isCurrentDay && <View style={styles.timeline} />} */}
+        <FlatList
+          ref='scheduleList'
+          data={data}
+          extraData={this.props}
+          renderItem={this.renderItem}
+          keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
+          contentContainerStyle={styles.listContent}
+          getItemLayout={this.getItemLayout}
+          showsVerticalScrollIndicator={false}
+        />
+      </LinearGradient>
     )
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, Image, TouchableWithoutFeedback, LayoutAnimation, Animated } from 'react-native'
 import TalkInfo from './TalkInfo'
-import TimeIndicator from './TimeIndicator'
 import styles from './Styles/TalkStyle'
 import FadeIn from 'react-native-fade-in-image'
 import { Colors, ApplicationStyles } from '../Themes';

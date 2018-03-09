@@ -4,12 +4,15 @@ import TalkDetailScreen from '../Containers/TalkDetailScreen'
 import AboutScreen from '../Containers/AboutScreen'
 import styles from './Styles/NavigationStyles'
 
+import ScheduleCarouselScreen from '../Containers/ScheduleCarouselScreen'
+
 const ScheduleStack = StackNavigator({
   Home: { screen: ScheduleScreen },
-  TalkDetail: { screen: TalkDetailScreen }
+  TalkDetail: { screen: TalkDetailScreen },
+  ScheduleCarousel: { screen: ScheduleCarouselScreen },
 }, {
   headerMode: 'none',
-  initialRouteName: 'Home',
+  initialRouteName: 'Home', // change this back to Home
   cardStyle: styles.card
 })
 
@@ -21,7 +24,7 @@ const TabNav = TabNavigator({
   tabBarComponent: TabBarBottom,
   tabBarPosition: 'bottom',
   animationEnabled: true,
-  swipeEnabled: true,
+  swipeEnabled: false,
   headerMode: 'none',
   initialRouteName: 'Schedule',
   tabBarOptions: {

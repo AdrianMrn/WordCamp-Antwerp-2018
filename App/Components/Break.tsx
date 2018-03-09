@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, Image, TouchableWithoutFeedback } from 'react-native'
 import { Images } from '../Themes'
-import TimeIndicator from './TimeIndicator'
 import { format, getTime } from 'date-fns'
 import styles from './Styles/BreakStyle'
 
@@ -96,7 +95,6 @@ export default class Break extends React.Component<BreakProps, BreakState> {
     return (
       <View>
         {this.renderWrapper()}
-        {isActive && <TimeIndicator start={start} duration={duration} time={currentTime} />}
       </View>
     )
   }

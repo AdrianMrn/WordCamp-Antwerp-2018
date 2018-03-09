@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { Colors, Metrics } from '../../Themes/'
+import { Colors, Metrics, Fonts } from '../../Themes/'
 
 export default StyleSheet.create({
   container: {
@@ -34,5 +34,12 @@ export default StyleSheet.create({
   socialButtons: {
     alignItems: 'center',
     flexDirection: 'row'
+  },
+  duration: {
+    fontFamily: Fonts.type.semiBold,
+    fontSize: 16,
+    letterSpacing: -0.19,
+    backgroundColor: Colors.transparent,
+    color: Colors.charcoal
   }
 })
