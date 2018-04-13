@@ -3,6 +3,204 @@
 
     <item
         is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_9558bf63c994922bd370bfc624f6a3ed9803feac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/mobile-center-analytics/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5996de913c924b593698151c2a9a602b4746f459">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-mobile-center-analytics-unspecified_4e0614cc2174c9775b1a71b195ba5b49055d145d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.microsoft.azure.mobile/mobile-center-analytics/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af6fefc2d09be2e781e90b4c54f21a1737735de4">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.microsoft.azure.mobile-mobile-center-analytics-0.6.1_785f4a5eca5afa8d0acd9c1eac4be6a8c3a9074e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4394e0421a1e2c0cb691a783a393c192a84697ab">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.yqritc-android-scalablevideoview-1.0.4_d0cb62b4b2c4a8bff7405af476586267063c9218.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5a26a485da189b7ed40c46d840b056602776dc6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-push-notification/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2e3e5a199c7209bab2dd53b85eefb664494af06d">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-push-notification-unspecified_51fd9e7cfbefc23f90567d0db80181bce73f871b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-smart-splash-screen/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="65c5ddffe7b565ab1b933b842cf57b34971b02ba">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-smart-splash-screen-unspecified_e82720c2c999fe160a3abea9ac4e4645e8b945a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_cfc87b0e140b8918906ee4f3e511d2bcd6e7861f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-version-number/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de80a4e63ce285314c2c60d02468fc20d2b1c6fb">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-version-number-unspecified_45924c590cd21992fc7482c31f580a3b606aeb5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-config/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea4f5d9bafe73f70afc4bf89a7851a09853772cc">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-config-unspecified_f89e0fb3e128594ddcddf4f4eba6a2a747bca8d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_d50dd584192c7bdcd019bed423e413f19c58a8d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d2b5e4a795137dd366800f9e4015494f695ee142.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_d5d41b4207a23deed0920b641ba9bf72611faad2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.2.0_afb7e2f11971938854318f3e421b696f7c8e1efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-code-push/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43761feb3f2204998dae5dbdcd5571bc3cd58988">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-code-push-unspecified_3f47ff57f6c5d7d1ed0e8bff5fde7271bda063f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_14038a35d995b5858f04cd1ebebda0e483f8ec57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_a46dce05159daf259d113a790f348e258df2eeb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-sound/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2d1c34c1cab3be4e7fbfa2a8e4dcabcf941f22a0">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-sound-unspecified_bbe2fc8e37f55e623b00e9e8067afb9080c6108b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.microsoft.azure.mobile/mobile-center-crashes/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="518ab04f607b45fb339482c074cc1925a13696c2">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.microsoft.azure.mobile-mobile-center-crashes-0.6.1_cd6f5d7145409537768ccfe4061e7d9a78b5f28e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-linear-gradient/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="10bce3308649051968a5a024ca15a2193838eed4">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-linear-gradient-unspecified_d8560a6d351270432e1db1294b29979b3c22bf37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_204531ca6fa8fa9e638f8df5c610e141e3844702.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_633f5e9fa9b743930f21b0ad4aff11989979a336.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -16,7 +214,7 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="93c681c699d12585fc5a6c11b2c4394d4669e9be">
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-vector-icons-unspecified_282d1054011e614e431dd173e1ba12dfe8994154.jar" />
     </item>
     <item
@@ -36,24 +234,6 @@
         revision="23.0.3"
         sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_ebeb309d206405412ad74613b3b8a208b53b6cde.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_9558bf63c994922bd370bfc624f6a3ed9803feac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/mobile-center-analytics/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5996de913c924b593698151c2a9a602b4746f459">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-mobile-center-analytics-unspecified_4e0614cc2174c9775b1a71b195ba5b49055d145d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,57 +264,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.microsoft.azure.mobile/mobile-center-analytics/0.6.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="af6fefc2d09be2e781e90b4c54f21a1737735de4">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.microsoft.azure.mobile-mobile-center-analytics-0.6.1_785f4a5eca5afa8d0acd9c1eac4be6a8c3a9074e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5a26a485da189b7ed40c46d840b056602776dc6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-push-notification/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="45f56f33b212cfa933d1a88d8e4b2ce4eff42808">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-push-notification-unspecified_51fd9e7cfbefc23f90567d0db80181bce73f871b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-smart-splash-screen/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="bc9ad2f04b40b6f213e6edec44d4d88e5d7642fd">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-smart-splash-screen-unspecified_e82720c2c999fe160a3abea9ac4e4645e8b945a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.8/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="531c33d3697000a05e9493a2d0f09ba41fa114d3">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/me.leolin-ShortcutBadger-1.1.8_02b8b98242c65da9ab215906176aced55c8b71e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_cfc87b0e140b8918906ee4f3e511d2bcd6e7861f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,15 +300,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-version-number/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="de80a4e63ce285314c2c60d02468fc20d2b1c6fb">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-version-number-unspecified_45924c590cd21992fc7482c31f580a3b606aeb5b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -183,30 +309,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-config/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ea4f5d9bafe73f70afc4bf89a7851a09853772cc">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-config-unspecified_f89e0fb3e128594ddcddf4f4eba6a2a747bca8d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-maps/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="27c796165f2d71ae2c1532c85edd86b859c3eca4">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-maps-unspecified_6656667732e6df8d2893940a90d2a537d5f5bde7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_d50dd584192c7bdcd019bed423e413f19c58a8d5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -223,17 +331,8 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="9dc0e17e2c63aa53eda55c52d13500edc3a35587">
+        sha1="33b9ae6aa89cca3401f4947d2b87f5bf9f3c465c">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-video-unspecified_57682dd4a9c2120a6837b44fe047bc73e8c0a123.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d2b5e4a795137dd366800f9e4015494f695ee142.jar" />
     </item>
     <item
         is-multidex="false"
@@ -246,29 +345,11 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_d5d41b4207a23deed0920b641ba9bf72611faad2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.2.0_afb7e2f11971938854318f3e421b696f7c8e1efc.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-blur/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="2691631383e5d0c10752783a9ad175484ed8cb46">
+        sha1="9eb0c66ae8f056231ad8ed6c3d39df02570a65fb">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-blur-unspecified_f83042b4adc1edc415745082c21f3fda7220ad19.jar" />
     </item>
     <item
@@ -279,15 +360,6 @@
         revision="23.0.3"
         sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.0_a366ab96e7ef6c0a2bdcaa798fa5943fbd86fcea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-code-push/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="43761feb3f2204998dae5dbdcd5571bc3cd58988">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-code-push-unspecified_3f47ff57f6c5d7d1ed0e8bff5fde7271bda063f3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -318,15 +390,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_14038a35d995b5858f04cd1ebebda0e483f8ec57.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -354,42 +417,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_a46dce05159daf259d113a790f348e258df2eeb7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-sound/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="715f42490a52d913135d83167370ad5c308e0492">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-sound-unspecified_bbe2fc8e37f55e623b00e9e8067afb9080c6108b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.microsoft.azure.mobile/mobile-center-crashes/0.6.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="518ab04f607b45fb339482c074cc1925a13696c2">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.microsoft.azure.mobile-mobile-center-crashes-0.6.1_cd6f5d7145409537768ccfe4061e7d9a78b5f28e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/ChainReactApp/react-native-linear-gradient/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-linear-gradient-unspecified_d8560a6d351270432e1db1294b29979b3c22bf37.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -414,33 +441,6 @@
         revision="23.0.3"
         sha1="2e4336ffc2b7653868134d7f6f8b28523ef54645">
         <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/ChainReactApp-react-native-device-info-unspecified_e3c89d6df6e219515602d7b03344177fdfbe8ed3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_204531ca6fa8fa9e638f8df5c610e141e3844702.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_633f5e9fa9b743930f21b0ad4aff11989979a336.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
-        <dex dex="/Users/adriaanmarain/Documents/code/ChainReactApp/android/app/build/intermediates/pre-dexed/debug/com.yqritc-android-scalablevideoview-1.0.1_ed842ae5f975d9cace6cae9ed4a144190efc971a.jar" />
     </item>
     <item
         is-multidex="false"

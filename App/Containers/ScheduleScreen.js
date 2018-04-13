@@ -6,6 +6,7 @@ import Talk from '../Components/Talk'
 import Break from '../Components/Break'
 import ScheduleActions from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
+import SafeAreaView from 'react-native-safe-area-view'
 import {
   compareAsc,
   isSameDay,
@@ -146,8 +147,8 @@ class ScheduleScreen extends Component {
         const index = this.getActiveIndex(data)
         this.refs.scheduleList.scrollToIndex({ index, animated: false })
       } else { */
-        // Scroll to top
-        this.refs.scheduleList.scrollToOffset({ y: 0, animated: false })
+      // Scroll to top
+      this.refs.scheduleList.scrollToOffset({ y: 0, animated: false })
       /* } */
     })
   }
@@ -216,24 +217,26 @@ class ScheduleScreen extends Component {
   render() {
     const { isCurrentDay, activeDay, data } = this.state
     return (
-        <LinearGradient
-          colors={Colors.wpBlueGradient}>
+      <LinearGradient
+        colors={Colors.wpBlueGradient}>
+        <SafeAreaView>
           <DayToggle
             activeDay={activeDay}
             onPressIn={this.setActiveDay}
           />
-          {/* {isCurrentDay && <View style={styles.timeline} />} */}
-          <FlatList
-            ref='scheduleList'
-            data={data}
-            extraData={this.props}
-            renderItem={this.renderItem}
-            keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
-            contentContainerStyle={styles.listContent}
-            getItemLayout={this.getItemLayout}
-            showsVerticalScrollIndicator={false}
-          />
-        </LinearGradient>
+        </SafeAreaView>
+        {/* {isCurrentDay && <View style={styles.timeline} />} */}
+        <FlatList
+          ref='scheduleList'
+          data={data}
+          extraData={this.props}
+          renderItem={this.renderItem}
+          keyExtractor={(item, idx) => `${item.title}${item.eventStart}`}
+          contentContainerStyle={styles.listContent}
+          getItemLayout={this.getItemLayout}
+          showsVerticalScrollIndicator={false}
+        />
+      </LinearGradient>
     )
   }
 }

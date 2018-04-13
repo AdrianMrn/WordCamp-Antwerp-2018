@@ -54,6 +54,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -63,6 +64,16 @@
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "ChainReactAppTests.xctest"
                BlueprintName = "ChainReactAppTests"
+               ReferencedContainer = "container:ChainReactApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5204B112080B46E0044266E"
+               BuildableName = "ChainReactAppUITests.xctest"
+               BlueprintName = "ChainReactAppUITests"
                ReferencedContainer = "container:ChainReactApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -83,6 +94,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
