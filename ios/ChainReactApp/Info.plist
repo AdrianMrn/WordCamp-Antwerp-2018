@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Chain React 2017</string>
+	<string>WordCamp Antwerp 2018</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -46,7 +46,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Chain React would like to show you your location in relation to the conference destination</string>
+	<string>WordCamp would like to show you your location in relation to the conference destination</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
@@ -66,8 +66,8 @@
 		<string>Fonts/Montserrat-SemiBold.ttf</string>
 		<string>Feather.ttf</string>
 	</array>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	
+	
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

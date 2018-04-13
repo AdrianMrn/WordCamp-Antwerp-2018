@@ -1,5 +1,6 @@
 node_modules
-android/app/build
+android
+ios
 
 **.DS_Store
 .DS_Store
