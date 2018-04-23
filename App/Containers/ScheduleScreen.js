@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { AppState, View, Image, FlatList } from 'react-native'
+import { AppState, View, Image, FlatList, Text, TouchableOpacity } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import DayToggle from '../Components/DayToggle'
 import Talk from '../Components/Talk'
